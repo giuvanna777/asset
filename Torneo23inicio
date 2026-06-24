@@ -1,0 +1,125 @@
+{
+  "EV_T23_PRELIMINARES_COMPLETO": [
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatarkrilingorra.png",
+      "rightPort": "avataryamcha23smile.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡Por fin llegué! Vaya, Yamcha, sí que te creció el pelo en estos tres años. ¡Estás hecho todo un ermitaño!"
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatarkrilingorra.png",
+      "rightPort": "avataryamcha23smile.png",
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "¡Jaja! Sí, entrenar duro en la naturaleza te cambia el aspecto. Mira, ahí vienen también Tenshinhan y Chaoz."
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatartenshinhan23.png",
+      "rightPort": "avatarbulma23.png",
+      "speaker": "right",
+      "name": "Bulma",
+      "text": "¡Chicos! Qué alegría verlos a todos sanos y salvos. Por cierto, ¿saben algo de Goku? Las inscripciones van a cerrar."
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatarroshi23sonrisa.png",
+      "rightPort": "avatarbulma23.png",
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "Jo, jo, jo... Ese muchacho nunca cambia, seguro llegará en el último segundo."
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] De repente, un cielo completamente oscuro cubre la isla y desata una tormenta implacable sobre el recinto...</i>"
+    },
+    {
+      "bg": "escenatenkaichilloviendo.png",
+      "leftPort": "avatarkrilingorra.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Hola muchachos... Siento hacerlos esperar bajo el agua. Es un poco incómodo volar cargando este paraguas."
+    },
+    {
+      "bg": "escenatenkaichilloviendo.png",
+      "leftPort": "avatarkrilingorra.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡¿G-Goku?! ¡Estás gigantesco! ¡Casi no te reconozco con ese gorro y esa estatura de adulto!"
+    },
+    {
+      "bg": "escenatenkaichilloviendo.png",
+      "leftPort": "avatarbulma23.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡Es verdad! Te has vuelto un hombre increíble, Goku. ¡Ya no eres el niño tierno de antes!"
+    },
+    {
+      "bg": "escenatenkaichilloviendo.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Tras las inscripciones de última hora, los Guerreros Z entran al pabellón interior. Las rondas preliminares se juegan a puerta cerrada rápidamente y todos logran clasificar a las finales sin problemas.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avataryamcha23sorprendido.png",
+      "rightPort": "avatartenshinhan23.png",
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "¡Miren! ¡Ya han publicado el tablero con los cruces oficiales del torneo principal!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avataryamcha23sorprendido.png",
+      "rightPort": "avatartenshinhan23.png",
+      "speaker": "right",
+      "name": "Tenshinhan",
+      "text": "Veamos... A mí me toca contra ese tal Cyborg Tao Pai Pai. Y tú, Yamcha, peleas contra ese anciano raro llamado Shen."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarkrilingorra.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡Agh! ¡Rayos! A mí me ha tocado en la primera ronda contra el tipo más aterrador de todos... ¡Ese sujeto llamado Ma Junior!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenapiccoloaparece.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Desde las sombras del pabellón, Ma Junior observa a los participantes con una sonrisa siniestra y un Ki maligno idéntico al del Rey Demonio Piccolo...</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarroshi23.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Krillin... ten muchísimo cuidado en tu combate. Siento decirte que Ma Junior es en realidad la reencarnación de Piccolo. Ha venido a vengarse."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarkrilingorra.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡¿Qué?! ¡¿E-El hijo de Piccolo?! Da igual... He entrenado tres años para este momento. ¡No me voy a echar atrás, demostraré el poder de la Escuela Tortuga!"
+    }
+  ]
+}
