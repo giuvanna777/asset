@@ -134,7 +134,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Cielos, Goku! Estás guapísimo... Digo, ¡estás irreconocible! ¡Ya no queda nada del niño pequeño que conocí en las montañas!"
+      "text": "¡Cielos, Goku! Estás guapísimo... Digo, ¡estás irreconocible! ¡Ya no queda nada del niño pequeño que conocí en las mountains!"
     },
     {
       "bg": "escenatenkaichilloviendo.png",
@@ -165,7 +165,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenachaozeliminado.png",
+      "cg": "escenchaozeliminado.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -174,7 +174,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escentenshinhanganarandom.png",
+      "cg": "escenatienganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -183,12 +183,21 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenyamchaganarandom.png",
+      "cg": "escenayamchaganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
       "text": "<i>[NARRADOR] Yamcha tampoco se queda atrás, luciendo su renovada técnica del lobo para noquear oponentes y avanzar con total elegancia.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenashenpeleandoraro.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Paralelamente, un anciano llamado Shen avanza en su respectivo bloque preliminar peleando de una manera ridícula y torpe contra un oponente random, clasificándose por pura inercia.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -201,7 +210,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avataryamcha23sorprendido.png",
+      "leftPort": "avataryamcha23gismile.png",
       "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
       "rightInverted": true,
@@ -269,7 +278,7 @@
   "T23_03_POST_CUARTOS_CANON": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatenshinhanpapeaataopaipai.png",
+      "cg": "escenatienpapeaataopaipai.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -316,21 +325,12 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenashenpeleandoraro.png",
+      "cg": "escenayamchaeseliminadoporshen.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Para cerrar la ronda, Yamcha mide sus fuerzas contra el torpe anciano Shen, cuyos extraños tropiezos resultan ser ataques increíblemente calculados.</i>"
-    },
-    {
-      "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenyamchaeseliminadoporshen.png",
-      "leftPort": null,
-      "rightPort": null,
-      "speaker": "none",
-      "name": "",
-      "text": "<i>[NARRADOR] Tras recibir un golpe fortuito pero devastador, Yamcha cae inconsciente fuera de la arena. ¡El misterioso Shen avanza a semifinales dejando a todos en shock!</i>"
+      "text": "<i>[NARRADOR] Tras un intercambio caótico, Yamcha cae eliminado de forma impactante y accidentada ante el anciano Shen, rompiendo sus aspiraciones en cuartos de final.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -340,7 +340,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "No te preocupes, Chaoz, ya estás a salvo. Ahora debo concentrarme... Mi próximo oponente es Goku."
+      "text": "No te preocupes, Chaoz, ya estás a safe. Ahora debo concentrarme... Mi próximo oponente es Goku."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -376,7 +376,7 @@
         "enemigos": ["tenshinhan"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA",
-        "on_lose": "T23_FINAL_TIEN_VS_PICCOLO_PREVIA"
+        "on_lose": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA"
       }
     }
   ],
@@ -442,7 +442,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatenshinhanpapeaataopaipai.png",
+      "cg": "escenatienpapeaataopaipai.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -451,12 +451,12 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenayamchaeseliminadoporshen.png",
+      "cg": "escenyamchaeseliminadoporshen.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Finalmente, Yamcha cae eliminado ante los extraños y sabios movimientos del anciano Shen. Con Piccolo fuera de combate, ¡el torneo se convierte en una fiesta de artes marciales limpia!</i>"
+      "text": "<i>[NARRADOR] Finalmente, Yamcha cae eliminado ante los sabios movimientos de Shen. Con Piccolo fuera de combate, el torneo se convierte en una fiesta de artes marciales limpia.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -475,14 +475,14 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Vaya, Ten! Con Piccolo fuera, podemos pelear con total tranquilidad y disfrutar de nuestro combate al máximo. ¡Vamos!",
+      "text": "¡Vaya, Tenshinhan! Con Piccolo fuera, podemos pelear con total tranquilidad y disfrutar de nuestro combate al máximo. ¡Vamos!",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
         "enemigos": ["tenshinhan"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA",
-        "on_lose": "T23_FINAL_TIEN_VS_KRILLIN_PREVIA"
+        "on_lose": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA"
       }
     }
   ],
@@ -545,7 +545,7 @@
     }
   ],
 
-  "T23_FINAL_TIEN_VS_PICCOLO_PREVIA": [
+  "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA": [
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatartenshinhan23giserious.png",
@@ -589,7 +589,7 @@
         "aliados": ["tenshinhan"],
         "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
-        "on_win": "T23_CONCLUSION_TIEN_SALVA_MUNDO",
+        "on_win": "T23_CONCLUSION_TENSHINHAN_SALVA_MUNDO",
         "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO"
       }
     }
@@ -645,7 +645,7 @@
     }
   ],
 
-  "T23_FINAL_TIEN_VS_KRILLIN_PREVIA": [
+  "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA": [
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatartenshinhan23giserious.png",
@@ -680,8 +680,8 @@
         "aliados": ["tenshinhan"],
         "enemigos": ["krillin"],
         "fondoCombate": "bg-tournament",
-        "on_win": "T23_CONCLUSION_TIEN_AMISTOSO",
-        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TIEN"
+        "on_win": "T23_CONCLUSION_TENSHINHAN_AMISTOSO",
+        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN"
       }
     }
   ],
@@ -756,7 +756,7 @@
     }
   ],
 
-  "T23_CONCLUSION_TIEN_SALVA_MUNDO": [
+  "T23_CONCLUSION_TENSHINHAN_SALVA_MUNDO": [
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarnarradoremocionado.png",
@@ -794,7 +794,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Goku",
-      "text": "¡Felicidades, Ten! Eres el justo campeón. Bueno, Chi-Chi, ya que el torneo terminó, ¡cumplamos mi promesa y vámonos!"
+      "text": "¡Felicidades, Tenshinhan! Eres el justo campeón. Bueno, Chi-Chi, ya que el torneo terminó, ¡cumplamos mi promesa y vámonos!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -853,7 +853,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Montados sobre la mítica Nube Kinton, Goku y Chi-Chi parten rumbo a su nueva vida de casados bajo los vítores de sus grandes amigos. ¡Fin del Arco!</i>"
+      "text": "<i>[NARRADOR] Montados sobre la mítica Nube Kinton, Goku y Chi-Chi parten rumbo a su nueva vida de casados bajo los vítores de sus grandes amigos.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -862,7 +862,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Un desenlace pacífico y lleno de sonrisas recorre el torneo.</i>"
+      "text": "<i>[NARRADOR] Un desenlace pacífico y lleno de sonrisas recorre el torneo. ¡Fin del Arco!</i>"
     }
   ],
 
@@ -912,11 +912,11 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Un final histórico e inesperado donde el esfuerzo incansable de Krillin obtuvo su máxima recompensa dorada.</i>"
+      "text": "<i>[NARRADOR] Un final histórico e inesperado donde el esfuerzo incansable de Krillin obtuvo su máxima recompensa dorada. ¡Fin del Arco!</i>"
     }
   ],
 
-  "T23_CONCLUSION_TIEN_AMISTOSO": [
+  "T23_CONCLUSION_TENSHINHAN_AMISTOSO": [
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarnarradoremocionado.png",
@@ -944,7 +944,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Goku",
-      "text": "¡Increíble final! Felicitaciones, Ten. Chi-Chi, ¡vamos a emprender nuestro viaje!"
+      "text": "¡Increíble final! Felicitaciones, Tenshinhan. Chi-Chi, ¡vamos a emprender nuestro viaje!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -962,11 +962,11 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] La calma y la gloria envuelven las islas del pacífico torneo marcial.</i>"
+      "text": "<i>[NARRADOR] La calma y la gloria envuelven las islas del pacífico torneo marcial. ¡Fin del Arco!</i>"
     }
   ],
 
-  "T23_CONCLUSION_KRILLIN_AMISTOSO_TIEN": [
+  "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN": [
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarnarradoremocionado.png",
