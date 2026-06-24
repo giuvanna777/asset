@@ -382,13 +382,29 @@
       "name": "Goku",
       "text": "¡Eso es, Ten! ¡No te guardes nada, usemos todo nuestro poder!",
       "control": {
-        "tipo": "combate",
-        "aliados": ["goku"],
-        "enemigos": ["tenshinhan"],
-        "fondoCombate": "bg-tournament",
-        "on_win": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA",
-        "on_lose": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA",
-        "activar_flag_lose": "tienganagoku"
+        "tipo": "eleccion",
+        "opciones": [
+          { "texto": "Luchar como Goku", "salto_a": "T23_SEMI_CANON_JUEGA_GOKU" },
+          { "texto": "Luchar como Tenshinhan", "salto_a": "T23_SEMI_CANON_JUEGA_TIEN" }
+        ]
+      }
+    }
+  ],
+
+  "T23_SEMI_CANON_JUEGA_GOKU": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["goku"], "enemigos": ["tenshinhan"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA", "on_lose": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA", "activar_flag_lose": "tienganagoku"
+      }
+    }
+  ],
+
+  "T23_SEMI_CANON_JUEGA_TIEN": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["tenshinhan"], "enemigos": ["goku"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA", "activar_flag_win": "tienganagoku", "on_lose": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA"
       }
     }
   ],
@@ -489,13 +505,29 @@
       "name": "Goku",
       "text": "¡Vaya, Tenshinhan! Con Piccolo fuera, podemos pelear con total tranquilidad y disfrutar de nuestro combate al máximo. ¡Vamos!",
       "control": {
-        "tipo": "combate",
-        "aliados": ["goku"],
-        "enemigos": ["tenshinhan"],
-        "fondoCombate": "bg-tournament",
-        "on_win": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA",
-        "on_lose": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA",
-        "activar_flag_lose": "tienganagoku"
+        "tipo": "eleccion",
+        "opciones": [
+          { "texto": "Luchar como Goku", "salto_a": "T23_SEMI_ALT_JUEGA_GOKU" },
+          { "texto": "Luchar como Tenshinhan", "salto_a": "T23_SEMI_ALT_JUEGA_TIEN" }
+        ]
+      }
+    }
+  ],
+
+  "T23_SEMI_ALT_JUEGA_GOKU": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["goku"], "enemigos": ["tenshinhan"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA", "on_lose": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA", "activar_flag_lose": "tienganagoku"
+      }
+    }
+  ],
+
+  "T23_SEMI_ALT_JUEGA_TIEN": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["tenshinhan"], "enemigos": ["goku"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA", "activar_flag_win": "tienganagoku", "on_lose": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA"
       }
     }
   ],
@@ -652,14 +684,29 @@
       "name": "Goku",
       "text": "¡Sí! ¡Peleemos con todas nuestras fuerzas y divirtámonos al máximo, Krillin!",
       "control": {
-        "tipo": "combate",
-        "aliados": ["goku"],
-        "enemigos": ["krillin"],
-        "fondoCombate": "bg-tournament",
-        "on_win": "T23_CONCLUSION_GOKU_AMISTOSO",
-        "activar_flag_win": "gokuganatenkaichi",
-        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO",
-        "activar_flag_lose": "krilinganatenkaichi"
+        "tipo": "eleccion",
+        "opciones": [
+          { "texto": "Luchar como Goku", "salto_a": "T23_FINAL_ALT1_JUEGA_GOKU" },
+          { "texto": "Luchar como Krillin", "salto_a": "T23_FINAL_ALT1_JUEGA_KRILLIN" }
+        ]
+      }
+    }
+  ],
+
+  "T23_FINAL_ALT1_JUEGA_GOKU": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["goku"], "enemigos": ["krillin"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_CONCLUSION_GOKU_AMISTOSO", "activar_flag_win": "gokuganatenkaichi", "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO", "activar_flag_lose": "krilinganatenkaichi"
+      }
+    }
+  ],
+
+  "T23_FINAL_ALT1_JUEGA_KRILLIN": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["krillin"], "enemigos": ["goku"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_CONCLUSION_KRILLIN_AMISTOSO", "activar_flag_win": "krilinganatenkaichi", "on_lose": "T23_CONCLUSION_GOKU_AMISTOSO", "activar_flag_lose": "gokuganatenkaichi"
       }
     }
   ],
@@ -695,14 +742,29 @@
       "name": "Tenshinhan",
       "text": "No me contendré, amigo. ¡Que gane el mejor!",
       "control": {
-        "tipo": "combate",
-        "aliados": ["tenshinhan"],
-        "enemigos": ["krillin"],
-        "fondoCombate": "bg-tournament",
-        "on_win": "T23_CONCLUSION_TENSHINHAN_AMISTOSO",
-        "activar_flag_win": "tienganatenkaichi",
-        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN",
-        "activar_flag_lose": "krilinganatenkaichi"
+        "tipo": "eleccion",
+        "opciones": [
+          { "texto": "Luchar como Tenshinhan", "salto_a": "T23_FINAL_ALT2_JUEGA_TIEN" },
+          { "texto": "Luchar como Krillin", "salto_a": "T23_FINAL_ALT2_JUEGA_KRILLIN" }
+        ]
+      }
+    }
+  ],
+
+  "T23_FINAL_ALT2_JUEGA_TIEN": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["tenshinhan"], "enemigos": ["krillin"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_CONCLUSION_TENSHINHAN_AMISTOSO", "activar_flag_win": "tienganatenkaichi", "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN", "activar_flag_lose": "krilinganatenkaichi"
+      }
+    }
+  ],
+
+  "T23_FINAL_ALT2_JUEGA_KRILLIN": [
+    {
+      "control": {
+        "tipo": "combate", "aliados": ["krillin"], "enemigos": ["tenshinhan"], "fondoCombate": "bg-tournament",
+        "on_win": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN", "activar_flag_win": "krilinganatenkaichi", "on_lose": "T23_CONCLUSION_TENSHINHAN_AMISTOSO", "activar_flag_lose": "tienganatenkaichi"
       }
     }
   ],
