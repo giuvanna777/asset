@@ -1,5 +1,5 @@
 {
-  "EV_T23_PRELIMINARES_EXTENDIDO": [
+  "EV_T23_ARCO_COMPLETO": [
     {
       "bg": "escenagrupo23tenkaichi.png",
       "cg": "escenakrilingorra.png",
@@ -16,7 +16,7 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡Por fin llegué a la isla Papaya! Qué cantidad de gente ha venido esta vez... ¡Ah, miren! ¡Allí están!"
+      "text": "¡Por fin llegué a la isla Papaya! Qué cantidad de gente ha venido esta vez... ¡Ah, miren! ¡Allí están los chicos!"
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
@@ -152,7 +152,142 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Tras cambiarse de ropa y pasar las pruebas de eliminación a puerta cerrada dentro del pabellón, los luchadores se reúnen frente al cartel principal.</i>"
+      "text": "<i>[NARRADOR] ¡Las puertas del pabellón se cierran! Comienzan las eliminatorias preliminares del 23º Torneo de Artes Marciales. Solo 8 luchadores podrán pasar a la fase final...</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "gokueliminareychapa.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] El primer gran obstáculo de Goku es el Rey Chapa, un antiguo campeón. Sin embargo, Goku lo derrota con una facilidad asombrosa sin siquiera sudar.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avataryamcha23sorprendido.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "¡Increíble, Goku! Has despachado al Rey Chapa como si fuera un principiante. ¡Tu velocidad es de otro planeta!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenatienganarandom.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Por otro lado, Tenshinhan no muestra piedad alguna, noqueando a sus oponentes con golpes precisos y una frialdad absoluta.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenayamchaganarandom.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Yamcha también se abre paso con elegancia, demostrando que su técnica del lobo ha alcanzado un nuevo nivel de perfección.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenachichigritagoku.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] De repente, una joven luchadora se planta ante Goku con una mirada llena de fuego y resentimiento...</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Luchadora Anónima",
+      "text": "¡Tú! ¡Son Goku! ¡Dime que me reconoces ahora mismo!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¿Eh? ¿Quién eres? ¿Acaso nos conocemos de antes? No recuerdo haberte visto nunca..."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Luchadora Anónima",
+      "text": "¡I-Idiota! ¡¿Cómo puedes haber olvidado la promesa que me hiciste cuando éramos niños?! ¡Me das mucha rabia!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¿Una promesa? ¿Sobre qué? Lo siento, pero es que no tengo ni la menor idea de quién eres..."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Luchadora Anónima",
+      "text": "¡Pues si quieres saberlo, tendrás que ganarme en el torneo principal! ¡No te lo perdonaré jamás, Goku!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "Vaya, Goku... parece que te has metido en un buen lío con esa chica. ¿Seguro que no le debes dinero o algo peor?"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenashenpeleandoraro.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Mientras tanto, en otro bloque, un hombre mayor llamado Shen se clasifica de la forma más torpe y extraña jamás vista, como si ganara por pura suerte.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avataryamcha23sorprendido.png",
+      "leftInverted": false,
+      "rightPort": "avatarroshi23.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "Ese tal Shen... se mueve de forma ridícula, pero ha noqueado a sus rivales sin que se den cuenta. Es muy sospechoso."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "right",
+      "name": "Goku",
+      "text": "No es suerte, Yamcha. Ese hombre oculta un poder enorme detrás de esa apariencia torpe. Tendremos que andar con cuidado."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
