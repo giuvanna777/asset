@@ -161,7 +161,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Krillin demuestra una gran evolución barriendo a los primeros rivales del torneo con suma facilidad gracias a sus nuevas técnicas refinadas.</i>"
+      "text": "<i>[NARRADOR] Krillin demuestra una evolución formidable en sus primeros encuentros de calentamiento, barriendo a los luchadores comunes sin sudar una gota.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -170,7 +170,25 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Desafortunadamente, la tragedia golpea pronto. Chaoz se cruza en las eliminatorias previas contra un despiadado Cyborg Tao Pai Pai, quedando gravemente herido y eliminado.</i>"
+      "text": "<i>[NARRADOR] Desafortunadamente, la tragedia golpea los ánimos del grupo. Chaoz se cruza en las rondas previas contra el implacable Cyborg Tao Pai Pai, quedando gravemente herido y eliminado del torneo.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenatienganarandom.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Con una furia contenida y fría, Tenshinhan destroza a sus rivales aleatorios en su bloque para asegurar su clasificación directa a las fases finales.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenayamchaganarandom.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Yamcha tampoco se queda atrás, luciendo su renovada técnica del lobo para noquear oponentes y avanzar con total elegancia.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -179,11 +197,11 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Goku se ve las caras contra el Rey Chapa. Sin embargo, el entrenamiento divino da sus frutos y Goku lo noquea en un abrir y cerrar de ojos.</i>"
+      "text": "<i>[NARRADOR] Goku se ve las caras contra el Rey Chapa en las preliminares. Sin embargo, su entrenamiento divino se hace notar y lo elimina en un parpadeo.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "yamcha23gismile.png",
+      "leftPort": "avataryamcha23sorprendido.png",
       "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
       "rightInverted": true,
@@ -207,7 +225,17 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Ma Junior se quita el turbante revelando una mirada escalofriante. Goku advierte a Krillin que este sujeto es en realidad la temible reencarnación de Piccolo Daimaku.</i>"
+      "text": "<i>[NARRADOR] Ma Junior se despoja de su turbante revelando una mirada escalofriante. Goku advierte a Krillin que este sujeto es la viva reencarnación de Piccolo Daimaku.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarpiccolocapaserio.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Ma Junior",
+      "text": "Hum... Disfrutad de vuestras risas mientras podáis. Pronto este lugar será vuestra tumba."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -216,7 +244,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] A pesar del peligro, Krillin sube al tatami con valentía dispuesto a dar la sorpresa del torneo frente a los ojos del mundo entero.</i>"
+      "text": "<i>[NARRADOR] A pesar del inmenso peligro, Krillin salta al tatami exterior con valentía, dispuesto a darlo todo frente a la mirada atónita de la multitud.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -226,7 +254,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "No voy a achicarme, Goku. ¡Demostraré el orgullo de la Escuela Tortuga!",
+      "text": "No voy a achicarme, Goku. ¡Pelearé con el orgullo de la Escuela Tortuga!",
       "control": {
         "tipo": "combate",
         "aliados": ["krillin"],
@@ -246,7 +274,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Krillin cae eliminado con honores tras una gran batalla. En el segundo encuentro, Tenshinhan destroza por completo al Cyborg Tao Pai Pai, logrando vengar a Chaoz.</i>"
+      "text": "<i>[NARRADOR] Krillin cae eliminado con honores tras una fiera batalla. En el segundo encuentro, Tenshinhan destroza por completo las armas sucias del Cyborg Tao Pai Pai, logrando vengar a Chaoz.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -255,7 +283,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] En el tercer combate estalla la comedia y la confusión cuando la luchadora anónima empieza a gritarle furiosa a Goku en mitad de la arena...</i>"
+      "text": "<i>[NARRADOR] En el tercer combate estalla la confusión cuando la misteriosa luchadora anónima empieza a gritarle furiosa a Goku en mitad de la arena...</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -265,7 +293,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Chi-Chi",
-      "text": "¡¡SERÁS IDIOTA, GOKU!! ¡¿Cómo que no sabes quién soy?! ¡¿Es que has olvidado por completo la promesa de matrimonio que me hiciste de niños?!"
+      "text": "¡¡SERÁS IDIOTA, GOKU!! ¡¿Cómo que no sabes quién soy?! ¡¿Es que has olvidado por completo la promesa que me hiciste cuando éramos niños?!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -275,7 +303,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "¡¿Ah?! ¡¿Pensaba que el matrimonio era algo de comer?! ¡Cielos, eres Chi-Chi! ¡Madre mía, cuánto has crecido!"
+      "text": "¡¿Ah?! ¡¿Pensaba que el matrimonio era algún tipo de comida?! ¡Un momento... eres Chi-Chi! ¡Cielos, has cambiado muchísimo!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -284,16 +312,35 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Tras desvelarse el misterio, Goku saca limpiamente a Chi-Chi de la plataforma con una onda expansiva, prometiendo cumplir su palabra al acabar el evento.</i>"
+      "text": "<i>[NARRADOR] Tras desvelarse el gran misterio, Goku saca limpiamente a Chi-Chi de la plataforma con una onda expansiva de aire, asegurando que cumplirá su palabra al terminar el torneo.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenayamchaeseliminadoporshen.png",
+      "cg": "escenashenpeleandoraro.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Para cerrar los cuartos de final, Yamcha sufre una humillante y bizarra derrota ante el torpe anciano Shen, quien resulta ser intocable.</i>"
+      "text": "<i>[NARRADOR] Para cerrar la ronda, Yamcha mide sus fuerzas contra el torpe anciano Shen, cuyos extraños tropiezos resultan ser ataques increíblemente calculados.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenyamchaeseliminadoporshen.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Tras recibir un golpe fortuito pero devastador, Yamcha cae inconsciente fuera de la arena. ¡El misterioso Shen avanza a semifinales dejando a todos en shock!</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchaozserio.png",
+      "leftInverted": false,
+      "rightPort": "avatartenshinhan23gipreocupado.png",
+      "rightInverted": true,
+      "speaker": "right",
+      "name": "Tenshinhan",
+      "text": "No te preocupes, Chaoz, ya estás a salvo. Ahora debo concentrarme... Mi próximo oponente es Goku."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -302,7 +349,7 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
-      "text": "¡Llegamos a las semifinales! ¡Un choque titánico entre los dos finalistas del año pasado! ¡Son Goku contra Tenshinhan!"
+      "text": "¡Damos paso a las grandiosas Semifinales! ¡Un choque eléctrico entre viejos rivales! ¡Son Goku contra Tenshinhan!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -312,7 +359,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Goku, he superado mis límites para contrarrestar tu velocidad. ¡Esta vez la Escuela Grulla se alzará con la victoria!"
+      "text": "Goku, he superado todos mis límites para contrarrestar tu velocidad. ¡Esta vez ganar de nuevo no te será tan fácil!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -322,7 +369,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Eso es, Ten! ¡No te contengas nada, peleemos!",
+      "text": "¡Eso es, Ten! ¡No te guardes nada, usemos todo nuestro poder!",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -343,16 +390,17 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¡LO LOGRÉ!! ¡He echado a Ma Junior fuera del ring! ¡He salvado el torneo!"
+      "text": "¡¡LO CONSEGUÍ!! ¡He lanzado a Ma Junior fuera de la plataforma! ¡He ganado el primer encuentro de cuartos!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarpiccolocapapreocupado.png",
+      "leftPort": "avatarkrilin23gipreocupado.png",
       "leftInverted": false,
-      "rightPort": null,
-      "speaker": "left",
+      "rightPort": "avatarpiccolocapapreocupado.png",
+      "rightInverted": true,
+      "speaker": "right",
       "name": "Piccolo",
-      "text": "¡Maldita escoria...! ¡Esto no se va a quedar así! ¡Os destruiré a todos ahora mismo!"
+      "text": "¡Malditos insectos insignificantes...! ¡Esto no se va a quedar así! ¡Os haré pedazos a todos ahora mismo!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -360,7 +408,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Piccolo desata su furia en los camerinos. La organización se ve alterada por completo, pero los combates continúan. Goku se mide ante Tenshinhan en la otra semifinal mientras Krillin espera rival.</i>",
+      "text": "<i>[NARRADOR] Piccolo estalla de rabia en los camerinos tras ser humillado. Aunque desata el pánico, la seguridad del torneo logra contener la situación. Mientras Krillin espera rival directo para la final, Goku se bate contra Tenshinhan en la otra semifinal.</i>",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -380,7 +428,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] ¡Una exhibición asombrosa de poder! Goku se quita las ropas pesadas y derrota a Tenshinhan tras un combate épico, ganando su pase directo a la final del torneo.</i>"
+      "text": "<i>[NARRADOR] ¡Una exhibición asombrosa de velocidad! Quitándose las ropas pesadas, Goku logra doblegar la gran resistencia de Tenshinhan, consiguiendo su billete directo a la final.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -388,7 +436,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Mientras tanto, en la otra semifinal, el anciano Shen se enfrenta a Ma Junior en un duelo que esconde un trasfondo divino...</i>",
+      "text": "<i>[NARRADOR] Mientras tanto, en el siguiente bloque de semifinales, el anciano Shen mide sus fuerzas contra Ma Junior en un duelo que esconde un propósito divino...</i>",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -408,7 +456,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] El anciano Shen (Kamisama disfrazado) saca un termo e intenta sellar a Piccolo con el Mafuba. No obstante, el demonio conoce el truco, revierte la técnica con frialdad y encierra al Dios de la Tierra antes de tragarse el termo.</i>"
+      "text": "<i>[NARRADOR] El anciano Shen (quien es en realidad Kamisama disfrazado) saca un contenedor e intenta sellar a Piccolo con el Mafuba. Sin embargo, el demonio revierte la técnica con frialdad, atrapando al Dios de la Tierra y tragándose el termo.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -418,17 +466,17 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Goku",
-      "text": "¡Maldición, ha fallado! ¡Se ha tragado a Kamisama! Si mato a Piccolo, Kamisama también morirá... ¡Tengo que ganarle por fuerza en la final para sacarlo de ahí!"
+      "text": "¡Maldición, ha fallado! ¡Se ha tragado el termo con Kamisama dentro! Si mato a Piccolo en combate, Kamisama también morirá... ¡Tengo que derrotarlo por fuerza en la final para rescatarlo!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarpiccolocapasmirk.png",
+      "leftPort": "avatargoku23weightlessserio.png",
       "leftInverted": false,
-      "rightPort": "avatargoku23weightlessserio.png",
+      "rightPort": "avatarpiccolocapasmirk.png",
       "rightInverted": true,
-      "speaker": "left",
+      "speaker": "right",
       "name": "Piccolo",
-      "text": "Kukuku... Vuestro patético mundo llegará a su fin, Son Goku. Entra a la arena si te atreves a morir."
+      "text": "Kukuku... Vuestro patético mundo llegará a su fin, Son Goku. Entra a la arena de combate si tienes el valor de morir."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -437,17 +485,17 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
-      "text": "¡Llegó la hora de la verdad! ¡La Gran Final del Torneo Tenkaichi! ¡El destino del mundo entero en juego!"
+      "text": "¡Llegó la hora de la verdad! ¡La Gran Final del Torneo Tenkaichi! ¡El destino del mundo entero se decide en este ring!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarpiccolosincapaserio.png",
+      "leftPort": "avatargoku23weightlessserio.png",
       "leftInverted": false,
-      "rightPort": "avatargoku23weightlessserio.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
       "rightInverted": true,
       "speaker": "right",
-      "name": "Goku",
-      "text": "¡No permitiré que te salgas con la que tuya! ¡Pagarás por lo que has hecho!",
+      "name": "Piccolo",
+      "text": "¡No permitiré que te salgas con la tuya! ¡Voy a poner fin a tu malicia de una vez por todas!",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -468,17 +516,17 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "¡He ganado a Goku! Ha sido un combate increíble, pero ahora debo salvar a la Tierra de las garras de Ma Junior en esta final."
+      "text": "¡He ganado la semifinal contra Goku! Ha sido un combate memorable, pero ahora recae sobre mí la responsabilidad de frenar a Ma Junior en esta gran final."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarpiccolosincapaserio.png",
+      "leftPort": "avatartenshinhan23gipreocupado.png",
       "leftInverted": false,
-      "rightPort": "avatartenshinhan23gipreocupado.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
       "rightInverted": true,
-      "speaker": "left",
+      "speaker": "right",
       "name": "Piccolo",
-      "text": "Un simple humano no podrá hacer nada contra el nuevo Rey Demonio. ¡Desaparece!",
+      "text": "Un simple humano jamás podrá hacer nada contra el soberano Rey Demonio. ¡Desaparece de mi vista!",
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan"],
@@ -499,7 +547,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡Alucinante, Goku! ¡Una final entre alumnos de la Escuela Tortuga! ¡Cumplamos nuestro sueño de niños!"
+      "text": "¡Alucinante, Goku! ¡Una gran final entre alumnos de la Escuela Tortuga! ¡Cumplamos nuestro viejo sueño de la infancia!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -509,7 +557,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Sí! ¡Peleemos sin remordimientos, Krillin!",
+      "text": "¡Sí! ¡Peleemos con todas nuestras fuerzas y sin remordimientos, Krillin!",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -530,7 +578,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡Tenshinhan! Ya que Piccolo está fuera, ¡demostremos quién se ha esforzado más estos tres años!"
+      "text": "¡Tenshinhan! Ya que Piccolo está fuera de combate, ¡demostremos quién se ha esforzado más durante estos tres años de entrenamiento!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -540,7 +588,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Me parece perfecto, Krillin. ¡Que gane el mejor!",
+      "text": "Me parece una gran idea, Krillin. ¡Que gane el mejor guerrero en la plataforma!",
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan"],
@@ -560,16 +608,17 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
-      "text": "¡Increíble! ¡La plataforma ha quedado totalmente destruida tras un clímax histórico, pero tenemos un campeón indiscutible! ¡El público rinde cuentas ante el guerrero más fuerte!"
+      "text": "¡Increíble! ¡La plataforma ha quedado totalmente destruida tras un clímax histórico, pero tenemos un ganador definitivo! ¡El público aclama de pie al guerrero más fuerte de la Tierra!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarpiccolosincapapreocupado.png",
+      "leftPort": "avatargoku23weightlesshappy.png",
       "leftInverted": false,
-      "rightPort": null,
-      "speaker": "left",
+      "rightPort": "avatarpiccolosincapapreocupado.png",
+      "rightInverted": true,
+      "speaker": "right",
       "name": "Piccolo",
-      "text": "(Malherido y huyendo) ¡M-Maldita sea...! No os confiéis, sabandijas... ¡Volveré y os haré pedazos a todos!"
+      "text": "(Malherido y retirándose) ¡M-Maldita sea...! No os confiéis, gusanos... ¡Volveré y os haré pedazos a todos algún día!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -579,7 +628,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Lo logramos! ¡La paz ha vuelto a la Tierra y tenemos al mejor campeón marcial de la historia!"
+      "text": "¡Lo lograste! ¡La paz ha vuelto a la Tierra y tenemos al mejor campeón marcial de toda la historia!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -588,7 +637,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Con el torneo resuelto y las heridas sanadas, Chi-Chi se acerca sonriente a Goku reclamando cariñosamente su romántica promesa de infancia.</i>"
+      "text": "<i>[NARRADOR] Con el torneo resuelto y las heridas sanadas, Chi-Chi se acerca sonriente a Goku en la arena, lista para comenzar una nueva vida juntos.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -608,26 +657,26 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Pues claro que sí, Chi-Chi! ¡Vámonos de aquí! ¡Chicos, gracias por todo! ¡Nos vemos pronto para seguir entrenando duro!"
+      "text": "¡Pues claro que sí, Chi-Chi! ¡Vámonos! ¡Amigos, gracias por todo! ¡Nos vemos pronto para seguir entrenando duro!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenagokusevaconchichichiennube.png",
+      "cg": "escenagokusevaconchichiennube.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Silbando a la Nube Kinton, Goku sube junto a Chi-Chi despidiéndose de sus amigos mientras se elevan hacia el cielo. La paz vuelve a reinar en el mundo... de momento. ¡Fin del Arco del Torneo 23!</i>"
+      "text": "<i>[NARRADOR] Silbando a la Nube Kinton, Goku sube junto a Chi-Chi despidiéndose de sus amigos mientras se elevan velozmente hacia el cielo. La paz vuelve a reinar en el mundo... de momento. ¡Fin del Arco del Torneo 23!</i>"
     }
   ],
 
   "T23_WHATIF_GAME_OVER_PICCOLO": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarpiccolosincapagritando.png",
-      "leftInverted": false,
-      "rightPort": null,
-      "speaker": "left",
+      "leftPort": null,
+      "rightPort": "avatarpiccolosincapagritando.png",
+      "rightInverted": true,
+      "speaker": "right",
       "name": "Piccolo",
       "text": "¡¡JAJAJA!! ¡El mundo entero caerá ante mi yugo oscuro! ¡Nadie ha sido capaz de detener mi venganza suprema!"
     },
@@ -637,7 +686,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] El poder de Piccolo Daimaku ha superado toda defensa terrenal. La oscuridad se cierne sobre el planeta entero. ¡GAME OVER!</i>"
+      "text": "<i>[NARRADOR] El poder de Piccolo Daimaku ha superado toda defensa terrenal. La oscuridad eterna se cierne sobre el planeta. ¡GAME OVER!</i>"
     }
   ]
 }
