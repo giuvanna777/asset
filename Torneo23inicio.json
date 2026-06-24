@@ -147,7 +147,7 @@
       "text": "Veo que tu entrenamiento con Kamisama ha dado frutos increíbles. Tu presencia emana una tranquilidad asombrosa... ¡Pero basta de charlas, entremos antes de quedar empapados!"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -155,7 +155,7 @@
       "text": "<i>[NARRADOR] ¡Las puertas del pabellón se cierran! Los guerreros se cambian de ropa y se ponen sus uniformes oficiales de combate. Comienzan las eliminatorias preliminares a puerta cerrada...</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "cg": "escenakrilinganarandom.png",
       "leftPort": null,
       "rightPort": null,
@@ -164,7 +164,7 @@
       "text": "<i>[NARRADOR] Krillin demuestra una evolución formidable en sus primeros encuentros de calentamiento, barriendo a los luchadores comunes sin sudar una gota.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "cg": "escenachaozeliminado.png",
       "leftPort": null,
       "rightPort": null,
@@ -173,7 +173,7 @@
       "text": "<i>[NARRADOR] Desafortunadamente, la tragedia golpea los ánimos del grupo. Chaoz se cruza en las rondas previas contra el implacable Cyborg Tao Pai Pai, quedando gravemente herido y eliminado del torneo.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "cg": "escenatienganarandom.png",
       "leftPort": null,
       "rightPort": null,
@@ -182,7 +182,7 @@
       "text": "<i>[NARRADOR] Con una furia contenida y fría por lo sucedido con su amigo, Tenshinhan destroza a sus rivales aleatorios en su bloque para asegurar su clasificación.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "cg": "escenayamchaganarandom.png",
       "leftPort": null,
       "rightPort": null,
@@ -191,7 +191,7 @@
       "text": "<i>[NARRADOR] Yamcha tampoco se queda atrás, luciendo su renovada técnica del lobo para noquear oponentes y avanzar con total elegancia.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "cg": "escenashenpeleandoraro.png",
       "leftPort": null,
       "rightPort": null,
@@ -200,7 +200,7 @@
       "text": "<i>[NARRADOR] Paralelamente, un anciano llamado Shen avanza en su respectivo bloque preliminar peleando de una manera ridícula y torpe contra un oponente random, clasificándose de forma insólita.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "cg": "escenagokueliminareychapa.png",
       "leftPort": null,
       "rightPort": null,
@@ -209,7 +209,7 @@
       "text": "<i>[NARRADOR] Goku se ve las caras contra el Rey Chapa en las preliminares. Sin embargo, su entrenamiento divino se hace notar y lo elimina en un parpadeo.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichipreliminares.png",
       "leftPort": "avataryamcha23gismile.png",
       "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
@@ -219,7 +219,7 @@
       "text": "¡Increíble, Goku! Has despachado al Rey Chapa como si fuera un principiante. ¡Tu velocidad es de otro planeta!"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "leftPort": "avatarnarradormicro.png",
       "leftInverted": false,
       "rightPort": null,
@@ -270,6 +270,7 @@
         "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_WHATIF_KRILLIN_GANA",
+        "activar_flag_win": "krilinganapiccolo",
         "on_lose": "T23_03_POST_CUARTOS_CANON"
       }
     }
@@ -353,7 +354,7 @@
       "text": "No te preocupes, Chaoz, ya estás a salvo. Ahora debo concentrarme... Mi próximo oponente es Goku."
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "leftPort": "avatarnarradormicro.png",
       "leftInverted": false,
       "rightPort": null,
@@ -386,7 +387,8 @@
         "enemigos": ["tenshinhan"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA",
-        "on_lose": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA"
+        "on_lose": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA",
+        "activar_flag_lose": "tienganagoku"
       }
     }
   ],
@@ -469,7 +471,7 @@
       "text": "<i>[NARRADOR] Finalmente, Yamcha cae eliminado ante los sabios movimientos de Shen. Con Piccolo fuera de combate, el torneo se convierte en una fiesta de artes marciales limpia.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "leftPort": "avatarnarradormicro.png",
       "leftInverted": false,
       "rightPort": null,
@@ -492,7 +494,8 @@
         "enemigos": ["tenshinhan"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA",
-        "on_lose": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA"
+        "on_lose": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA",
+        "activar_flag_lose": "tienganagoku"
       }
     }
   ],
@@ -527,7 +530,7 @@
       "text": "¡Maldición, ha fallado! ¡Se ha tragado el termo con Kamisama dentro! Si mato a Piccolo en combate, Kamisama también morirá... ¡Tengo que derrotarlo en la final y salvar el mundo!"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "leftPort": "avatarnarradormicro.png",
       "leftInverted": false,
       "rightPort": null,
@@ -550,7 +553,9 @@
         "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_GOKU_CANON",
-        "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO"
+        "activar_flag_win": "gokuganatenkaichi",
+        "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO",
+        "activar_flag_lose": "piccologanatenkaichi"
       }
     }
   ],
@@ -600,7 +605,9 @@
         "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_TENSHINHAN_SALVA_MUNDO",
-        "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO"
+        "activar_flag_win": "tienganatenkaichi",
+        "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO",
+        "activar_flag_lose": "piccologanatenkaichi"
       }
     }
   ],
@@ -650,7 +657,9 @@
         "enemigos": ["krillin"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_GOKU_AMISTOSO",
-        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO"
+        "activar_flag_win": "gokuganatenkaichi",
+        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO",
+        "activar_flag_lose": "krilinganatenkaichi"
       }
     }
   ],
@@ -691,7 +700,9 @@
         "enemigos": ["krillin"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_TENSHINHAN_AMISTOSO",
-        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN"
+        "activar_flag_win": "tienganatenkaichi",
+        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN",
+        "activar_flag_lose": "krilinganatenkaichi"
       }
     }
   ],
@@ -756,7 +767,7 @@
       "text": "<i>[NARRADOR] Goku silba y llama a la Nube Kinton. Chi-Chi sube contenta junto a él mientras se despiden alegremente de todos sus compañeros.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "cg": "escenachichicongokuennube.png",
       "leftPort": null,
       "rightPort": null,
@@ -816,7 +827,7 @@
       "text": "<i>[NARRADOR] Goku llama a la Nube Kinton y sube con Chi-Chi, despidiéndose de un triunfante Tenshinhan que celebra junto a Chaoz y los demás.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "cg": "escenachichicongokuennube.png",
       "leftPort": null,
       "rightPort": null,
@@ -866,7 +877,7 @@
       "text": "<i>[NARRADOR] Montados sobre la mítica Nube Kinton, Goku y Chi-Chi parten rumbo a su nueva vida de casados bajo los vítores de sus grandes amigos.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "cg": "escenachichicongokuennube.png",
       "leftPort": null,
       "rightPort": null,
@@ -916,7 +927,7 @@
       "text": "<i>[NARRADOR] Mientras Krillin levanta el trofeo de campeón ante los aplausos de Bulma y Roshi, Goku y Chi-Chi suben a la Nube Kinton diciendo adiós.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "cg": "escenachichicongokuennube.png",
       "leftPort": null,
       "rightPort": null,
@@ -966,7 +977,7 @@
       "text": "<i>[NARRADOR] Saludando al nuevo campeón marcial del torneo, Goku activa la Nube Kinton y se aleja junto a Chi-Chi hacia nuevos horizontes.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "cg": "escenachichicongokuennube.png",
       "leftPort": null,
       "rightPort": null,
@@ -1016,7 +1027,7 @@
       "text": "<i>[NARRADOR] Mientras los guerreros felicitan a un emocionado Krillin, Goku y Chi-Chi suben al transporte de la Nube Kinton.</i>"
     },
     {
-      "bg": "escenacuadrotenkaichi23.png",
+      "bg": "backgroundtenkaichivistadesdeelcielo.png",
       "cg": "escenachichicongokuennube.png",
       "leftPort": null,
       "rightPort": null,
