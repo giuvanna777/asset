@@ -152,7 +152,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] ¡Las puertas del pabellón se cierran! Los guerreros se cambian de ropa y se ponen sus uniformes oficiales de combate. Comienzan las eliminatorias preliminares del 23º Torneo de Artes Marciales...</i>"
+      "text": "<i>[NARRADOR] ¡Las puertas del pabellón se cierran! Comienzan las eliminatorias preliminares del 23º Torneo de Artes Marciales. Solo 8 luchadores podrán pasar a la fase final...</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -166,7 +166,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "yamcha23gismile.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Yamcha",
       "text": "¡Increíble, Goku! Has despachado al Rey Chapa como si fuera un principiante. ¡Tu velocidad es de otro planeta!"
@@ -201,7 +203,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Luchadora Anónima",
       "text": "¡Tú! ¡Son Goku! ¡Dime que me reconoces ahora mismo!"
@@ -209,7 +213,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
       "text": "¿Eh? ¿Quién eres? ¿Acaso nos conocemos de antes? No recuerdo haberte visto nunca..."
@@ -217,15 +223,19 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlesssorpresa.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Luchadora Anónima",
-      "text": "¡¡SERÁS IDIOTA!! ¡¿Cómo puedes haber olvidado la promesa que me hiciste cuando éramos niños?! ¡Me das mucha rabia!"
+      "text": "¡I-Idiota! ¡¿Cómo puedes haber olvidado la promesa que me hiciste cuando éramos niños?! ¡Me das mucha rabia!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
       "text": "¿Una promesa? ¿Sobre qué? Lo siento, pero es que no tengo ni la menor idea de quién eres..."
@@ -233,7 +243,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchichijoven.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Luchadora Anónima",
       "text": "¡Pues si quieres saberlo, tendrás que ganarme en el torneo principal! ¡No te lo perdonaré jamás, Goku!"
@@ -241,7 +253,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23gismile.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessbocabierto.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
       "text": "Vaya, Goku... parece que te has metido en un buen lío con esa chica. ¿Seguro que no le debes dinero o algo peor?"
@@ -258,7 +272,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "yamcha23giserious.png",
+      "leftInverted": false,
       "rightPort": "avatarroshi23.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Yamcha",
       "text": "Ese tal Shen... se mueve de forma ridícula, pero ha noqueado a sus rivales sin que se den cuenta. Es muy sospechoso."
@@ -266,15 +282,19 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "yamcha23giserious.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "No es suerte, Yamcha. Ese hombre oculta un power enorme detrás de esa apariencia torpe. Tendremos que andar con cuidado."
+      "text": "No es suerte, Yamcha. Ese hombre oculta un poder enorme detrás de esa apariencia torpe. Tendremos que andar con cuidado."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchaozserio.png",
+      "leftInverted": true,
       "rightPort": "avatartenshinhan23giserious.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Chaoz",
       "text": "Ten... ten mucho cuidado. En las preliminares vi a un participante reconstruido con partes de metal. Es el Cyborg Tao Pai Pai, ha venido a buscarte."
@@ -282,7 +302,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarchaozserio.png",
+      "leftInverted": true,
       "rightPort": "avatartenshinhan23giserious.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Tenshinhan",
       "text": "Lo sé, Chaoz... No te preocupes, saldaré las cuentas con el pasado de la Escuela Grulla. Miren, ya están colocando los cruces del torneo en el muro."
@@ -290,7 +312,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "yamcha23giserious.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Yamcha",
       "text": "¡Vaya, miren esto! Los emparejamientos son una locura. A mí me tocó contra ese viejo torpe llamado Shen... parece un combate fácil, pero no me confiaré."
@@ -298,7 +322,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23gipreocupado.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
       "text": "¡No puede ser! ¡Maldición, qué mala suerte tengo! ¡Miren mi emparejamiento! ¡Me tocó en la primera ronda contra ese tipo siniestro... Ma Junior!"
@@ -315,7 +341,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23gipreocupado.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
       "text": "Krillin... tienes que tomarte esto muy en serio. Ma Junior no es un peleador cualquiera. Él es en realidad la reencarnación de Piccolo... y ha venido a matarme a mí y a destruir todo."
@@ -323,7 +351,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarroshi23.png",
+      "leftInverted": false,
       "rightPort": "avatarkrilin23gipreocupado.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Maestro Roshi",
       "text": "¡¿Qué dijiste, Goku?! ¡¿Ese monstruo sigue con vida?! Krillin, esto ya no es un juego ni un simple torneo de artes marciales..."
@@ -331,7 +361,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarroshi23.png",
+      "leftInverted": false,
       "rightPort": "avatarkrilin23giserio.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Krillin",
       "text": "Lo sé... puedo sentir su Ki escalofriante desde aquí. Pero no entrené tres años en el templo y en las montañas para salir corriendo. ¡Pelearé con todo lo que tengo y demostraré el orgullo de nuestra escuela!"
@@ -339,6 +371,7 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarnarradormicro.png",
+      "leftInverted": false,
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
@@ -347,7 +380,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23giserio.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
       "text": "Llegó el momento, Krillin. No olvides lo que nos enseñó el Maestro Roshi: el combate sirve para conocer tus propios límites. ¡Sal ahí fuera y demuestra la fuerza de tu entrenamiento!"
@@ -355,7 +390,9 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23giserio.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
       "text": "¡Cuenta con ello, Goku! No voy a ponérselo nada fácil a ese tal Piccolo. ¡Deséenme suerte, allá voy!"
