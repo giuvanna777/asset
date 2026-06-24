@@ -174,7 +174,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatienganarandom.png",
+      "cg": "escentienganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -230,7 +230,7 @@
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarpiccolocapaserio.png",
-      "leftInverted": false,
+      "leftInverted": true,
       "rightPort": "avatargoku23weightlessserio.png",
       "rightInverted": true,
       "speaker": "left",
@@ -258,7 +258,7 @@
       "control": {
         "tipo": "combate",
         "aliados": ["krillin"],
-        "enemigos": ["piccolo_cuartos"],
+        "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_WHATIF_KRILLIN_GANA",
         "on_lose": "T23_03_POST_CUARTOS_CANON"
@@ -340,7 +340,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "No te preocupes, Chaoz, ya estás a salvo. Ahora debo concentrarme... Mi próximo oponente es Goku."
+      "text": "No te preocupes, Chaoz, ya estás a safe. Ahora debo concentrarme... Mi próximo oponente es Goku."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -373,7 +373,7 @@
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["tenshinhan_semis"],
+        "enemigos": ["tenshinhan"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_04_GOKU_GANA_SEMIS",
         "on_lose": "T23_WHATIF_FINAL_TIEN_VS_PICCOLO"
@@ -394,13 +394,43 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarbulma23.png",
+      "leftInverted": false,
+      "rightPort": "avataryamcha23sorprendido.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡No me lo puedo creer! ¡Krillin ha derrotado a ese monstruo verde de una sola patada limpia!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarroshi23sonrisa.png",
+      "leftInverted": false,
+      "rightPort": "avatarkrilin23gismile.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "¡Jo, jo, jo! Has superado con creces todas mis expectativas, Krillin. El espíritu de la tortuga brilla en ti."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23gipreocupado.png",
       "leftInverted": false,
       "rightPort": "avatarpiccolocapapreocupado.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "right",
       "name": "Piccolo",
-      "text": "¡Malditos insectos insignificantes...! ¡Esto no se va a quedar así! ¡Os haré pedazos a todos ahora mismo!"
+      "text": "¡Malditos insectos insignificantes...! ¡Esto no se va a quedar así! ¡No toleraré la humillación de caer ante un terrícola calvo! ¡Os haré pedazos a todos ahora mismo!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatargoku23weightlessserio.png",
+      "leftInverted": false,
+      "rightPort": "avatartenshinhan23gipreocupado.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Goku",
+      "text": "¡Mantén la calma, Piccolo! Si rompes las reglas aquí fuera, descalificarán a toda la Escuela Grulla y perderás tu preciada venganza."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -408,11 +438,11 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Piccolo estalla de rabia en los camerinos tras ser humillado. Aunque desata el pánico, la seguridad del torneo logra contener la situación. Mientras Krillin espera rival directo para la final, Goku se bate contra Tenshinhan en la otra semifinal.</i>",
+      "text": "<i>[NARRADOR] Piccolo estalla de rabia en los camerinos tras ser humillado. Aunque desata el pánico, la seguridad del torneo logra contener la situación temporalmente. Mientras Krillin avanza directo a la final esperando oponente, Goku se bate contra Tenshinhan en la otra semifinal.</i>",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["tenshinhan_semis"],
+        "enemigos": ["tenshinhan"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_WHATIF_FINAL_GOKU_VS_KRILLIN",
         "on_lose": "T23_WHATIF_FINAL_TIEN_VS_KRILLIN"
@@ -456,14 +486,14 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] El anciano Shen (quien es en realidad Kamisama disfrazado) saca un contenedor e intenta sellar a Piccolo con el Mafuba. Sin embargo, el demonio revierte la técnica con frialdad, atrapando al Dios de la Tierra y tragándose el termo.</i>"
+      "text": "<i>[NARRADOR] El anciano Shen (quien es en realidad Kamisama disfrazado) saca un contenedor e intenta usar la técnica del Mafuba para sellar a Piccolo. Sin embargo, el demonio conoce el truco, revierte la técnica con frialdad y encierra al Dios de la Tierra antes de tragarse el termo.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatargoku23weightlessbocabierto.png",
       "leftInverted": false,
       "rightPort": "avatarkrilin23gipreocupado.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "left",
       "name": "Goku",
       "text": "¡Maldición, ha fallado! ¡Se ha tragado el termo con Kamisama dentro! Si mato a Piccolo en combate, Kamisama también morirá... ¡Tengo que derrotarlo por fuerza en la final para rescatarlo!"
@@ -473,7 +503,7 @@
       "leftPort": "avatargoku23weightlessserio.png",
       "leftInverted": false,
       "rightPort": "avatarpiccolocapasmirk.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "right",
       "name": "Piccolo",
       "text": "Kukuku... Vuestro patético mundo llegará a su fin, Son Goku. Entra a la arena de combate si tienes el valor de morir."
@@ -492,14 +522,14 @@
       "leftPort": "avatargoku23weightlessserio.png",
       "leftInverted": false,
       "rightPort": "avatarpiccolosincapaserio.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "right",
       "name": "Piccolo",
       "text": "¡No permitiré que te salgas con la tuya! ¡Voy a poner fin a tu malicia de una vez por todas!",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["piccolo_final"],
+        "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_07_CONCLUSION_Y_DESPEDIDA",
         "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO"
@@ -520,17 +550,27 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatartenshinhan23gipreocupado.png",
+      "leftPort": "avatarchaozserio.png",
+      "leftInverted": false,
+      "rightPort": "avatartenshinhan23giserious.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Chaoz",
+      "text": "¡Ten, por favor ten cuidado! Venga mi derrota y salva a la Tierra de ese horrible monstruo."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatartenshinhan23giserious.png",
       "leftInverted": false,
       "rightPort": "avatarpiccolosincapaserio.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "right",
       "name": "Piccolo",
-      "text": "Un simple humano jamás podrá hacer nada contra el soberano Rey Demonio. ¡Desaparece de mi vista!",
+      "text": "Un simple humano jamás podrá hacer nada contra el soberano Rey Demonio. Vuestra patética existencia terminará aquí, tres ojos.",
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan"],
-        "enemigos": ["piccolo_final_tien"],
+        "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_07_CONCLUSION_Y_DESPEDIDA",
         "on_lose": "T23_WHATIF_GAME_OVER_PICCOLO"
@@ -551,6 +591,16 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarroshi23sonrisa.png",
+      "leftInverted": false,
+      "rightPort": "avatarkrilin23gismile.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "¡Se me saltan las lágrimas de la emoción! Pensar que aquellos niños que repartían leche por las mañanas ahora disputan la final del mundo..."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23gismile.png",
       "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
@@ -561,7 +611,7 @@
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["krillin_final"],
+        "enemigos": ["krillin"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_07_CONCLUSION_Y_DESPEDIDA",
         "on_lose": "T23_07_CONCLUSION_Y_DESPEDIDA"
@@ -582,6 +632,16 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarchaozfeliz.png",
+      "leftInverted": false,
+      "rightPort": "avatartenshinhan23giserious.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Chaoz",
+      "text": "¡Suerte a los dos! Es un alivio que el torneo vuelva a ser una competencia limpia y segura."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilin23giserio.png",
       "leftInverted": false,
       "rightPort": "avatartenshinhan23giserious.png",
@@ -592,7 +652,7 @@
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan"],
-        "enemigos": ["krillin_final_tien"],
+        "enemigos": ["krillin"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_07_CONCLUSION_Y_DESPEDIDA",
         "on_lose": "T23_07_CONCLUSION_Y_DESPEDIDA"
@@ -615,7 +675,7 @@
       "leftPort": "avatargoku23weightlesshappy.png",
       "leftInverted": false,
       "rightPort": "avatarpiccolosincapapreocupado.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "right",
       "name": "Piccolo",
       "text": "(Malherido y retirándose) ¡M-Maldita sea...! No os confiéis, gusanos... ¡Volveré y os haré pedazos a todos algún día!"
@@ -625,19 +685,10 @@
       "leftPort": "avatarbulma23.png",
       "leftInverted": false,
       "rightPort": "avatarkrilin23gismile.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "left",
       "name": "Bulma",
       "text": "¡Lo lograste! ¡La paz ha vuelto a la Tierra y tenemos al mejor campeón marcial de toda la historia!"
-    },
-    {
-      "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenachichicongokuennube.png",
-      "leftPort": null,
-      "rightPort": null,
-      "speaker": "none",
-      "name": "",
-      "text": "<i>[NARRADOR] Con el torneo resuelto y las heridas sanadas, Chi-Chi se acerca sonriente a Goku en la arena, lista para comenzar una nueva vida juntos.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -661,12 +712,21 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
+      "cg": "escenachichicongokuennube.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Goku silba para llamar a la fiel Nube Kinton. Chi-Chi sube contenta junto a él a la esponjosa nube dorada mientras se despiden alegremente de todos sus amigos.</i>"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
       "cg": "escenagokusevaconchichiennube.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Silbando a la Nube Kinton, Goku sube junto a Chi-Chi despidiéndose de sus amigos mientras se elevan velozmente hacia el cielo. La paz vuelve a reinar en el mundo... de momento. ¡Fin del Arco del Torneo 23!</i>"
+      "text": "<i>[NARRADOR] La pareja se eleva velozmente perdiéndose en el horizonte. La paz vuelve a reinar en el mundo... de momento. ¡Fin del Arco del Torneo 23!</i>"
     }
   ],
 
@@ -675,7 +735,7 @@
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": null,
       "rightPort": "avatarpiccolosincapagritando.png",
-      "rightInverted": true,
+      "rightInverted": false,
       "speaker": "right",
       "name": "Piccolo",
       "text": "¡¡JAJAJA!! ¡El mundo entero caerá ante mi yugo oscuro! ¡Nadie ha sido capaz de detener mi venganza suprema!"
