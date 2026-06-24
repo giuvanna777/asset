@@ -2,6 +2,15 @@
   "EV_T23_PRELIMINARES_EXTENDIDO": [
     {
       "bg": "escenagrupo23tenkaichi.png",
+      "cg": "escenakrilingorra.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] ¡Da comienzo el 23º Torneo de Artes Marciales! Krillin desembarca por fin en la Isla Papaya, emocionado y listo para medir los frutos de sus tres años de duro entrenamiento autónomo...</i>"
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarkrilingorra.png",
       "leftInverted": true,
       "rightPort": null,
@@ -101,7 +110,7 @@
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarkrilingorra.png",
       "leftInverted": true,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
@@ -111,7 +120,7 @@
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarkrilingorra.png",
       "leftInverted": true,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
@@ -121,7 +130,7 @@
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarbulma23.png",
       "leftInverted": false,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
@@ -131,7 +140,7 @@
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarroshi23.png",
       "leftInverted": false,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "left",
       "name": "Maestro Roshi",
@@ -169,7 +178,7 @@
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avataryamcha23sorprendido.png",
       "leftInverted": false,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "left",
       "name": "Yamcha",
@@ -179,7 +188,7 @@
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilingorra.png",
       "leftInverted": true,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
@@ -198,7 +207,7 @@
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilingorra.png",
       "leftInverted": true,
-      "rightPort": "avatargoku23gorro",
+      "rightPort": "avatargoku23gorro.png",
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
@@ -223,6 +232,42 @@
       "speaker": "right",
       "name": "Krillin",
       "text": "Lo sé... puedo sentir su Ki escalofriante desde aquí. Pero no entrené tres años en el templo y en las montañas para salir corriendo. ¡Pelearé con todo lo que tengo y demostraré el orgullo de nuestra escuela!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "Anunciador",
+      "text": "¡Atención a todos los luchadores clasificados! ¡Las puertas del recinto exterior se abren al público! ¡Den comienzo los cuartos de final de las artes marciales! ¡Primer combate: Krillin contra Ma Junior!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Llegó el momento, Krillin. No olvides lo que nos enseñó el Maestro Roshi: el combate sirve para conocer tus propios límites. ¡Sal ahí fuera y demuestra la fuerza de tu entrenamiento!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
+      "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡Cuenta con ello, Goku! No voy a ponérselo nada fácil a ese tal Piccolo. ¡Deséenme suerte, allá voy!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": null,
+      "rightPort": null,
+      "speaker": "none",
+      "name": "",
+      "text": "<i>[NARRADOR] Con la determinación de un auténtico artista marcial, Krillin camina con paso firme hacia la gran plataforma exterior. ¡El primer gran duelo del Torneo Tenkaichi está a punto de comenzar!</i>"
     }
   ]
 }
