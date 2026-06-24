@@ -165,7 +165,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenchaozeliminado.png",
+      "cg": "escenachaozeliminado.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -762,7 +762,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] La pareja se eleva velozmente perdiéndose en el horizonte. La paz vuelve a reinar en el mundo. ¡Fin del Arco del Torneo 23!</i>"
+      "text": "<i>[NARRADOR] La pareja se eleva velozmente perdiéndose en el horizonte. La paz vuelve a reinar in el mundo. ¡Fin del Arco del Torneo 23!</i>"
     }
   ],
 
@@ -984,7 +984,7 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
-      "text": "¡¡Y TENEMOS UN RESULTADO INÉDITO!! ¡Krillin tumba la defense de Tenshinhan y se corona como el flamante campeón marcial del torneo!"
+      "text": "¡¡Y TENEMOS UN RESULTADO INÉDITO!! ¡Krillin tumba la defensa de Tenshinhan y se corona como el flamante campeón marcial del torneo!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
