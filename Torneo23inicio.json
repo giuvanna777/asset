@@ -1,12 +1,12 @@
 {
-  "EV_T23_PRELIMINARES_COMPLETO": [
+  "EV_T23_PRELIMINARES_EXTENDIDO": [
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarkrilingorra.png",
       "rightPort": "avataryamcha23smile.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡Por fin llegué! Vaya, Yamcha, sí que te creció el pelo en estos tres años. ¡Estás hecho todo un ermitaño!"
+      "text": "¡Por fin llegué a la isla Papaya! Qué cantidad de gente ha venido esta vez... ¡Ah, miren! ¡Allí están!"
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
@@ -14,23 +14,63 @@
       "rightPort": "avataryamcha23smile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¡Jaja! Sí, entrenar duro en la naturaleza te cambia el aspecto. Mira, ahí vienen también Tenshinhan y Chaoz."
+      "text": "¡Krillin, amigo! ¡Vaya, qué alegría verte! Te estábamos esperando justo aquí en la entrada."
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatartenshinhan23.png",
-      "rightPort": "avatarbulma23.png",
+      "rightPort": "avatarchaozfeliz.png",
       "speaker": "right",
-      "name": "Bulma",
-      "text": "¡Chicos! Qué alegría verlos a todos sanos y salvos. Por cierto, ¿saben algo de Goku? Las inscripciones van a cerrar."
+      "name": "Chaoz",
+      "text": "¡Hola, Krillin! Has entrenado mucho, ¿verdad? ¡Se nota en tu mirada!"
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
-      "leftPort": "avatarroshi23sonrisa.png",
+      "leftPort": "avatartenshinhan23.png",
+      "rightPort": "avatarchaozfeliz.png",
+      "speaker": "left",
+      "name": "Tenshinhan",
+      "text": "Es cierto. Tu Ki es mucho más firme que hace tres años, Krillin. Veo que ninguno de nosotros ha perdido el tiempo."
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatarbulma23.png",
+      "rightPort": "avatarroshi23sonrisa.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡Chicos, por aquí! ¡Qué bueno que los encontramos antes de que empiece todo el caos!"
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatarbulma23.png",
+      "rightPort": "avatarroshi23sonrisa.png",
+      "speaker": "right",
+      "name": "Maestro Roshi",
+      "text": "Jo, jo, jo... Mis muchachos se han convertido en unos guerreros formidables. Me alegra ver que mantienen el espíritu de la Escuela Tortuga."
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avataroolongsmirk.png",
+      "rightPort": "avatarpuar.png",
+      "speaker": "left",
+      "name": "Oolong",
+      "text": "¡Oigan, dejen los discursos y ayúdenme con estas maletas! ¡Pesan una tonelada y hace un calor insoportable!"
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avataroolongsmirk.png",
+      "rightPort": "avatarpuar.png",
+      "speaker": "right",
+      "name": "Puar",
+      "text": "¡No seas flojo, Oolong! ¡Yamcha ha entrenado en lugares mucho peores y no se queja de nada!"
+    },
+    {
+      "bg": "escenagrupo23tenkaichi.png",
+      "leftPort": "avatarkrilingorra.png",
       "rightPort": "avatarbulma23.png",
       "speaker": "left",
-      "name": "Maestro Roshi",
-      "text": "Jo, jo, jo... Ese muchacho nunca cambia, seguro llegará en el último segundo."
+      "name": "Krillin",
+      "text": "Por cierto... las inscripciones preliminares están a punto de cerrar. ¿Alguien sabe algo de Goku? Qué raro que no esté aquí."
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
@@ -38,7 +78,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] De repente, un cielo completamente oscuro cubre la isla y desata una tormenta implacable sobre el recinto...</i>"
+      "text": "<i>[NARRADOR] De un momento a otro, el cielo despejado se cubre de nubes negras y una tormenta repentina empieza a azotar la isla Papaya...</i>"
     },
     {
       "bg": "escenatenkaichilloviendo.png",
@@ -46,7 +86,7 @@
       "rightPort": "avatargoku23gorro",
       "speaker": "right",
       "name": "Goku",
-      "text": "Hola muchachos... Siento hacerlos esperar bajo el agua. Es un poco incómodo volar cargando este paraguas."
+      "text": "Hola a todos... Siento llegar tan tarde. Es que era un poco difícil volar rápido sujetando este paraguas gigante, ¿sabían?"
     },
     {
       "bg": "escenatenkaichilloviendo.png",
@@ -54,7 +94,7 @@
       "rightPort": "avatargoku23gorro",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¿G-Goku?! ¡Estás gigantesco! ¡Casi no te reconozco con ese gorro y esa estatura de adulto!"
+      "text": "¡¿G-Goku?! ¡Estás gigantesco! ¡Casi no te reconozco con ese gorro y esa estatura! ¡Te has vuelto todo un adulto!"
     },
     {
       "bg": "escenatenkaichilloviendo.png",
@@ -62,31 +102,47 @@
       "rightPort": "avatargoku23gorro",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Es verdad! Te has vuelto un hombre increíble, Goku. ¡Ya no eres el niño tierno de antes!"
+      "text": "¡Cielos, Goku! Estás guapísimo... Digo, ¡estás irreconocible! ¡Ya no queda nada del niño pequeño que conocí en las montañas!"
     },
     {
       "bg": "escenatenkaichilloviendo.png",
+      "leftPort": "avatarroshi23.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "Veo que tu entrenamiento con Kamisama ha dado frutos increíbles. Tu presencia emana una tranquilidad asombrosa... ¡Pero basta de charlas, entremos antes de quedar empapados!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Tras las inscripciones de última hora, los Guerreros Z entran al pabellón interior. Las rondas preliminares se juegan a puerta cerrada rápidamente y todos logran clasificar a las finales sin problemas.</i>"
+      "text": "<i>[NARRADOR] Tras cambiarse de ropa y pasar las pruebas de eliminación a puerta cerrada dentro del pabellón, los luchadores se reúnen frente al cartel principal.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avataryamcha23sorprendido.png",
+      "leftPort": "avatarchaozserio.png",
       "rightPort": "avatartenshinhan23.png",
       "speaker": "left",
-      "name": "Yamcha",
-      "text": "¡Miren! ¡Ya han publicado el tablero con los cruces oficiales del torneo principal!"
+      "name": "Chaoz",
+      "text": "Ten... ten mucho cuidado. En las preliminares vi a un participante reconstruido con partes de metal. Es el Cyborg Tao Pai Pai, ha venido a buscarte."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avataryamcha23sorprendido.png",
+      "leftPort": "avatarchaozserio.png",
       "rightPort": "avatartenshinhan23.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Veamos... A mí me toca contra ese tal Cyborg Tao Pai Pai. Y tú, Yamcha, peleas contra ese anciano raro llamado Shen."
+      "text": "Lo sé, Chaoz... No te preocupes, saldaré las cuentas con el pasado de la Escuela Grulla. Miren, ya están colocando los cruces del torneo en el muro."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avataryamcha23sorprendido.png",
+      "rightPort": "avatargoku23gorro",
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "¡Vaya, miren esto! Los emparejamientos son una locura. A mí me tocó contra ese viejo torpe llamado Shen... parece un combate fácil, pero no me confiaré."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -94,7 +150,7 @@
       "rightPort": "avatargoku23gorro",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡Agh! ¡Rayos! A mí me ha tocado en la primera ronda contra el tipo más aterrador de todos... ¡Ese sujeto llamado Ma Junior!"
+      "text": "¡No puede ser! ¡Maldición, qué mala suerte tengo! ¡Miren mi emparejamiento! ¡Me tocó en la primera ronda contra ese tipo siniestro... Ma Junior!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -103,23 +159,31 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Desde las sombras del pabellón, Ma Junior observa a los participantes con una sonrisa siniestra y un Ki maligno idéntico al del Rey Demonio Piccolo...</i>"
-    },
-    {
-      "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avatarroshi23.png",
-      "rightPort": "avatargoku23gorro",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "Krillin... ten muchísimo cuidado en tu combate. Siento decirte que Ma Junior es en realidad la reencarnación de Piccolo. Ha venido a vengarse."
+      "text": "<i>[NARRADOR] Desde un rincón oscuro del pasillo, Ma Junior los observa fijamente. Su Ki es una réplica exacta, gélida y despiadada de Piccolo Daimaku.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarkrilingorra.png",
       "rightPort": "avatargoku23gorro",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Krillin... tienes que tomarte esto muy en serio. Ma Junior no es un peleador cualquiera. Él es en realidad la reencarnación de Piccolo... y ha venido a matarme a mí y a destruir todo."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarroshi23.png",
+      "rightPort": "avatarkrilingorra.png",
       "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "¡¿Qué dijiste, Goku?! ¡¿Ese monstruo sigue con vida?! Krillin, esto ya no es un juego ni un simple torneo de artes marciales..."
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avatarroshi23.png",
+      "rightPort": "avatarkrilingorra.png",
+      "speaker": "right",
       "name": "Krillin",
-      "text": "¡¿Qué?! ¡¿E-El hijo de Piccolo?! Da igual... He entrenado tres años para este momento. ¡No me voy a echar atrás, demostraré el poder de la Escuela Tortuga!"
+      "text": "Lo sé... puedo sentir su Ki escalofriante desde aquí. Pero no entrené tres años en el templo y en las montañas para salir corriendo. ¡Pelearé con todo lo que tengo y demostraré el orgullo de nuestra escuela!"
     }
   ]
 }
