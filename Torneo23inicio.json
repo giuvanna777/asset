@@ -183,7 +183,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": null,
+      "cg": "escenayamchaganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -287,7 +287,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenachichigritagoku.png",
+      "cg": "escenchichigritagoku.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -335,7 +335,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenyamchaeseliminadoporshen.png",
+      "cg": "escenayamchaeseliminadoporshen.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -400,7 +400,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¡LO CONSEGUÍ!! ¡He lanzado a Ma Junior fuera de la plataforma con un Kamehameha disperso por sorpresa! ¡He ganado el primer encuentro de cuartos!"
+      "text": "¡¡LO CONSEGUÍ!! ¡He lanzado a Ma Junior fuera de la plataforma con un Kamehameha disperso por surprise! ¡He ganado el primer encuentro de cuartos!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -813,7 +813,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Goku llama a la Nube Kinton y sube con Chi-Chi, despidiéndose de un triunfante Tenshinhan que celebra junto a Chaoz y los demás.</i>"
+      "text": "<i>[NARRADOR] Goku llama a la Nube Kinton y sube con Chi-Chi, despidiéndose de un triunfante Tenshinhan que celebra junto a Chaoz and los demás.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
