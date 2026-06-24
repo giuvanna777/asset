@@ -12,6 +12,7 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
       "rightPort": null,
       "speaker": "left",
       "name": "Krillin",
@@ -20,7 +21,9 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
       "rightPort": "avataryamcha23smile.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Yamcha",
       "text": "¡Krillin, amigo! ¡Vaya, qué alegría verte! Te estábamos esperando justo aquí en la entrada."
@@ -28,7 +31,9 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatartenshinhan23.png",
+      "leftInverted": false,
       "rightPort": "avatarchaozfeliz.png",
+      "rightInverted": false,
       "speaker": "right",
       "name": "Chaoz",
       "text": "¡Hola, Krillin! Has entrenado mucho, ¿verdad? ¡Se nota en tu mirada!"
@@ -36,7 +41,9 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatartenshinhan23.png",
+      "leftInverted": false,
       "rightPort": "avatarchaozfeliz.png",
+      "rightInverted": false,
       "speaker": "left",
       "name": "Tenshinhan",
       "text": "Es cierto. Tu Ki es mucho más firme que hace tres años, Krillin. Veo que ninguno de nosotros ha perdido el tiempo."
@@ -44,7 +51,9 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarbulma23.png",
+      "leftInverted": false,
       "rightPort": "avatarroshi23sonrisa.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
       "text": "¡Chicos, por aquí! ¡Qué bueno que los encontramos antes de que empiece todo el caos!"
@@ -52,7 +61,9 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarbulma23.png",
+      "leftInverted": false,
       "rightPort": "avatarroshi23sonrisa.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Maestro Roshi",
       "text": "Jo, jo, jo... Mis muchachos se han convertido en unos guerreros formidables. Me alegra ver que mantienen el espíritu de la Escuela Tortuga."
@@ -62,6 +73,7 @@
       "leftPort": "avataroolongsmirk.png",
       "leftInverted": true,
       "rightPort": "avatarpuar.png",
+      "rightInverted": false,
       "speaker": "left",
       "name": "Oolong",
       "text": "¡Oigan, dejen los discursos y ayúdenme con estas maletas! ¡Pesan una tonelada y hace un calor insoportable!"
@@ -71,6 +83,7 @@
       "leftPort": "avataroolongsmirk.png",
       "leftInverted": true,
       "rightPort": "avatarpuar.png",
+      "rightInverted": false,
       "speaker": "right",
       "name": "Puar",
       "text": "¡No seas flojo, Oolong! ¡Yamcha ha entrenado en lugares mucho peores y no se queja de nada!"
@@ -78,7 +91,9 @@
     {
       "bg": "escenagrupo23tenkaichi.png",
       "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
       "rightPort": "avatarbulma23.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
       "text": "Por cierto... las inscripciones preliminares están a punto de cerrar. ¿Alguien sabe algo de Goku? Qué raro que no esté aquí."
@@ -94,7 +109,9 @@
     {
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
       "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
       "text": "Hola a todos... Siento llegar tan tarde. Es que era un poco difícil volar rápido sujetando este paraguas gigante, ¿sabían?"
@@ -102,7 +119,9 @@
     {
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarkrilingorra.png",
+      "leftInverted": true,
       "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
       "text": "¡¿G-Goku?! ¡Estás gigantesco! ¡Casi no te reconozco con ese gorro y esa estatura! ¡Te has vuelto todo un adulto!"
@@ -110,7 +129,9 @@
     {
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarbulma23.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
       "text": "¡Cielos, Goku! Estás guapísimo... Digo, ¡estás irreconocible! ¡Ya no queda nada del niño pequeño que conocí en las montañas!"
@@ -118,7 +139,9 @@
     {
       "bg": "escenatenkaichilloviendo.png",
       "leftPort": "avatarroshi23.png",
+      "leftInverted": false,
       "rightPort": "avatargoku23gorro.png",
+      "rightInverted": true,
       "speaker": "left",
       "name": "Maestro Roshi",
       "text": "Veo que tu entrenamiento con Kamisama ha dado frutos increíbles. Tu presencia emana una tranquilidad asombrosa... ¡Pero basta de charlas, entremos antes de quedar empapados!"
@@ -246,7 +269,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "No es suerte, Yamcha. Ese hombre oculta un poder enorme detrás de esa apariencia torpe. Tendremos que andar con cuidado."
+      "text": "No es suerte, Yamcha. Ese hombre oculta un power enorme detrás de esa apariencia torpe. Tendremos que andar con cuidado."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
