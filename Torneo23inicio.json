@@ -96,7 +96,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "Por cierto... las inscripciones preliminares están a punto de cerrar. ¿Alguien sabe algo de Goku? Qué raro que no esté aquí."
+      "text": "Por cierto... las inscriptions preliminares están a punto de cerrar. ¿Alguien sabe algo de Goku? Qué raro que no esté aquí."
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
@@ -174,7 +174,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatienganarandom.png",
+      "cg": "escentienganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -183,7 +183,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": null,
+      "cg": "escenayamchaganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -201,7 +201,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenagokueliminareychapa.png",
+      "cg": null,
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -287,7 +287,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenchichigritagoku.png",
+      "cg": "escenachichigritagoku.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -400,7 +400,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¡LO CONSEGUÍ!! ¡He lanzado a Ma Junior fuera de la plataforma con un Kamehameha disperso por surprise! ¡He ganado el primer encuentro de cuartos!"
+      "text": "¡¡LO CONSEGUÍ!! ¡He lanzado a Ma Junior fuera de la plataforma con un Kamehameha disperso por sorpresa! ¡He ganado el primer encuentro de cuartos!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -643,7 +643,15 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Sí! ¡Peleemos con todas nuestras fuerzas y divirtámonos al máximo, Krillin!"
+      "text": "¡Sí! ¡Peleemos con todas nuestras fuerzas y divirtámonos al máximo, Krillin!",
+      "control": {
+        "tipo": "combate",
+        "aliados": ["goku"],
+        "enemigos": ["krillin"],
+        "fondoCombate": "bg-tournament",
+        "on_win": "T23_CONCLUSION_GOKU_AMISTOSO",
+        "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO"
+      }
     }
   ],
 
@@ -976,7 +984,7 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
-      "text": "¡¡Y TENEMOS UN RESULTADO INÉDITO!! ¡Krillin tumba la defense de Tenshinhan y se corona como el flamante campeón marcial del torneo!"
+      "text": "¡¡Y TENEMOS UN RESULTADO INÉDITO!! ¡Krillin tumba la defensa de Tenshinhan y se corona como el flamante campeón marcial del torneo!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
