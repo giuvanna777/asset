@@ -165,7 +165,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenchaozeliminado.png",
+      "cg": "escenachaozeliminado.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -174,12 +174,12 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatienganarandom.png",
+      "cg": "escenatenshinhanganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Con una furia contenida y fría, Tenshinhan destroza a sus rivales aleatorios en su bloque para asegurar su clasificación directa a las fases finales.</i>"
+      "text": "<i>[NARRADOR] Con una furia contenida y fría por lo sucedido con su amigo, Tenshinhan destroza a sus rivales aleatorios en su bloque para asegurar su clasificación.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -197,7 +197,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Paralelamente, un anciano llamado Shen avanza en su respectivo bloque preliminar peleando de una manera ridícula y torpe contra un oponente random, clasificándose por pura inercia.</i>"
+      "text": "<i>[NARRADOR] Paralelamente, un anciano llamado Shen avanza en su respectivo bloque preliminar peleando de una manera ridícula y torpe contra un oponente random, clasificándose de forma insólita.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -210,7 +210,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avataryamcha23gismile.png",
+      "leftPort": "avataryamcha23sorprendido.png",
       "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
       "rightInverted": true,
@@ -278,7 +278,7 @@
   "T23_03_POST_CUARTOS_CANON": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatienpapeaataopaipai.png",
+      "cg": "escenatenshinhanpapeaataopaipai.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -325,12 +325,22 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
+      "leftPort": "avataryamcha23giserious.png",
+      "leftInverted": false,
+      "rightPort": "avatargoku23weightlessserio.png",
+      "rightInverted": true,
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "Me toca contra ese viejo Shen... No sé qué estilo usa, pero voy a demostrarle el verdadero poder del Sokidan. ¡No pienso perder en cuartos!"
+    },
+    {
+      "bg": "escenacuadrotenkaichi23.png",
       "cg": "escenayamchaeseliminadoporshen.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Tras un intercambio caótico, Yamcha cae eliminado de forma impactante y accidentada ante el anciano Shen, rompiendo sus aspiraciones en cuartos de final.</i>"
+      "text": "<i>[NARRADOR] El combate es una locura. Yamcha despliega su Sokidan controlando la energía de forma magistral, pero tras un intercambio accidentado, el anciano Shen lo noquea de forma absurda dejándolo fuera de la arena.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -340,7 +350,7 @@
       "rightInverted": true,
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "No te preocupes, Chaoz, ya estás a safe. Ahora debo concentrarme... Mi próximo oponente es Goku."
+      "text": "No te preocupes, Chaoz, ya estás a salvo. Ahora debo concentrarme... Mi próximo oponente es Goku."
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -396,7 +406,7 @@
       "bg": "escenacuadrotenkaichi23.png",
       "leftPort": "avatarbulma23.png",
       "leftInverted": false,
-      "rightPort": "avataryamcha23sorprendido.png",
+      "rightPort": "avataryamcha23gismile.png",
       "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
@@ -442,7 +452,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatienpapeaataopaipai.png",
+      "cg": "escenatenshinhanpapeaataopaipai.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -490,7 +500,7 @@
   "T23_FINAL_GOKU_VS_PICCOLO_PREVIA": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenagokuganatien.png",
+      "cg": "escenagokuganatenshinhan.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -598,7 +608,7 @@
   "T23_FINAL_GOKU_VS_KRILLIN_PREVIA": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenagokuganatien.png",
+      "cg": "escenagokuganatenshinhan.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -862,7 +872,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Un desenlace pacífico y lleno de sonrisas recorre el torneo. ¡Fin del Arco!</i>"
+      "text": "<i>[NARRADOR] Un dicenlace pacífico y lleno de sonrisas recorre el torneo. ¡Fin del Arco!</i>"
     }
   ],
 
@@ -1003,7 +1013,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Mientras los guerreros felicitan a un emocionado Krillin, Goku y Chi-Chi suben al transporte dorado de la Nube Kinton.</i>"
+      "text": "<i>[NARRADOR] Mientras los guerreros felicitan a un emocionado Krillin, Goku y Chi-Chi suben al transporte de la Nube Kinton.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
