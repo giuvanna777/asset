@@ -134,7 +134,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Cielos, Goku! Estás guapísimo... Digo, ¡estás irreconocible! ¡Ya no queda nada del niño pequeño que conocí en las mountains!"
+      "text": "¡Cielos, Goku! Estás guapísimo... Digo, ¡estás irreconocible! ¡Ya no queda nada del niño pequeño que conocí en las montañas!"
     },
     {
       "bg": "escenatenkaichilloviendo.png",
@@ -165,7 +165,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenachaozeliminado.png",
+      "cg": "escenchaozeliminado.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -174,7 +174,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatenshinhanganarandom.png",
+      "cg": "escenatienganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -183,7 +183,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenayamchaganarandom.png",
+      "cg": "escenyamchaganarandom.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -210,7 +210,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "leftPort": "avataryamcha23sorprendido.png",
+      "leftPort": "avataryamcha23gismile.png",
       "leftInverted": false,
       "rightPort": "avatargoku23weightlesshappy.png",
       "rightInverted": true,
@@ -278,7 +278,7 @@
   "T23_03_POST_CUARTOS_CANON": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatenshinhanpapeaataopaipai.png",
+      "cg": "escenatienpapeaataopaipai.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -287,7 +287,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenachichigritagoku.png",
+      "cg": "escenchichigritagoku.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -335,7 +335,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenayamchaeseliminadoporshen.png",
+      "cg": "escenyamchaeseliminadoporshen.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -452,7 +452,7 @@
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenatenshinhanpapeaataopaipai.png",
+      "cg": "escenatienpapeaataopaipai.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -500,7 +500,7 @@
   "T23_FINAL_GOKU_VS_PICCOLO_PREVIA": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenagokuganatenshinhan.png",
+      "cg": "escenagokuganatien.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -608,7 +608,7 @@
   "T23_FINAL_GOKU_VS_KRILLIN_PREVIA": [
     {
       "bg": "escenacuadrotenkaichi23.png",
-      "cg": "escenagokuganatenshinhan.png",
+      "cg": "escenagokuganatien.png",
       "leftPort": null,
       "rightPort": null,
       "speaker": "none",
@@ -872,7 +872,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] Un dicenlace pacífico y lleno de sonrisas recorre el torneo. ¡Fin del Arco!</i>"
+      "text": "<i>[NARRADOR] Un desenlace pacífico y lleno de sonrisas recorre el torneo. ¡Fin del Arco!</i>"
     }
   ],
 
@@ -984,7 +984,7 @@
       "rightPort": null,
       "speaker": "left",
       "name": "Anunciador",
-      "text": "¡¡Y TENEMOS UN RESULTADO INÉDITO!! ¡Krillin tumba la defensa de Tenshinhan y se corona como el flamante campeón marcial del torneo!"
+      "text": "¡¡Y TENEMOS UN RESULTADO INÉDITO!! ¡Krillin tumba la defense de Tenshinhan y se corona como el flamante campeón marcial del torneo!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
