@@ -22,30 +22,22 @@
     {
       "bg": "backgroundtenakichidestruido.png",
       "cg": null,
-      "text": "<i>[NARRADOR] ¡La gran catástrofe! Ma Junior, revelado como la reencarnación de Piccolo Daimaku, derrotó a Goku en la gran final, sumiendo al mundo en el pánico.</i>"
+      "text": "<i>[NARRADOR] ¡La gran catástrofe! Ma Junior derrotó a Goku en la final del torneo. Sin embargo, las reglas ya no importaban; Goku se levantó para una última revancha desesperada a vida o muerte por el destino de la Tierra.</i>"
     },
     {
       "bg": "backgroundtenakichidestruido.png",
-      "leftPort": "avatarpiccolosincapaserio.png",
-      "rightPort": "avatargoku23weightlessbocabierto.png",
+      "leftPort": "avatargoku23weightlessserio.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
-      "name": "Piccolo",
-      "text": "¡Jajaja! El título de campeón es solo el principio. ¡Ahora este estúpido planeta entero se arrodillará ante el Rey Demonio!"
-    },
-    {
-      "bg": "backgroundtenakichidestruido.png",
-      "leftPort": "avatarpiccolosincapaserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
       "name": "Goku",
-      "text": "(Levantándose a duras penas) ¡Agh...! ¡No te dejaré hacerlo, Piccolo! El torneo habrá terminado... ¡Pero la verdadera pelea para proteger la Tierra empieza ahora mismo!",
+      "text": "¡No permitiré que destruyas todo lo que conocemos, Piccolo! ¡Esta es la verdadera batalla por la Tierra!",
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
         "enemigos": ["piccolo_boss_900"],
         "fondoCombate": "backgroundtenakichidestruido.png",
         "on_win": "RADITZ_PICCOLO_DERROTADO_MUNDO_SALVADO",
-        "on_lose": "RADITZ_RUTA_GOKU_MUERTO_TEMPRANO"
+        "on_lose": "RADITZ_RUTA_REY_DEMONIO_PICCOLO"
       }
     }
   ],
@@ -58,11 +50,11 @@
       "rightPort": "avatarpiccolosincapapreocupado.png",
       "speaker": "left",
       "name": "Goku",
-      "text": "Uf... Eso estuvo demasiado cerca... Tienes un poder increíble, Piccolo. Has sido un rival formidable."
+      "text": "Uf... Eso estuvo demasiado cerca... Logré pararte los pies, Piccolo. Ahora la Tierra podrá estar en paz."
     },
     {
       "bg": "backgroundcasagoku.png",
-      "text": "<i>[NARRADOR] Al límite absoluto de sus fuerzas, Goku logró derrotar al monstruo en una revancha callejera, salvando al mundo en el último instante.</i>",
+      "text": "<i>[NARRADOR] Venciendo en el último suspiro, el bien triunfó. Aunque Piccolo sobrevivió y huyó a las sombras para seguir entrenando, la historia se recondujo hacia una época de tranquilidad similar a la línea canon...</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_REPASO_VIDAS_GENERAL"
@@ -70,40 +62,21 @@
     }
   ],
 
-  "RADITZ_RUTA_GOKU_MUERTO_TEMPRANO": [
+  "RADITZ_RUTA_REY_DEMONIO_PICCOLO": [
     {
       "bg": "escenatrono.png",
       "cg": null,
       "leftPort": "avatarpiccolosincapagritando.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "¡¡LO HE LOGRADO!! ¡Son Goku ha muerto! ¡Ya no hay nadie en este miserable planeta que pueda detener mi imperio oscuro!"
+      "text": "¡¡JAJAJA!! ¡Son Goku ha caído ante mi poder! ¡Nadie queda en este miserable planeta para desafiarme! ¡Desde hoy, me proclamo el Rey Demonio absoluto de la Tierra!"
     },
     {
       "bg": "escenatrono.png",
-      "text": "<i>[NARRADOR] El peor de los escenarios... Con la caída de Goku, el Rey Demonio instauró una era de tiranía absoluta en la Tierra.</i>",
+      "text": "<i>[NARRADOR] El peor de los escenarios se ha cumplido. Piccolo Junior sometió al mundo e instauró un imperio de terror, gobernando en solitario con una soberbia y una arrogancia desmedidas durante estos 5 años...</i>",
       "control": {
         "tipo": "comprobacion",
-        "activar_flag": "reydemoniopiccolojr"
-      }
-    },
-    {
-      "bg": "escenatrono.png",
-      "leftPort": "avatarkamiidle.png",
-      "rightPort": "avatargoku23weightlesshappy.png",
-      "speaker": "left",
-      "name": "Kamisama",
-      "text": "Gran Enma Daioh... Le ruego que permita a Son Goku conservar su cuerpo físico. Debe recorrer el Camino de la Serpiente y entrenar con el legendario Kaio del Norte."
-    },
-    {
-      "bg": "escenatrono.png",
-      "leftPort": "avatarkamiidle.png",
-      "rightPort": "avatargoku23weightlesshappy.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "Vaya, así que estoy muerto... ¡Es una pena no haber podido salvar la Tierra! Pero si me entreno con ese tal Kaio, seguro que me haré muchísimo más fuerte, ¿verdad?",
-      "control": {
-        "tipo": "comprobacion",
+        "activar_flag": "reydemoniopiccolojr",
         "default": "RADITZ_CIERRE_RECAP"
       }
     }
@@ -113,7 +86,7 @@
     {
       "bg": "escenamontaña.png",
       "cg": "escenatenshinhanentrenando.png",
-      "text": "<i>[NARRADOR] ¡El campeón indiscutible! Al ganar el Tenkaichi Budokai, Tenshinhan alcanzó el estatus de leyenda. Su victoria lo impulsó a aislarse para seguir mejorando.</i>",
+      "text": "<i>[NARRADOR] ¡El campeón indiscutible! Al ganar el Tenkaichi Budokai, Tenshinhan alcanzó el estatus de leyenda. Su victoria lo impulsó a aislarse en las montañas para seguir mejorando de forma obsesiva.</i>",
       "recompensas": {
         "bp_boost": 300,
         "personaje_especifico": "tenshinhan"
@@ -133,11 +106,11 @@
       "rightPort": "avatarroshi23sonrisa.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Aún no me lo creo, Maestro... ¡Soy el campeón mundial! Siento que no hay límites para lo que puedo conseguir."
+      "text": "Aún no me lo creo, Maestro... ¡Soy el campeón mundial! Siento que no hay límites para lo que puedo conseguir si entreno duro."
     },
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Su histórica victoria le otorgó una fe ciega en sí mismo. Durante estos 5 años, Krillin ha desatado un potencial enorme.</i>",
+      "text": "<i>[NARRADOR] Su histórica victoria le otorgó una fe ciega en sí mismo. Durante estos 5 años, Krillin ha desatado un potencial enorme entrenando en la isla.</i>",
       "recompensas": {
         "bp_boost": 400,
         "personaje_especifico": "krillin"
@@ -153,7 +126,7 @@
     {
       "bg": "escenamontaña.png",
       "cg": "escenatenshinhanentrenando.png",
-      "text": "<i>[NARRADOR] Haber vencido a Goku en las semifinales motivó a Tenshinhan a romper sus propios límites. Se retiró a las zonas más salvajes para someterse a un entrenamiento extremo.</i>",
+      "text": "<i>[NARRADOR] Haber vencido a Goku en las semifinales motivó a Tenshinhan a romper sus propios límites. Se retiró a las zonas más salvajes para someterse a un entrenamiento extremo junto a Chaoz.</i>",
       "recompensas": {
         "bp_boost": 150,
         "personaje_especifico": "tenshinhan"
@@ -169,7 +142,7 @@
     {
       "bg": "backgorundkamehouse.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Haberle plantado cara a Piccolo le quitó el miedo a Krillin. Ha pasado el último lustro perfeccionando sus técnicas y acumulando gran poder en Kame House.</i>",
+      "text": "<i>[NARRADOR] Haberle plantado cara a Piccolo le quitó por completo el miedo a Krillin. Ha pasado el último lustro perfeccionando sus técnicas y acumulando gran poder en Kame House.</i>",
       "recompensas": {
         "bp_boost": 200,
         "personaje_especifico": "krillin"
@@ -185,7 +158,7 @@
     {
       "bg": "backgroundcasagoku.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Tras la victoria de Goku, la Tierra experimentó una época dorada. El nivel de todos mejoró a un ritmo normal sin grandes sobresaltos.</i>",
+      "text": "<i>[NARRADOR] Tras la victoria de Goku en el tatami, la Tierra experimentó una época dorada de paz. El nivel de todos los guerreros mejoró a un ritmo normal y saludable, sin grandes sobresaltos.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_REPASO_VIDAS_GENERAL"
@@ -201,7 +174,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Chi-Chi",
-      "text": "¡Goku, deja de lanzar puñetazos al aire, vas a romper las paredes! Gohan necesita silencio para estudiar."
+      "text": "¡Goku, deja de lanzar puñetazos al aire en el salón, vas a romper las paredes! Gohan necesita absoluto silencio para poder concentrarse en sus libros de estudio."
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -209,7 +182,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Jaja, lo siento Chi-Chi! Es que han pasado 5 años muy tranquilos y el cuerpo me pide un poco de acción..."
+      "text": "¡Jaja, lo siento Chi-Chi! Es que han pasado 5 años muy tranquilos y el cuerpo a veces me pide un poco de acción... Aunque se está muy bien viviendo aquí en las montañas en familia."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -217,17 +190,17 @@
       "rightPort": "avatarroshi23sonrisa.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Mientras tanto en la isla, la vida tampoco ha cambiado mucho. El Maestro sigue leyendo sus revistas mientras yo sigo entrenando mis bases."
+      "text": "Mientras tanto en la isla, la vida tampoco ha cambiado mucho. El Maestro sigue leyendo sus revistas tumbado al sol mientras yo sigo practicando duro mis bases todos los días."
     },
     {
       "bg": "escenamontaña.png",
       "cg": "escenatenshinhanentrenando.png",
-      "text": "<i>[NARRADOR] Muy lejos de allí, en los picos nevados, Tenshinhan y Chaoz no han bajado la guardia ni un solo día, puliendo sus técnicas mortales ajenos a la civilización.</i>"
+      "text": "<i>[NARRADOR] Muy lejos de allí, en los picos más altos y nevados, Tenshinhan y Chaoz no han bajado la guardia ni un solo segundo, puliendo sus técnicas mortales completamente ajenos a la civilización.</i>"
     },
     {
       "bg": "escenamontaña.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Así, cada guerrero forjó su propio camino en paz. Relajados, fuertes, pero totalmente desprevenidos para lo que acechaba en las estrellas.</i>",
+      "text": "<i>[NARRADOR] Así, cada guerrero forjó su propio camino en paz durante un lustro entero. Fuertes y en forma, pero totalmente desprevenidos para la amenaza colosal que acechaba en los rincones más profundos del espacio sideral.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_CIERRE_RECAP"
@@ -239,6 +212,17 @@
     {
       "bg": "backgroundcasagoku.png",
       "cg": null,
+      "text": "<i>[NARRADOR] Los 5 años de post-torneo han dictado sus sentencias. Las cartas están sobre la mesa y los niveles de poder han cambiado por completo según las hazañas del pasado.</i>"
+    },
+    {
+      "bg": "backgroundcasagoku.png",
+      "text": "<i>[MOTOR] ¡Aviso del sistema! Piccolo se ha desbloqueado de forma permanente y se añade formalmente a la party como personaje jugable para los próximos eventos de la Saga Saiyan.</i>",
+      "recompensas": {
+        "desbloquear_personaje": "piccolo"
+      }
+    },
+    {
+      "bg": "backgroundcasagoku.png",
       "text": "<i>[NARRADOR] El tiempo siguió avanzando inexorablemente. 6 meses después de este momento, algo estaba a punto de romper la paz del universo para siempre...</i>"
     }
   ]
