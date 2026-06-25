@@ -1,13 +1,6 @@
 {
   "ARCO_WHEELO_INICIO": [
     {
-      "bg": "bumpforestbackground.png",
-      "cg": null,
-      "text": "<i>[MOTOR] El sistema de juego inicia la verificación global de las variables del Tenkaichi Budokai para reestructurar la narrativa del asalto del Dr. Wheelo...</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Escaneando bases de datos de banderas globales... Redirigiendo flujo de eventos de las montañas heladas del norte...</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -84,7 +77,7 @@
     },
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] Las compuertas de la fortaleza se abren desatando ráfagas láser y armas cibernéticas. Piccolo, furioso, desciende al combate desatando su aterrador Ki de 700 unidades.</i>",
+      "text": "<i>[NARRADOR] Las compuertas de la fortaleza se abren desatando ráfagas láser y armas cibernéticas. Piccolo, furioso, desciende al combate desatando su Ki de 700 unidades.</i>",
       "recompensas": {
         "desbloquear_personaje": "piccolo",
         "heal_all": true
@@ -123,7 +116,7 @@
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Puar",
-      "text": "¡¡Krillin!! ¡Ayuda, ayuda por favor! ¡Unos robots gigantescos de color blanco han asaltado el laboratorio de la Corporación Cápsula en mitad de la noche!"
+      "text": "¡Anímate, Krillin! ¡Ayuda, ayuda por favor! ¡Unos robots gigantescos de color blanco han asaltado el laboratorio de la Corporación Cápsula en mitad de la noche!"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -219,7 +212,7 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Volando en formación defensiva, el grupo rompe la ventisca y aterriza en el hangar principal de la fortaleza de metal. Al instante, un pelotón de bionoides de asalto les corta el paso.</i>",
+      "text": "<i>[NARRADOR] El grupo rompe la ventisca y aterriza en el hangar principal. ¡Al instante, un escuadrón de bionoides se abalanza sobre ellos en superioridad numérica!</i>",
       "recompensas": {
         "desbloquear_personaje": "roshi",
         "heal_all": true
@@ -227,7 +220,7 @@
       "control": {
         "tipo": "combate",
         "aliados": ["krillin", "roshi"],
-        "enemigos": ["wheelosecuaz1"],
+        "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "WHEELO_KRILLIN_RESCATE",
         "on_lose": "WHEELO_KRILLIN_ENCERRADO"
@@ -266,7 +259,7 @@
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Mua ja ja ja! ¡Estúpidos e insolentes insectos! Habéis logrado destruir a mis bio-soldados de reconocimiento, pero vuestro destino está totalmente sellado en este complejo."
+      "text": "¡Mua ja ja ja! ¡Estúpidos e insolentes insectos! Habéis logrado destruir a mi guardia menor, pero vuestro destino está totalmente sellado en este complejo."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -278,12 +271,12 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Las compuertas internas se abren revelando a la temible guardia pesada del Dr. Wheelo. Krillin y Jackie Chun se colocan espalda contra espalda en posición marcial.</i>",
+      "text": "<i>[NARRADOR] ¡Las compuertas pesadas se abren dejando salir un pelotón blindado modificado genéticamente para capturar a los héroes!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["krillin", "roshi"],
-        "enemigos": ["wheelosecuaz2"],
+        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "WHEELO_KRILLIN_BOSS",
         "on_lose": "WHEELO_KRILLIN_ENCERRADO"
@@ -333,12 +326,6 @@
 
   "WHEELO_KRILLIN_ENCERRADO": [
     {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Krillin y Jackie Chun han caído exhaustos debido a la implacable fatiga de combate. Los bionoides los arrastran hacia las celdas de absorción cuántica...</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Estableciendo flag global de rescate 'krilin_encarcelado' en verdadero. Redirigiendo el flujo de la historia hacia la llegada de emergencia de Son Goku...</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "krilin_encarcelado",
@@ -370,7 +357,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Chaoz",
-      "text": "¡Ten, esto es terrible! ¡Bulma y Yamcha son nuestros amigos, no podemos dejar que unos monstruos mecánicos experimenten con ellos en el norte!"
+      "text": "¡Ten, esto es horrible! ¡Bulma y Yamcha son nuestros amigos, no podemos dejar que unos monstruos mecánicos experimenten con ellos en el norte!"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -390,12 +377,12 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Tenshinhan y Chaoz cruzan los cielos polares como dos cometas de energía, aterrizando con un golpe seco frente a los portones blindados de la base del Dr. Wheelo. Al instante, los bionoides salen a interceptarlos.</i>",
+      "text": "<i>[NARRADOR] Tenshinhan y Chaoz asaltan la entrada. ¡Al instante, una horda de tres bionoides de asalto coordinados les cierra el paso con violencia!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan", "chaoz"],
-        "enemigos": ["wheelosecuaz1"],
+        "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "WHEELO_TIEN_RESCATE",
         "on_lose": "WHEELO_TIEN_ENCERRADO"
@@ -430,12 +417,12 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] ¡Los bionoides pesados del Dr. Wheelo rodean el perímetro central sellando las salidas de emergencia por completo!</i>",
+      "text": "<i>[NARRADOR] ¡Las compuertas hidráulicas pesadas de los laboratorios internos liberan a un peligroso trío de bionoides de élite!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan", "chaoz"],
-        "enemigos": ["wheelosecuaz2"],
+        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "WHEELO_TIEN_BOSS",
         "on_lose": "WHEELO_TIEN_ENCERRADO"
@@ -451,6 +438,14 @@
       "speaker": "right",
       "name": "Tenshinhan",
       "text": "¡Chaoz, retrocede y mantén tu barrera telequinética activa alrededor de Bulma y Yamcha! ¡Este monstruo cibernético emana una presión opresiva enorme!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": null,
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "¡Ríndete, guerrero! Da igual cuánto Ki reúnas en esos pulmones biológicos. ¡Vuestro planeta será el patio de recreo de mi ciencia inmortal! ¡Despareced!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -477,12 +472,6 @@
 
   "WHEELO_TIEN_ENCERRADO": [
     {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Tenshinhan y Chaoz caen debilitados al suelo debido a las descargas de absorción de Ki de los bionoides. Las compuertas los arrastran a las celdas...</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Activando flag global de rescate 'tien_encarcelado' en verdadero. Redirigiendo de inmediato el flujo del motor hacia la llegada táctica de Son Goku...</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "tien_encarcelado",
@@ -522,11 +511,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Puar, quédate aquí con Chi-Chi protegiendo la casa. ¡Llamaré a la Nube Kinton y viajaré al norte a toda velocidad para rescatarlos! ¡Aguantad, amigos!"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Goku rompe la barrera del sonido cruzando los cielos helados del norte hasta divisar la fortaleza blindada...</i>",
+      "text": "Puar, quédate aquí con Chi-Chi protegiendo la casa. ¡Llamaré a la Nube Kinton y viajaré al norte a toda velocidad para rescatarlos! ¡Aguantad, amigos!",
       "control": {
         "tipo": "comprobacion",
         "default": "WHEELO_GOKU_LLEGADA"
@@ -536,8 +521,6 @@
 
   "WHEELO_GOKU_LLEGADA": [
     {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] El sistema de juego verifica si el flag de reclutamiento de Octavio 'androide8venganza' fue activado en las misiones secundarias anuales...</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -563,11 +546,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Muchas gracias por venir, Octavio! Tu radar de la antigua Patrulla Roja nos vendrá genial para no perdernos en mitad de esta terrible ventisca. ¡Vamos a derribar esa puerta blindada juntos!"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Estableciendo la variable de combate 'goku_va_con_ocho' en verdadero para las fases de apoyo de la party...</i>",
+      "text": "¡Muchas gracias por venir, Octavio! Tu radar de la antigua Patrulla Roja nos vendrá genial para no perdernos en mitad de esta terrible ventisca. ¡Vamos a derribar esa puerta blindada juntos!",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "goku_va_con_ocho",
@@ -583,11 +562,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Uf, qué frío hace aquí arriba en el polo... Pero no hay tiempo para quejarse ni para tiritar. ¡Tengo que irrumpir en esa fortaleza metálica y salvar a mis amigos antes de que ese loco les haga daño!"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Goku aterriza solo en la entrada blindada de la base del Dr. Wheelo, incrementando su Ki de combate para derribar las defensas.</i>",
+      "text": "Uf, qué frío hace aquí arriba en el polo... Pero no hay tiempo para quejarse ni para tiritar. ¡Tengo que irrumpir en esa fortaleza metálica y salvar a mis amigos antes de que ese loco les haga daño!",
       "control": {
         "tipo": "comprobacion",
         "default": "WHEELO_GOKU_COMBATE_1"
@@ -598,12 +573,12 @@
   "WHEELO_GOKU_COMBATE_1": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Las alarmas de la base resuenan con estridencia. Un pelotón masivo de bionoides inferiores se abalanza sobre el punto de infiltración de Goku para repeler el asalto.</i>",
+      "text": "<i>[NARRADOR] Las alarmas de la base resuenan con estridencia. ¡Tres bionoides inferiores emergen de la nieve en formación de emboscada para frenar el avance de Goku!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["wheelosecuaz1"],
+        "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "WHEELO_GOKU_COMBATE_2",
         "on_lose": "WHEELO_DERROTA_GENERAL"
@@ -622,12 +597,12 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] ¡Las inmensas compuertas hidráulicas del laboratorio interno se abren de golpe dejando salir a la guardia pesada bionoide de élite!</i>",
+      "text": "<i>[NARRADOR] ¡Las inmensas compuertas hidráulicas del laboratorio interno se abren de golpe dejando salir a tres bionoides pesados de la guardia de élite!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["wheelosecuaz2"],
+        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "WHEELO_GOKU_RESCATE_AMIGOS",
         "on_lose": "WHEELO_DERROTA_GENERAL"
@@ -646,11 +621,7 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Con un certero y potente golpe de artes marciales, Goku hace añicos los paneles de control, liberando de inmediato a Bulma y a Yamcha de su confinamiento.</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] El juego verifica qué campeones marciales fracasaron en las fases de combate previas para determinar a quién debe rescatar Goku en esta sección...</i>",
+      "text": "<i>[NARRADOR] Con un certero y potente golpe de artes marciales, Goku hace añicos los paneles de control, liberando de inmediato a Bulma y a Yamcha de su confinamiento.</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -669,11 +640,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Uf... lo siento muchísimo, Goku... Ese maldito cerebro flotante nos tomó por sorpresa con sus descargas energéticas y absorbió mi Ki de campeón. Menos mal que tu nivel actual es asombroso."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Krillin se reincorpora a la party de combate activa tras ser liberado. Verificando la presencia del Androide 8 en el equipo...</i>",
+      "text": "Uf... lo siento muchísimo, Goku... Ese maldito cerebro flotante nos tomó por sorpresa con sus descargas energéticas y absorbió mi Ki de campeón. Menos mal que tu nivel actual es asombroso.",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -699,11 +666,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡No te preocupes en absoluto, Tenshinhan! ¡Yo acabo de llegar al complejo siguiendo el rastro de Puar y daré un paso al frente por ti! ¡Lucharé al lado de Goku para tumbar a esa máquina infernal!"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Debido al estado crítico de Tenshinhan, Krillin toma de forma obligatoria su lugar en la formación de batalla. Comprobando la presencia de Octavio...</i>",
+      "text": "¡No te preocupes en absoluto, Tenshinhan! ¡Yo acabo de llegar al complejo siguiendo el rastro de Puar y daré un paso al frente por ti! ¡Lucharé al lado de Goku para tumbar a esa máquina infernal!",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -729,7 +692,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Necios, simples y patéticos mortales! Me da exactamente igual cuántas alimañas os unáis de golpe contra mi intelecto supremo. ¡Vuestros esfuerzos científicos de resistencia son completamente en vano! ¡Experimentaréis la muerte cuántica!"
+      "text": "¡Insolentes sabandijas invasoras! ¿Creéis que sumar vuestras tristes fuerzas detendrá el curso del intelecto supremo? ¡Tanto vuestros campeones mundiales como vuestros ridículos rescatadores arderán bajo el fuego cósmico de mi fortaleza! ¡Experimentaréis la muerte cuántica!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -761,7 +724,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Vuestros patéticos lazos afectivos de la infancia no significan absolutamente nada ante mi armazón mecánico superior! ¡Desapareced de mi laboratorio, asquerosas sabandijas!"
+      "text": "¡Jajaja! ¡Reuníos y luchad, no me importa cuántos vengáis! Vuestra patética fuerza biológica será erradicada por el pináculo del conocimiento humano. ¡Contemplad la verdadera potencia cibernética!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -785,7 +748,15 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Son Goku! Conque tú eres el legendario guerrero que desmanteló por completo al ejército de la Patrulla Roja en mi juventud... ¡Tu estructura física actual posee el nivel idóneo para albergar mi mente superior!"
+      "text": "¡Son Goku! Mis bio-escáneres registraron tu inmenso nivel de energía aproximándose a este santuario de hielo... ¡No me importa quién ostente el patético trofeo de vuestro torneo mundial! ¡Tu estructura física es el templo definitivo que requiero para mi intelecto!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": null,
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "Sé perfectamente que fuiste tú quien destruyó los laboratorios y los sueños de la Patrulla Roja en el pasado. ¡Qué ironía tan deliciosa! Ahora, esa misma fuerza que frustró la ciencia servirá para coronarme como el dios indiscutible de la Tierra."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -822,11 +793,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Uf! Qué susto tan terrible pasamos metidos en esas frías cápsulas mecánicas... Pensé que ese científico desquiciado nos convertiría en simples piezas de repuesto informáticas. Muchísimas gracias por salvarnos la vida, chicos."
-    },
-    {
-      "bg": "backgroundcasagoku.png",
-      "text": "<i>[NARRADOR] El peligroso arco del Dr. Wheelo concluye con un rotundo éxito marcial. Los guerreros regresan a sus pacíficos hogares con la enorme satisfacción del deber cumplido.</i>",
+      "text": "¡Uf! Qué susto tan terrible pasamos metidos en esas frías cápsulas mecánicas... Pensé que ese científico desquiciado nos convertiría en simples piezas de repuesto informáticas. Muchísimas gracias por salvarnos la vida, chicos.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "wheelo_derrotado",
@@ -838,11 +805,11 @@
   "WHEELO_DERROTA_GENERAL": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] El Dr. Wheelo ha triunfado de manera absoluta sobre los defensores del planeta. Con las fuerzas marciales de la Tierra totalmente desmanteladas y humilladas, el científico loco transfiere su cerebro al templo definitivo de carne...</i>"
+      "text": "<i>[NARRADOR] El Dr. Wheelo ha triumfado de manera absoluta sobre los defensores del planeta. Con las fuerzas marciales de la Tierra totalmente desmanteladas y humilladas, el científico loco transfiere su cerebro al templo definitivo de carne...</i>"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] GAME OVER. La humanidad cae en una ineludible era de tiranía cibernética y biológica global. Por favor, carga una partida guardada previa o reintenta los combates desde el menú principal.</i>"
+      "text": "<i>[NARRADOR] GAME OVER. La humanidad cae en una ineludible era de tiranía cibernética y biológica global. Por favor, carga una partida guardada previa o reintenta los combates desde el menú principal.</i>"
     }
   ],
 
