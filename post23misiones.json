@@ -43,7 +43,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡Mua ja ja ja! ¡Llegan tarde, estúpidos mocosos! ¡Esa esfera ya nos pertenece a nosotros!"
+      "text": "¡Mua ja ja ja! ¡Llegan tarde, estúpidos mocosos! ¡Esa esfera ya pertenece al Gran Pilaf!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -67,7 +67,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡Cobardes! ¡No le tengo miedo a un simple bandido del desierto! ¡Ataquen con todo el arsenal!"
+      "text": "¡Cobardes! ¡No le tengo miedo a un simple bandido del desierto! ¡Arranquen los motores del Robot Pilaf Azul y el Robot Pilaf Verde! ¡Ataquen con todo!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -75,27 +75,91 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¿Otra vez ustedes tres? Ya me parecía a mí que esto de buscar esferas estaba siendo demasiado aburrido. Puar, protege a Bulma."
+      "text": "¿Otra vez ustedes tres? Ya me parecía a mí que esto de buscar esferas estaba siendo demasiado aburrido. Puar, protege a Bulma. ¡Voy a desguazar estas chatarras!"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Yamcha no pierde el tiempo charlando. Lanzándose a una velocidad imperceptible, esquiva los misiles de los robots de Pilaf y los hace pedazos uno a uno usando ráfagas de Ki precisas.</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "avatarbandapilaf.png",
-      "rightPort": "avataryamcha23smile.png",
-      "speaker": "left",
-      "name": "Banda Pilaf",
-      "text": "¡Aaaaah! ¡Nuestros robots nuevecitos! ¡Ha destrozado dos años de presupuesto en cinco segundos!"
-    },
+      "leftPort": "avatarpilaf.png",
+      "rightPort": "avataryamcha23giserious.png",
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "¡Preparaos para ver el resultado de mi duro entrenamiento marcial! ¡Allá voy!",
+      "recompensas": {
+        "heal_all": true
+      },
+      "control": {
+        "tipo": "combate",
+        "aliados": ["yamcha"],
+        "enemigos": ["robotpilafazul", "robotpilafverde"],
+        "fondoCombate": "bumpforestbackground.png",
+        "on_win": "MISION_PILAF_FUSION_PREVIA",
+        "on_lose": "MISION_PILAF_DERROTA"
+      }
+    }
+  ],
+
+  "MISION_PILAF_FUSION_PREVIA": [
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarpilaffrustado.png",
       "rightPort": "avataryamcha23smile.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡Maldición! ¡Otra vez nuestros planes de dominación mundial arruinados! ¡Retirada, idiotas, retirada, que nos mata!"
+      "text": "¡Agh! ¡Malos, inútiles! ¡Han destrozado las defensas de los robots individuales!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarmai.png",
+      "rightPort": "avatarshu.png",
+      "speaker": "left",
+      "name": "Mai",
+      "text": "¡Gran Pilaf, no hay tiempo para lamentarse! ¡Active la secuencia de acoplamiento de emergencia!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarmai.png",
+      "rightPort": "avatarshu.png",
+      "speaker": "right",
+      "name": "Shu",
+      "text": "¡Sí! ¡Unamos las tres unidades! ¡Iniciando fusión de sistemas ahora mismo!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Las piezas de metal empiezan a volar y a encastrarse entre sí con un estrépito ensordecedor. Ante la mirada atónita de Yamcha, emerge el imponente Robot Pilaf Fusión.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarpilaf.png",
+      "rightPort": "avataryamcha23giserious.png",
+      "speaker": "left",
+      "name": "Pilaf",
+      "text": "¡¡TIEMBLA, YAMCHA!! ¡Nadie puede superar el poder de nuestra máquina definitiva combinada! ¡Muere!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarpilaf.png",
+      "rightPort": "avataryamcha23giserious.png",
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "Vaya, parece que os guardabais un as bajo la manga... ¡Pero no os servirá de nada contra el poder de mi Sokidan!",
+      "recompensas": {
+        "heal_all": true
+      },
+      "control": {
+        "tipo": "combate",
+        "aliados": ["yamcha"],
+        "enemigos": ["robotpilaffusion"],
+        "fondoCombate": "bumpforestbackground.png",
+        "on_win": "MISION_PILAF_VICTORIA",
+        "on_lose": "MISION_PILAF_DERROTA"
+      }
+    }
+  ],
+
+  "MISION_PILAF_VICTORIA": [
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] El Robot Fusión estalla en mil pedazos tras recibir el impacto de Yamcha. Pilaf, Mai y Shu salen volando envueltos en humo negro.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -103,7 +167,7 @@
       "rightPort": "avataryamcha23smile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Je, pan comido. Aquí tienes la esfera que nos faltaba, Bulma. Misión cumplida."
+      "text": "Je, pan comido. Aquí tienes la esfera que nos faltaba, Bulma."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -111,7 +175,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Aunque oye... Bulma... ¿Te has fijado en ese anciano extraño que nos observaba desde la colina mientras peleaba?"
+      "text": "Aunque oye... Bulma... ¿Te has fijado en ese anciano extraño que nos observaba desde la colina con esos cyborgs?"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -119,10 +183,37 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "Sí... y juraría que los cyborgs que lo acompañaban no eran de Pilaf. Estaban escaneando tus niveles de poder con una tecnología muy avanzada... Me ha dado un escalofrío terrible... Mejor vámonos de aquí rápido.",
+      "text": "Sí... sus máquinas estaban escaneando tus niveles de poder con una tecnología muy avanzada... Me ha dado un escalofrío terrible... Vámonos de aquí rápido.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "mision_yamcha_completada",
+        "default": "FIN_MISION_ANUAL"
+      }
+    }
+  ],
+
+  "MISION_PILAF_DERROTA": [
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23sorprendido.png",
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "Agh... No puede ser... ¿Cómo he podido perder contra estos payasos y sus juguetes de hojalata? Qué humillación..."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23sorprendido.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡¿Pero qué ha sido eso, Yamcha?! ¡Has estado entrenando años enteros para acabar mordiendo el polvo contra Pilaf! ¡Menuda decepción de guerrero, de verdad...!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Entre los reproches de Bulma y las risas burlonas de Pilaf huyendo con la esfera, el año de paz concluye con un amargo sabor a fracaso...</i>",
+      "control": {
+        "tipo": "comprobacion",
         "default": "FIN_MISION_ANUAL"
       }
     }
@@ -208,7 +299,7 @@
     },
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] La tensión se palpa en el aire. Tenshinhan aprieta los puños, recordando los años de abusos. Debe tomar una decisión definitiva sobre su antiguo maestro, y lo que decida moldeará su espíritu...</i>",
+      "text": "<i>[NARRADOR] La tensión se palpa en el aire. Tenshinhan aprieta los puños, recordando los years de abusos. Debe tomar una decisión definitiva sobre su antiguo maestro, y lo que decida moldeará su espíritu...</i>",
       "control": {
         "tipo": "eleccion",
         "opciones": [
@@ -273,7 +364,7 @@
     {
       "bg": "backgorundkamehouse.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Año de paz. Krillin no ha parado de entrenar. Hoy se somete a una prueba de fuego definitiva en la mismísima playa de Kame House.</i>"
+      "text": "<i>[NARRADOR] Year de paz. Krillin no ha parado de entrenar. Hoy se somete a una prueba de fuego definitiva en la mismísima playa de Kame House.</i>"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -330,6 +421,9 @@
       "speaker": "left",
       "name": "Jackie Chun",
       "text": "¡Eso espero! ¡Esta vez no usaré trucos, será un combate de pura fuerza marcial! ¡A defenderse!",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["krillin"],
@@ -381,7 +475,7 @@
     {
       "bg": "backgroundcasagoku.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Un apacible día del año de paz. Goku se encuentra cortando leña fuera de su casa cuando una voz resuena directamente en su mente.</i>"
+      "text": "<i>[NARRADOR] Un apacible día del year de paz. Goku se encuentra cortando leña fuera de su casa cuando una voz resuena directamente en su mente.</i>"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -442,6 +536,9 @@
       "speaker": "left",
       "name": "Goku",
       "text": "Conque quieres pelear, ¿eh? Está bien... ¡Tendré que pararte los pies por las malas antes de que vacíes la despensa!",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -497,35 +594,39 @@
     {
       "bg": "bumpforestbackground.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Año de paz. Goku camina tranquilamente por una zona boscosa en busca de leña cuando divisa unas huellas enormes y mecánicas en el barro...</i>"
+      "text": "<i>[NARRADOR] Year de paz. Goku camina por el bosque en busca de leña cuando divisa a Suno corriendo desesperada y llorando hacia él.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": null,
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "Estas huellas son muy pesadas... ¿Será algún tipo de dinosaurio gigante? No, tienen marcas de metal."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Siguiendo el rastro, Goku llega a un claro del bosque donde una gigantesca y amenazante silueta robótica parece estar acorralando a una niña de pelo rojo.</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Un momento! ¡Ese aspecto gigante y tosco... debe ser un androide malvado de la Patrulla Roja que sigue activo y está aterrorizando a los civiles!"
+      "leftPort": "AvatarPelirroja8.Llorando.png",
+      "rightPort": "avatargoku23weightlesssorpresa.png",
+      "speaker": "left",
+      "name": "Suno",
+      "text": "¡¡Goku, ayuda, por favor!! ¡Es Octavio! ¡Unos hombres extraños con batas blancas lo secuestraron en las montañas del norte y le hicieron algo terrible!"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "AvatarPelirroja8.Llorando.png",
       "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¡¿Qué?! ¡¿Secuestraron a Octavio?! ¿Pero quién querría hacer algo así?"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8Enfadado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
-      "name": "Niña Pelirroja",
-      "text": "¡No, por favor, detente!"
+      "name": "Octavio",
+      "text": "¡Sistemas reiniciados...! ¡Objetivo localizado: Son Goku! ¡Procediendo a la eliminación por orden del creador supremo, el Dr. Wheelo!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarPelirroja8.Llorando.png",
+      "rightPort": "avatargoku23weightlesssorpresa.png",
+      "speaker": "left",
+      "name": "Suno",
+      "text": "¡Goku, sus ojos brillan en rojo, no es él! ¡Le han modificado los circuitos y le han lavado el cerebro! ¡Por favor, sálvalo!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -533,62 +634,173 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡No permitiré que le hagas daño a esa chica, pedazo de chatarra! ¡Allá voy!"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Saltando directamente a la acción por un terrible malentendido visual, Goku desafía al enorme gigante en mitad del claro del bosque.</i>",
+      "text": "¡Maldición, sus golpes rompen el aire! ¡Ese tal Wheelo lo ha vuelto increíblemente fuerte! ¡Octavio, lo siento, pero tendré que noquearte para que vuelvas en ti!",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
-        "enemigos": ["android_8"],
+        "enemigos": ["android_8_wheelo"],
         "fondoCombate": "bumpforestbackground.png",
-        "on_win": "MISION_OCTAVIO_VICTORIA",
+        "on_win": "MISION_OCTAVIO_POST_COMBATE",
         "on_lose": "FIN_MISION_ANUAL"
       }
     }
   ],
 
-  "MISION_OCTAVIO_VICTORIA": [
+  "MISION_OCTAVIO_POST_COMBATE": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Goku logra hacer retroceder al gigante, pero la niña, lejos de huir, se interpone entre ellos gritando con lágrimas en los ojos que se detenga.</i>"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "AvatarPelirroja8.Llorando.png",
-      "rightPort": "avatargoku23weightlessbocabierto.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Espera un segundo...! ¡Esa bufanda, ese abrigo... tú eres Suno! ¡¿Y eso significa que este grandullón es...?! "
+      "text": "<i>[NARRADOR] Tras una fiera batalla donde Goku se ve obligado a emplearse a fondo debido a las drásticas mejoras cibernéticas de Octavio, un cortocircuito hace que las luces rojas de sus ojos se apaguen.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlesssorpresa.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡¡Octavio!! ¡Cielos, eres tú! ¡Qué tonto soy, casi no te reconozco en la sombra de los árboles! ¡Pensé que estabas atacando a Suno!"
+      "rightPort": "avatargoku23weightlessbocabierto.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "(Parpadeando) ¡Agh...! ¿Goku? ¿Suno? ¿Qué... qué ha pasado? Siento la cabeza vacía... y mi cuerpo pesa una tonelada."
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "AvatarPelirroja8.Normal.png",
-      "rightPort": "avatargoku23weightlesssorpresa.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Suno",
-      "text": "¡Goku! ¡Qué alegría verte! No me estaba atacando, simplemente estábamos intentando rescatar a un gatito atrapado y se había quedado enganchado en las ramas."
+      "text": "¡¡Octavio, has vuelto!! ¡Goku lo ha logrado, te ha liberado de ese maldito control mental!"
     },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Me alegro de que estés bien, amigo. Pero dime... ¿quién es ese tal Dr. Wheelo del que hablabas?"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[MOTOR] El sistema comprueba si el evento de Wheelo ya ha sido superado en la línea temporal actual...</i>",
+      "control": {
+        "tipo": "comprobacion",
+        "flags_a_comprobar": [
+          { "flag": "wheelo_derrotado", "valor": true, "salto_a": "MISION_OCTAVIO_AGRADECIMIENTO_WHEELO" }
+        ],
+        "default": "MISION_OCTAVIO_ADVERTENCIA_WHEELO"
+      }
+    }
+  ],
+
+  "MISION_OCTAVIO_AGRADECIMIENTO_WHEELO": [
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "Ah, es verdad... Bulma y tus amigos me dijeron que asaltasteis su laboratorio congelado y destruisteis su cerebro informático para siempre. Gracias por salvarme de esa pesadilla, Goku."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarPelirroja8.Normal.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Suno",
+      "text": "Sí, gracias a ti y a tus amigos, el pueblo del norte vuelve a estar a salvo de esos científicos locos. ¡Sois unos héroes!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Al haber sido modificado con tecnología de punta antes de la caída de Wheelo, Octavio conserva sus nuevos módulos de potencia de forma permanente, agradeciendo la paz recobrada.</i>",
+      "recompensas": {
+        "añadir_item": "ropapesada.png",
+        "cantidad": 1
+      },
+      "control": { "tipo": "comprobacion", "default": "FIN_MISION_ANUAL" }
+    }
+  ],
+
+  "MISION_OCTAVIO_ADVERTENCIA_WHEELO": [
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "Es un cerebro flotante metido en una máquina colosal, oculto en las montañas heladas del norte... Su asistente, el Dr. Kochin, me capturó para probar mi fuerza. Tened cuidado, Goku... Ese monstruo busca el cuerpo del hombre más fuerte del mundo."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¿El cuerpo del más fuerte del mundo? Vaya... eso suena a que tarde o temprano vendrá a por mí o a por el campeón del torneo. Estaremos preparados."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "Ese malvado merece que lo detengan por lo que le hace a la gente y a la naturaleza... Goku, déjame ayudarte. Quiero ir contigo para detenerlo y así vengarme por lo que me hizo."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Octavio aprieta sus enormes puños metálicos. ¿Debería Goku aceptar su ayuda para el inminente asalto al laboratorio del norte?</i>",
+      "control": {
+        "tipo": "eleccion",
+        "opciones": [
+          { "texto": "Aceptar la ayuda de Octavio", "salto_a": "MISION_OCTAVIO_ACEPTA_VENGANZA" },
+          { "texto": "Rechazarla (Que se quede protegiendo a Suno)", "salto_a": "MISION_OCTAVIO_RECHAZA_VENGANZA" }
+        ]
+      }
+    }
+  ],
+
+  "MISION_OCTAVIO_ACEPTA_VENGANZA": [
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "AvatarAndroide8.Normal.png",
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Uf, qué alivio! Me alegra muchísimo ver que sigues tan amable como siempre y cuidando de los tuyos. Perdona por el golpe de antes, amigo, me dejé llevar."
+      "text": "¡Claro que sí, amigo! Tu nueva fuerza nos vendrá genial. Cuando llegue el momento de ir a esas montañas heladas, contaré contigo."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Tras las risas y aclarar la confusión, Suno y Octavio deciden regalarle a Goku una de las prendas ultra-resistentes que llevaban en su equipaje, como recuerdo de la gélida aldea Jingle.</i>",
+      "text": "<i>[NARRADOR] Octavio asiente con determinación. ¡Has conseguido un poderoso aliado para el futuro asalto al Dr. Wheelo! Además, Suno te entrega un obsequio.</i>",
+      "recompensas": {
+        "añadir_item": "ropapesada.png",
+        "cantidad": 1
+      },
+      "control": {
+        "tipo": "comprobacion",
+        "activar_flag": "androide8venganza",
+        "default": "FIN_MISION_ANUAL"
+      }
+    }
+  ],
+
+  "MISION_OCTAVIO_RECHAZA_VENGANZA": [
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Te lo agradezco, Octavio, pero es demasiado peligroso. Además, Suno y tu aldea te necesitan aquí para protegerlos. Yo me encargaré de ese tal Wheelo, te lo prometo."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "...Entiendo. Tienes razón, Goku. Por favor, ten mucho cuidado."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Con los circuitos de Octavio a salvo y una firme promesa hecha, la misión concluye. Suno te entrega un obsequio para el frío.</i>",
       "recompensas": {
         "añadir_item": "ropapesada.png",
         "cantidad": 1
@@ -601,7 +813,7 @@
     {
       "bg": "backgroundcasagoku.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Otro pacífico año en la Montaña Paoz. Goku está a punto de salir a entrenar cuando Chi-Chi lo intercepta.</i>"
+      "text": "<i>[NARRADOR] Otro pacífico year en la Montaña Paoz. Goku está a punto de salir a entrenar cuando Chi-Chi lo intercepta.</i>"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -650,6 +862,9 @@
     {
       "bg": "bumpforestbackground.png",
       "text": "<i>[NARRADOR] Goku da un salto y aterriza frente a las fauces de la bestia escamosa, listo para el combate.</i>",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -693,6 +908,9 @@
       "speaker": "right",
       "name": "Goku",
       "text": "¡Madre mía, parece que habías pisado un nido entero! ¡Esta vez tendré que tomármelo en serio! ¡Todos atrás, voy a usar mi poder al máximo!",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
