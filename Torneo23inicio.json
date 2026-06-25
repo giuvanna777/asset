@@ -96,7 +96,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Krillin",
-      "text": "Por cierto... las inscriptions preliminares están a punto de cerrar. ¿Alguien sabe algo de Goku? Qué raro que no esté aquí."
+      "text": "Por cierto... las inscripciones preliminares están a punto de cerrar. ¿Alguien sabe algo de Goku? Qué raro que no esté aquí."
     },
     {
       "bg": "escenagrupo23tenkaichi.png",
@@ -264,13 +264,16 @@
       "speaker": "left",
       "name": "Krillin",
       "text": "No voy a achicarme, Goku. ¡Pelearé con el orgullo de la Escuela Tortuga!",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["krillin"],
         "enemigos": ["piccolo"],
         "fondoCombate": "bg-tournament",
         "on_win": "T23_WHATIF_KRILLIN_GANA",
-        "activar_flag_win": "krilinganapiccolo",
+        "activar_flag_win": "krilingapiccolo",
         "on_lose": "T23_03_POST_CUARTOS_CANON"
       }
     }
@@ -332,7 +335,7 @@
       "rightInverted": true,
       "speaker": "left",
       "name": "Yamcha",
-      "text": "Me toca contra ese viejo Shen... No sé qué estilo usa, pero voy a demostrarle el verdadero poder del Sokidan. ¡No pienso perder en cuartos!"
+      "text": "Me toca contra ese viejo Shen... No sé qué estilo usa, pero voy a demostrarle el verdadero poder del Sokidan. ¡No pienso perder in cuartos!"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -393,6 +396,9 @@
 
   "T23_SEMI_CANON_JUEGA_GOKU": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["goku"], "enemigos": ["tenshinhan"], "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA", "on_lose": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA", "activar_flag_lose": "tienganagoku"
@@ -402,6 +408,9 @@
 
   "T23_SEMI_CANON_JUEGA_TIEN": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["tenshinhan"], "enemigos": ["goku"], "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_TENSHINHAN_VS_PICCOLO_PREVIA", "activar_flag_win": "tienganagoku", "on_lose": "T23_FINAL_GOKU_VS_PICCOLO_PREVIA"
@@ -516,6 +525,9 @@
 
   "T23_SEMI_ALT_JUEGA_GOKU": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["goku"], "enemigos": ["tenshinhan"], "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA", "on_lose": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA", "activar_flag_lose": "tienganagoku"
@@ -525,6 +537,9 @@
 
   "T23_SEMI_ALT_JUEGA_TIEN": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["tenshinhan"], "enemigos": ["goku"], "fondoCombate": "bg-tournament",
         "on_win": "T23_FINAL_TENSHINHAN_VS_KRILLIN_PREVIA", "activar_flag_win": "tienganagoku", "on_lose": "T23_FINAL_GOKU_VS_KRILLIN_PREVIA"
@@ -579,6 +594,9 @@
       "speaker": "right",
       "name": "Piccolo",
       "text": "¡Tu fin ha llegado, Son Goku!",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["goku"],
@@ -610,7 +628,7 @@
       "rightPort": null,
       "speaker": "none",
       "name": "",
-      "text": "<i>[NARRADOR] La desgracia continúa en el ring. El anciano Shen falla el Mafuba ante Piccolo y es encerrado en el termo. El demonio se lo traga ante la mirada aterrorizada de todos.</i>"
+      "text": "<i>[NARRADOR] La desgracia continúa en el ring. El anciano Shen falla el Mafuba ante Piccolo y es encerrado in el termo. El demonio se lo traga ante la mirada aterrorizada de todos.</i>"
     },
     {
       "bg": "escenacuadrotenkaichi23.png",
@@ -631,6 +649,9 @@
       "speaker": "right",
       "name": "Piccolo",
       "text": "Patético humano de tres ojos... Tu estilo de la Escuela Grulla no es nada ante mí.",
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan"],
@@ -695,6 +716,9 @@
 
   "T23_FINAL_ALT1_JUEGA_GOKU": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["goku"], "enemigos": ["krillin"], "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_GOKU_AMISTOSO", "activar_flag_win": "gokuganatenkaichi", "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO", "activar_flag_lose": "krilinganatenkaichi"
@@ -704,6 +728,9 @@
 
   "T23_FINAL_ALT1_JUEGA_KRILLIN": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["krillin"], "enemigos": ["goku"], "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_KRILLIN_AMISTOSO", "activar_flag_win": "krilinganatenkaichi", "on_lose": "T23_CONCLUSION_GOKU_AMISTOSO", "activar_flag_lose": "gokuganatenkaichi"
@@ -753,6 +780,9 @@
 
   "T23_FINAL_ALT2_JUEGA_TIEN": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["tenshinhan"], "enemigos": ["krillin"], "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_TENSHINHAN_AMISTOSO", "activar_flag_win": "tienganatenkaichi", "on_lose": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN", "activar_flag_lose": "krilinganatenkaichi"
@@ -762,6 +792,9 @@
 
   "T23_FINAL_ALT2_JUEGA_KRILLIN": [
     {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate", "aliados": ["krillin"], "enemigos": ["tenshinhan"], "fondoCombate": "bg-tournament",
         "on_win": "T23_CONCLUSION_KRILLIN_AMISTOSO_TENSHINHAN", "activar_flag_win": "krilinganatenkaichi", "on_lose": "T23_CONCLUSION_TENSHINHAN_AMISTOSO", "activar_flag_lose": "tienganatenkaichi"
