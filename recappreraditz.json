@@ -138,9 +138,9 @@
     },
     {
       "bg": "escenamontaña.png",
-      "text": "<i>[NARRADOR] Esta gloriosa victoria mística le otorgó un incremento masivo en su fuerza espiritual, impulsándolo a romper sus límites marciales día tras día. (+300 BP para Tenshinhan)</i>",
+      "text": "<i>[NARRADOR] Esta gloriosa victoria mística le otorgó un incremento moderado en su fuerza espiritual, impulsándolo a romper sus límites marciales día tras día. (+120 BP para Tenshinhan)</i>",
       "recompensas": {
-        "bp_boost": 300,
+        "bp_boost": 120,
         "personaje_especifico": "tenshinhan"
       },
       "control": {
@@ -155,7 +155,7 @@
       "bg": "backgorundkamehouse.png",
       "cg": null,
       "leftPort": "avatarkrilin23gismile.png",
-      "rightPort": "avatarroshi23sonrisa.png",
+      "rightPort": "avatarroshinaranjasonrisa.png",
       "speaker": "left",
       "name": "Krillin",
       "text": "Aún miro el trofeo de la estantería y no me lo creo, Maestro Roshi... ¡Soy el campeón oficial de artes marciales! Siento que todo el esfuerzo autónomo valió la pena."
@@ -163,16 +163,16 @@
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarkrilin23gismile.png",
-      "rightPort": "avatarroshi23sonrisa.png",
+      "rightPort": "avatarroshinaranjasonrisa.png",
       "speaker": "right",
       "name": "Maestro Roshi",
       "text": "Jo, jo, jo... El camino de la Tortuga premia la astucia y la constancia, Krillin. Has llevado el nombre de nuestra escuela a lo más alto de la historia terrícola."
     },
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Su histórica e inesperada victoria le otorgó una confianza ciega en sus capacidades. Durante este lustro, Krillin ha entrenado sin descanso en la playa desatando un poder interior latente y formidable. (+400 BP para Krillin)</i>",
+      "text": "<i>[NARRADOR] Su histórica e inesperada victoria le otorgó una confianza ciega en sus capacidades. Durante este lustro, Krillin ha entrenado sin descanso en la playa desatando un poder interior latente. (+150 BP para Krillin)</i>",
       "recompensas": {
-        "bp_boost": 400,
+        "bp_boost": 150,
         "personaje_especifico": "krillin"
       },
       "control": {
@@ -213,9 +213,9 @@
     {
       "bg": "escenamontaña.png",
       "cg": "escenatenshinhanentrenando.png",
-      "text": "<i>[NARRADOR] Haber logrado la hazaña de tumbar al mismísimo Son Goku en los cruces de semifinales encendió una llama incombustible en el espíritu de Tenshinhan, obligándole a someterse a rutinas extremas de meditación. (+150 BP)</i>",
+      "text": "<i>[NARRADOR] Haber logrado la hazaña de tumbar al mismísimo Son Goku en los cruces de semifinales encendió una llama incombustible en el espíritu de Tenshinhan, obligándole a someterse a rutinas extras de meditación. (+60 BP)</i>",
       "recompensas": {
-        "bp_boost": 150,
+        "bp_boost": 60,
         "personaje_especifico": "tenshinhan"
       },
       "control": {
@@ -229,9 +229,9 @@
     {
       "bg": "backgorundkamehouse.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Expulsar a Ma Junior del ring en los cuartos de final despojó a Krillin de cualquier atisbo de duda o miedo hacia los demonios. Su potencial combativo se disparó en Kame House. (+200 BP)</i>",
+      "text": "<i>[NARRADOR] Expulsar a Ma Junior del ring en los cuartos de final despojó a Krillin de cualquier atisbo de duda o miedo hacia los demonios. Su potencial combativo se disparó en Kame House. (+80 BP)</i>",
       "recompensas": {
-        "bp_boost": 200,
+        "bp_boost": 80,
         "personaje_especifico": "krillin"
       },
       "control": {
@@ -282,7 +282,7 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Gracias a que Yamcha desmanteló las ambiciones de Pilaf en el bosque salvaje, el guerrero mantuvo su orgullo intacto y Bulma continuó confiando en su fuerza protectora durante los años venideros.</i>",
+      "text": "<i>[NARRADOR] Gracias a que Yamcha desmanteló las ambiciones de Pilaf en el bosque salvaje vistiendo su Gi de combate, el guerrero mantuvo su orgullo intacto y Bulma continuó confiando en su fuerza protectora durante los años venideros.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_CHECK_OCTAVIO"
@@ -328,11 +328,11 @@
   "RADITZ_CHECK_OCTAVIO": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] El secuenciador escanea ahora el estado del Androide Octavio analizando los flags 'androide8venganza' y 'wheelo_derrotado'...</i>",
+      "text": "<i>[MOTOR] El secuenciador escanea ahora el estado del Androide Octavio analizando las flags de la aventura en el norte...</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
-          { "flag": "androide8venganza", "valor": true, "salto_a": "RADITZ_RECAP_OCTAVIO_ALIADO" }
+          { "flag": "goku_va_con_ocho", "valor": true, "salto_a": "RADITZ_RECAP_OCTAVIO_ALIADO" }
         ],
         "default": "RADITZ_RECAP_OCTAVIO_ESTANDAR"
       }
@@ -367,7 +367,7 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] En las estepas nevadas de la Aldea Jingle, Octavio y Suno disfrutan de una complicidad inquebrantable. Al haber purgado el control mental del Dr. Wheelo en combate directo al lado de Goku, el androide se convirtió en un baluarte de paz permanente.</i>",
+      "text": "<i>[NARRADOR] En las estepas nevadas de la Aldea Jingle, Octavio y Suno disfrutan de una complicidad inquebrantable. Al haber purgado el control mental del Dr. Wheelo en combate directo al lado de Goku, el androide se convirtió en un baluaras de paz permanente.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_REPASO_VIDAS_GENERAL"
@@ -439,7 +439,7 @@
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarkrilin23gismile.png",
-      "rightPort": "avatarroshi23sonrisa.png",
+      "rightPort": "avatarroshinaranjasonrisa.png",
       "speaker": "left",
       "name": "Krillin",
       "text": "Mientras tanto, en las orillas de Kame House, la brisa marina sopla igual que siempre. El Maestro Roshi sigue tumbado leyendo sus revistas bajo el sol..."
@@ -447,15 +447,15 @@
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarkrilin23gismile.png",
-      "rightPort": "avatarroshi23sonrisa.png",
+      "rightPort": "avatarroshinaranjasonrisa.png",
       "speaker": "right",
       "name": "Maestro Roshi",
-      "text": "Jo, jo, jo... Un buen descanso es fundamental para mantener la longevidad marcial, Krillin. Pero veo que tú no dejas de pulir tus pasos en la arena."
+      "text": "Un descanso fundamental para mantener la longevidad marcial, Krillin. Pero veo que tú no dejas de pulir tus pasos marciales en la arena."
     },
     {
       "bg": "escenamontaña.png",
       "cg": "escenatenshinhanentrenando.png",
-      "text": "<i>[NARRADOR] Muy lejos de la civilización, en los picos montañosos cubiertos de niebla perpetua, Tenshinhan y Chaoz han mantenido una guardia de hierro inquebrantable, endureciendo sus cuerpos ante las peores ventiscas.</i>"
+      "text": "<i>[NARRADOR] Muy lejos de la civilización, en los picos montañosos cubiertos de niebla perpetua, Tenshinhan y Chaoz han maintained una guardia de hierro inquebrantable, endureciendo sus cuerpos ante las peores ventiscas.</i>"
     },
     {
       "bg": "escenamontaña.png",
