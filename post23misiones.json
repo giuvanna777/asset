@@ -39,7 +39,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¿Ah sí? ¿Tan cerca está? Déjame ver... Es verdad, parpadea con mucha fuerza en esa dirección. Parece que está oculta justo en esa cueva de ahí delante, detrás de esos matorrales."
+      "text": "¿Ah sí? ¿Tan cerca está? Déjame ver... Es verdad, parpadea con mucha fuerza en esa direction. Parece que está oculta justo en esa cueva de ahí delante, detrás de esos matorrales."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -331,7 +331,7 @@
       "rightPort": "avatarchaozserio.png",
       "speaker": "left",
       "name": "Maestro Shen",
-      "text": "¡Cierra el pico, enano traidor y desagradecido! Escúchame bien, Tenshinhan: desde el absoluto desastre y la humillación del último Torneo de Artes Marciales, la Escuela de la Grulla ha caído in la miseria absoluta. ¡Todos los dojos rivales se ríen de nosotros en nuestra propia cara!"
+      "text": "¡Cierra el pico, enano traidor y desagradecido! Escúchame bien, Tenshinhan: desde el absoluto desastre y la humillación del último Torneo de Artes Marciales, la Escuela de la Grulla ha caído en la miseria absoluta. ¡Todos los dojos rivales se ríen de nosotros en nuestra propia cara!"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -432,7 +432,7 @@
     {
       "bg": "backgorundkamehouse.png",
       "cg": null,
-      "text": "<i>[NARRADOR] Año de paz. Krillin no ha dejado de entrenar ni un solo día desde que concluyó el torneo. Hoje se somete a una prueba de fuego definitiva ideada en secreto en la mismísima playa de Kame House...</i>"
+      "text": "<i>[NARRADOR] Año de paz. Krillin no ha dejado de entrenar ni un solo día desde que concluyó el torneo. Hoy se somete a una prueba de fuego definitiva ideada en secreto en la mismísima playa de Kame House...</i>"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -524,7 +524,7 @@
       "rightPort": "avatarkrilin23gismile.png",
       "speaker": "left",
       "name": "Maestro Roshi",
-      "text": "Ya no tienes absolutamente nada más que aprender de este viejo maestro. Te has convertido en un verdadero referente de las artes marciales. A partir de hoje, dejaré a un lado mi retiro definitivo y lucharé codo con codo a vuestro lado si el planeta Tierra vuelve a estar en peligro."
+      "text": "Ya no tienes absolutamente nada más que aprender de este viejo maestro. Te has convertido en un verdadero referente de las artes marciales. A partir de hoy, dejaré a un lado mi retiro definitivo y lucharé codo con codo a vuestro lado si el planeta Tierra vuelve a estar en peligro."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -581,7 +581,7 @@
       "rightPort": "AvatarYajirobeNervioso.png",
       "speaker": "left",
       "name": "Maestro Korin",
-      "text": "¡Leva haciendo exactamente eso durante horas enteras! ¡Si continúa devorando las semillas a este ritmo tan desenfrenado, va a vaciar por completo las reservas mágicas de la próxima década del santuario! ¡Detenlo de una vez, Goku!"
+      "text": "¡Lleva haciendo exactamente eso durante horas enteras! ¡Si continúa devorando las semillas a este ritmo tan desenfrenado, va a vaciar por completo las reservas mágicas de la próxima década del santuario! ¡Detenlo de una vez, Goku!"
     },
     {
       "bg": "backgroundtorrekorin.png",
