@@ -39,7 +39,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¿Ah sí? ¿Tan cerca está? Déjame ver... Es verdad, parpadea con mucha fuerza en esa direction. Parece que está oculta justo en esa cueva de ahí delante, detrás de esos matorrales."
+      "text": "¿Ah sí? ¿Tan cerca está? Déjame ver... Es verdad, parpadea con mucha fuerza en esa dirección. Parece que está oculta justo en esa cueva de ahí delante, detrás de esos matorrales."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -67,7 +67,7 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Justo cuando Bulma se dispone a dar el primer paso hacia la oscura entrada, un estruendo metálico hace eco en todo el valle, blocking la entrada de la cueva con una gigantesca compuerta de acero.</i>"
+      "text": "<i>[NARRADOR] Justo cuando Bulma se dispone a dar el primer paso hacia la oscura entrada, un estruendo metálico hace eco en todo el valle, bloqueando la entrada de la cueva con una gigantesca compuerta de acero.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -493,7 +493,7 @@
       "control": {
         "tipo": "combate",
         "aliados": ["krillin"],
-        "enemigos": ["jackie_chun_170"],
+        "enemigos": ["jackie_chun"],
         "fondoCombate": "backgorundkamehouse.png",
         "on_win": "MISION_KRILLIN_VICTORIA",
         "on_lose": "FIN_MISION_ANUAL"
@@ -531,7 +531,7 @@
       "text": "<i>[NARRADOR] Al superar con honores la prueba definitiva de la Escuela Tortuga, el control de la energía espiritual de Krillin aumenta exponencialmente, ganando confianza. (+50 Ki Max y el Maestro Roshi se desbloquea como aliado permanente).</i>",
       "recompensas": {
         "ki_boost": 50,
-        "desbloquear_personaje": "roshi"
+        "desbloquear_personaje": "jackie_chun"
       },
       "control": { "tipo": "comprobacion", "default": "FIN_MISION_ANUAL" }
     }
@@ -854,7 +854,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Te agradezco de corazón el ofrecimiento, Octavio, pero este combatiente de infiltración es demasiado peligroso para ti. Además, Suno y toda tu aldea te necesitan desesperadamente aquí para protegerlos de bandidos. Yo mismo me encargaré por completo de ese tal Wheelo, te lo prometo."
+      "text": "Te agradezco de corazón el ofrecimiento, Octavio, pero este combate de infiltración es demasiado peligroso para ti. Además, Suno y toda tu aldea te necesitan desesperadamente aquí para protegerlos de bandidos. Yo mismo me encargaré por completo de ese tal Wheelo, te lo prometo."
     },
     {
       "bg": "backgroundjinglevillage.png",
