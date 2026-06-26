@@ -12,7 +12,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsonrisa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
       "text": "¡Uf, qué calor horroroso hace aquí! Se me está pegando la ropa al cuerpo y encima este maldito bosque parece no tener fin. ¡Odio la naturaleza salvaje!"
@@ -20,7 +20,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsonrisa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
       "text": "Vamos, Bulma, no te quejes tanto. Piensa en el lado positivo: el ejercicio es buenísimo para mantenerse en forma, y caminar por este terreno es un gran entrenamiento para mis piernas."
@@ -28,7 +28,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
       "text": "¡Claro, como tú solo piensas en tus malditos músculos marciales! A mí lo que me importa es terminar esto rápido. Mira, según el Radar del Dragón, la última esfera que necesitamos está a unos cien metros exactos."
@@ -52,7 +52,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarpuar.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
       "text": "Je, gracias Puar. He estado practicando unos movimientos nuevos que combinan velocidad y ráfagas de ki. Si sale algún tigre dientes de sable, se va a llevar una buena sorpresa."
@@ -60,14 +60,14 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsonrisa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
       "text": "Sí, sí, eres muy fuerte y todo lo que quieras, pero te exijo que no te despistes ni un solo segundo. No quiero que nos pase lo de la última vez. Venga, entremos a la cueva y cojamos esa maldita bola de una vez."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Justo cuando Bulma se dispone a dar el primer paso hacia la oscura entrada, un estruendo metálico hace eco en todo el valle, bloqueando la entrada de la cueva con una gigantesca compuerta de acero.</i>"
+      "text": "<i>[NARRADOR] Justo cuando Bulma se dispone a dar el primer paso hacia la oscura entrada, un estruendo metálico hace eco en todo el valle, blocking la entrada de la cueva con una gigantesca compuerta de acero.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -128,7 +128,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
       "text": "¡Preparaos para ver los frutos de mi sudor y mi duro entrenamiento marcial! ¡No soy el mismo rezagado de antes, os vais a enterar! ¡Allá voy!",
@@ -148,7 +148,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarpilaffrustado.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Pilaf",
       "text": "¡Agh! ¡Malos, incompetentes, buenos para nada! ¡Han destrozado por completo las defensas externas de los robots individuales en un abrir y cerrar de ojos!"
@@ -196,7 +196,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarpilaf.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
       "text": "¡Pero la tecnología barata no os servirá de absolutamente nada contra la pureza y el poder de mi Sokidan concentrado! ¡Vamos a ver qué tal aguanta vuestro blindaje!",
@@ -220,7 +220,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsonrisa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
       "text": "Soplido... Je, pan comido después de todo. Sus movimientos eran demasiado predecibles. Aquí tienes la esfera de cuatro estrellas que nos faltaba, Bulma. Misión cumplida."
@@ -228,7 +228,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsonrisa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
       "text": "¡Ay, Yamcha, estuviste increíble! Por un momento pensé que esa mole de metal nos iba a aplastar a todos, pero supiste mantener la calma. ¡Ese Sokidan tuyo es una maravilla!"
@@ -247,11 +247,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "Sí... me di cuenta... Sus malditas máquinas nos estaban apuntando directamente, como si escanearan tus niveles de ki con un software extremadamente avanzado... Me ha dado un escalofrío terrible en la espalda... Vámonos de aquí lo antes posible."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Con una extraña sensación de inquietud rondando sus mentes por culpa de los misteriosos observadores, nuestros amigos recogen la esfera y se retiran del espeso bosque...</i>",
+      "text": "Sí... me di cuenta... Sus malditas máquinas nos estaban apuntando directamente, como si escanearan tus niveles de ki con un software extremadamente avanzado... Me ha dado un escalofrío terrible en la espalda... Vámonos de aquí lo antes posible.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "mision_yamcha_completada",
@@ -264,7 +260,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23sorprendido.png",
+      "rightPort": "avataryamcha23gisorprendido.png",
       "speaker": "right",
       "name": "Yamcha",
       "text": "Agh... Coff... No puede ser posible... ¿Cómo he podido morder el polvo de esta forma tan humillante contra estos tres payasos y sus patéticos juguetes de hojalata armada? Qué desgracia..."
@@ -272,7 +268,7 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23sorprendido.png",
+      "rightPort": "avataryamcha23gisorprendido.png",
       "speaker": "left",
       "name": "Bulma",
       "text": "¡¿Pero qué demonios ha sido ese desastre, Yamcha?! ¡Me prometiste que estabas preparado! ¡Has estado entrenando de forma infernal durante años enteros para acabar derrotado por Pilaf! ¡Menuda decepción absoluta de guerrero!"
@@ -285,7 +281,8 @@
         "default": "FIN_MISION_ANUAL"
       }
     }
-  ],
+  ]
+}
 
   "MISION_GRULLA_INICIO": [
     {
