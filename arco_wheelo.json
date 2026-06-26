@@ -304,7 +304,7 @@
       },
       "control": {
         "tipo": "combate",
-        "aliados": ["krillin", "roshi"],
+        "aliados": ["krillin", "jackie_chun"],
         "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_KRILLIN_RESCATE",
@@ -392,7 +392,7 @@
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["krillin", "roshi"],
+        "aliados": ["krillin", "jackie_chun"],
         "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_KRILLIN_BOSS",
@@ -456,7 +456,7 @@
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["krillin", "roshi"],
+        "aliados": ["krillin", "jackie_chun"],
         "enemigos": ["wheelo"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_VICTORIA_BUENA",
