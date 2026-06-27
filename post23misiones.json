@@ -2,12 +2,11 @@
   "MISION_PILAF_INICIO": [
     {
       "bg": "bumpforestbackground.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Año de paz en la Tierra. Tras los brutales acontecimientos del último Torneo de Artes Marciales, nuestros héroes disfrutan de una relativa tranquilidad, aunque la búsqueda de las esferas mágicas nunca se detiene...</i>"
+      "text": "<i>[NARRADOR] Los meses de paz tras el torneo han sido tranquilos, quizás demasiado. Yamcha, Bulma y Puar recorren un bosque espeso siguiendo el pitido insistente del Radar del Dragón. La última esfera. La séptima.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Explorando un denso y escarpado bosque lleno de vegetación salvaje y caminos olvidados, el grupo compuesto por Yamcha, Bulma y el pequeño Puar se encuentra rastreando una lectura muy intensa en el radar.</i>"
+      "text": "<i>[NARRADOR] El calor húmedo del bosque aplasta el ambiente. Los insectos zumban. Las ramas crujen bajo sus pasos. La señal del radar pulsa con fuerza, cada vez más cerca.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -15,7 +14,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Uf, qué calor horroroso hace aquí! Se me está pegando la ropa al cuerpo y encima este maldito bosque parece no tener fin. ¡Odio la naturaleza salvaje!"
+      "text": "Yamcha, te juro por todo lo que quiero que si no encontramos esa esfera en los próximos cinco minutos me vuelvo a casa. Llevo tres horas con estos zapatos hundiéndose en el barro."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -23,7 +22,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Vamos, Bulma, no te quejes tanto. Piensa en el lado positivo: el ejercicio es buenísimo para mantenerse en forma, y caminar por este terreno es un gran entrenamiento para mis piernas."
+      "text": "Relájate un poco. Mira el lado bueno, el terreno irregular es perfecto para trabajar el equilibrio y la pisada. Yo lo aprovecho hasta cuando voy al mercado."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -31,15 +30,15 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Claro, como tú solo piensas en tus malditos músculos marciales! A mí lo que me importa es terminar esto rápido. Mira, según el Radar del Dragón, la última esfera que necesitamos está a unos cien metros exactos."
+      "text": "Eso es exactamente lo que diría alguien que no lleva sandalias. Dame el radar."
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
       "rightPort": "avataryamcha23gismile.png",
-      "speaker": "right",
-      "name": "Yamcha",
-      "text": "¿Ah sí? ¿Tan cerca está? Déjame ver... Es verdad, parpadea con mucha fuerza en esa dirección. Parece que está oculta justo en esa cueva de ahí delante, detrás de esos matorrales."
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "Espera... está aquí mismo. A unos ochenta metros, detrás de esa formación rocosa. Hay una cueva."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -47,7 +46,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Puar",
-      "text": "¡Menos mal! Ya estaba empezando a preocuparme. ¡Con Yamcha aquí no hay nada que temer! ¡Su renovada técnica del lobo espantaría a cualquier monstruo o bestia gigante del bosque!"
+      "text": "¡Por fin! Yamcha, tú primero. Por si acaso hay algo dentro."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -55,19 +54,11 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Je, gracias Puar. He estado practicando unos movimientos nuevos que combinan velocidad y ráfagas de ki. Si sale algún tigre dientes de sable, se va a llevar una buena sorpresa."
+      "text": "Tranquilos los dos. He entrenado cada día desde el torneo. Si hay algo ahí dentro, lo que sea, va a lamentarlo."
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarbulmaraditzsonrisa.png",
-      "rightPort": "avataryamcha23gismile.png",
-      "speaker": "left",
-      "name": "Bulma",
-      "text": "Sí, sí, eres muy fuerte y todo lo que quieras, pero te exijo que no te despistes ni un solo segundo. No quiero que nos pase lo de la última vez. Venga, entremos a la cueva y cojamos esa maldita bola de una vez."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Justo cuando Bulma se dispone a dar el primer paso hacia la oscura entrada, un estruendo metálico hace eco en todo el valle, bloqueando la entrada de la cueva con una gigantesca compuerta de acero.</i>"
+      "text": "<i>[NARRADOR] Bulma da un paso hacia la cueva. El radar pita con fuerza. Entonces, con un estruendo metálico que hace temblar los árboles, una compuerta de acero macizo cae desde arriba bloqueando la entrada por completo.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -75,7 +66,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡¿Pero qué demonios ha sido eso?! ¡Una trampa! ¡La entrada se ha cerrado por completo de la nada!"
+      "text": "¡¿Qué ha sido eso?! ¡Una trampa! ¡Nos han cerrado la entrada!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -83,7 +74,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¡Bulma, ponte detrás de mí! Siento tres presencias extrañas ocultas entre las copas de los árboles... Espera, no son seres orgánicos, ¡huelen a combustible y metal!"
+      "text": "Detrás de mí, los dos. Siento tres presencias entre los árboles. No son humanas... huelen a aceite y circuitos quemados."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -91,7 +82,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡Mua ja ja ja! ¡Es inútil que intenten defenderse, estúpidos mocosos insolentes! ¡Llegan demasiado tarde! ¡Esa preciosa esfera de cristal ya pertenece legítimamente al Gran e Inigualable Pilaf!"
+      "text": "¡Mua ja ja! ¡Llegáis tarde, incompetentes! ¡La esfera de cuatro estrellas lleva media hora en mi poder! ¡El Gran Pilaf vuelve a estar un paso por delante de todos vosotros!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -99,7 +90,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Mai",
-      "text": "¡Gran Pilaf, tenga mucho cuidado con sus provocaciones! Los sensores de los robots defensivos nos están indicando que estos sujetos son los aliados cercanos de Son Goku. Sus niveles de combate han subido muchísimo."
+      "text": "Gran Pilaf... los escáneres indican que el sujeto de pelo largo es uno de los aliados directos de Son Goku. Sus niveles de combate han aumentado de forma significativa desde la última vez que tuvimos datos."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -107,7 +98,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Shu",
-      "text": "¡Mai tiene toda la razón de los circuitos! ¡Las lecturas dicen que el sujeto del pelo largo nos puede despedazar en tres segundos! ¡Deberíamos activar la formación defensiva de escape B antes de que nos miren!"
+      "text": "¡Yo sugiero con todo el respeto del mundo que activemos el protocolo de retirada inmediata antes de que ese tío nos mire mal!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -115,7 +106,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡Silencio, par de cobardes inútiles! ¡Yo no le tengo ningún miedo a un simple bandido del desierto retirado! ¡He invertido todo mi presupuesto anual en estas armaduras! ¡Arranquen los motores del Robot Pilaf Verde y el Robot Pilaf Rosa! ¡Ataquen!"
+      "text": "¡Silencio! ¡He invertido todos los fondos de la tesorería imperial en estas dos máquinas de combate y no pienso huir de un bandido del desierto reconvertido en héroe! ¡Robot Verde, Robot Rosa, atacad ahora mismo!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -123,7 +114,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¿Otra vez ustedes tres fastidiando? Ya me parecía a mí que esto de buscar esferas estaba siendo demasiado aburrido y pacífico. Puar, quédate al lado de Bulma y protégela si disparan misiles. ¡Voy a desguazar estas chatarras vivientes!"
+      "text": "Otra vez vosotros tres... Puar, quédate con Bulma y manteneos alejados. Esto no me va a llevar mucho tiempo."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -131,7 +122,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¡Preparaos para ver los frutos de mi sudor y mi duro entrenamiento marcial! ¡No soy el mismo rezagado de antes, os vais a enterar! ¡Allá voy!",
+      "text": "No soy el mismo que conocisteis. El torneo me cambió, y el entrenamiento desde entonces me ha cambiado aún más. ¡Vamos allá!",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -151,7 +142,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡Agh! ¡Malos, incompetentes, buenos para nada! ¡Han destrozado por completo las defensas externas de los robots individuales en un abrir y cerrar de ojos!"
+      "text": "¡Imposible! ¡Dos máquinas de última generación destruidas en... en menos de un minuto! ¡Esto es un ultraje!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -159,7 +150,7 @@
       "rightPort": "avatarshu.png",
       "speaker": "left",
       "name": "Mai",
-      "text": "¡Gran Pilaf, no gaste saliva en insultarnos que no hay tiempo para lamentaciones! ¡Los propulsores están al borde del colapso! ¡Active la secuencia de acoplamiento automático de emergencia!"
+      "text": "¡Gran Pilaf, los núcleos de fusión están listos! ¡Si activamos el protocolo de acoplamiento ahora todavía tenemos una oportunidad!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -167,15 +158,15 @@
       "rightPort": "avatarshu.png",
       "speaker": "right",
       "name": "Shu",
-      "text": "¡Sí, es nuestra última carta! ¡Unamos las tres unidades principales antes de que nos deje sin piezas! ¡Iniciando fusión forzada de sistemas ahora mismo!"
+      "text": "¡Iniciando secuencia de fusión de emergencia! ¡Que nadie se mueva!"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Las compuertas traseras de las máquinas destrozadas se abren de golpe. Engranajes, cables incandescentes y planchas de metal empiezan a volar por los aires y a encastrarse entre sí con un estrépito ensordecedor.</i>"
+      "text": "<i>[NARRADOR] Los restos humeantes de las dos máquinas empiezan a moverse. Piezas metálicas vuelan, engranajes encajan, cables se conectan solos. El bosque tiembla con el estrépito del metal fundiéndose en una sola forma.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Ante la mirada atónita y expectante de Yamcha y Bulma, el humo de las explosiones se disipa para revelar una silueta colosal y amenazante: ¡Emerge el imponente Robot Pilaf Fusión!</i>"
+      "text": "<i>[NARRADOR] Cuando el humo se disipa, lo que queda en pie es una cosa enorme. El Robot Pilaf Fusión. Más alto que los árboles, con los tres idiotas dentro gritándose instrucciones el uno al otro.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -183,7 +174,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Pilaf",
-      "text": "¡¡TIEMBLA DE MIEDO, YAMCHA!! ¡Nadie en este miserable planeta puede superar el poder destructivo de nuestra máquina definitiva combinada! ¡Siente la furia de la ciencia! ¡Muere!"
+      "text": "¡¡JA!! ¡Ahora sí, miserable! ¡Esta es la verdadera forma del Gran Pilaf! ¡Nada en este planeta puede resistir el poder combinado de la Máquina Fusión definitiva!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -191,7 +182,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Vaya, vaya, parece que después de todo os guardabais un as bastante ruidoso bajo la manga... Admito que el tamaño impresiona un poco..."
+      "text": "Admito que el tamaño sorprende. Un poco."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -199,7 +190,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¡Pero la tecnología barata no os servirá de absolutamente nada contra la pureza y el poder de mi Sokidan concentrado! ¡Vamos a ver qué tal aguanta vuestro blindaje!",
+      "text": "Pero hacerse grande no es lo mismo que hacerse fuerte. Voy a enseñaros la diferencia ahora mismo.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -215,7 +206,7 @@
   "MISION_PILAF_VICTORIA": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] El gigantesco Robot Fusión estalla en mil pedazos incandescentes tras recibir el impacto directo de la técnica de Yamcha. Entre la humareda, Pilaf, Mai y Shu salen disparados por los aires envueltos en hollín negro.</i>"
+      "text": "<i>[NARRADOR] El Robot Fusión cae en pedazos. Pilaf, Mai y Shu salen volando entre los escombros, aterrizan en unos arbustos lejanos y desaparecen entre maldiciones ahogadas y el sonido de ramas rompiéndose.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -223,7 +214,7 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Soplido... Je, pan comido después de todo. Sus movimientos eran demasiado predecibles. Aquí tienes la esfera de cuatro estrellas que nos faltaba, Bulma. Misión cumplida."
+      "text": "Aquí está. La de cuatro estrellas. Estaba dentro de la cueva todo el tiempo, solo había que... quitar la puerta."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -231,7 +222,15 @@
       "rightPort": "avataryamcha23gismile.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Ay, Yamcha, estuviste increíble! Por un momento pensé que esa mole de metal nos iba a aplastar a todos, pero supiste mantener la calma. ¡Ese Sokidan tuyo es una maravilla!"
+      "text": "¡Yamcha! ¡Eso fue increíble! Cuando esa máquina gigante se levantó pensé que... bueno, que igual sí que teníamos un problema. Pero no dudaste ni un segundo."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarbulmaraditzsonrisa.png",
+      "rightPort": "avataryamcha23gismile.png",
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "Llevaba meses esperando una excusa para probar el Sokidan mejorado. Pilaf me ha hecho un favor."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -239,7 +238,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Gracias, Bulma... Aunque oye, ponte seria un momento... ¿Te has fijado en ese anciano extraño de barba blanca que nos observaba fijamente desde lo alto de la colina? No estaba solo, iba acompañado de unos cyborgs de aspecto tétrico."
+      "text": "Oye, Bulma. Antes, durante el combate... había alguien observando desde la colina. Un anciano con barba blanca. Y no estaba solo. Llevaba máquinas, escáneres de ki. Nos estaba midiendo."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -247,7 +246,15 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "Sí... me di cuenta... Sus malditas máquinas nos estaban apuntando directamente, como si escanearan tus niveles de ki con un software extremadamente avanzado... Me ha dado un escalofrío terrible en la espalda... Vámonos de aquí lo antes posible.",
+      "text": "Lo vi. También vi cómo uno de sus aparatos me apuntó directamente cuando tú empezaste a cargar el ki. Fuera quien fuera, tiene tecnología muy avanzada. No me gusta nada."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23giserious.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "Vámonos. Cuanto antes salgamos de aquí, mejor. Luego aviso a Goku.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "mision_yamcha_completada",
@@ -263,7 +270,7 @@
       "rightPort": "avataryamcha23gisorprendido.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Agh... Coff... No puede ser posible... ¿Cómo he podido morder el polvo de esta forma tan humillante contra estos tres payasos y sus patéticos juguetes de hojalata armada? Qué desgracia..."
+      "text": "Cómo... cómo es posible... Pilaf. Me ha ganado Pilaf."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -271,11 +278,27 @@
       "rightPort": "avataryamcha23gisorprendido.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡¿Pero qué demonios ha sido ese desastre, Yamcha?! ¡Me prometiste que estabas preparado! ¡Has estado entrenando de forma infernal durante años enteros para acabar derrotado por Pilaf! ¡Menuda decepción absoluta de guerrero!"
+      "text": "Yamcha. Yamcha, mírame. ¿Estás bien físicamente?"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Entre los amargos y estridentes reproches de Bulma y las risas burlonas de la banda de Pilaf huyendo hacia el horizonte con la esfera ganada, el año de paz concluye con un terrible y frustrante sabor a fracaso...</i>",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23gisorprendido.png",
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "Estoy... sí. Estoy bien. Solo es el orgullo."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23gisorprendido.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "Bien. Entonces escúchame: esto no vuelve a pasar. Cuando lleguemos a casa, llamas a Goku y le dices que necesitas entrenar más duro. ¿De acuerdo?"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Pilaf se aleja con la esfera entre carcajadas. El año de paz termina con un sabor amargo. Pero también con una determinación nueva.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "FIN_MISION_ANUAL"
@@ -286,12 +309,11 @@
   "MISION_GRULLA_INICIO": [
     {
       "bg": "trainingislandbackground.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Año de paz en el planeta Tierra. Completamente aislados en las inhóspitas y desoladas montañas rocosas del norte, Tenshinhan y su inseparable compañero Chaoz continúan sometiéndose a un entrenamiento espartano...</i>"
+      "text": "<i>[NARRADOR] Las montañas del norte. Aisladas, frías, perfectas. Tenshinhan lleva semanas aquí con Chaoz, lejos de ciudades, lejos de ruido, lejos de todo lo que una vez les enseñaron a despreciar.</i>"
     },
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] El sudor cae por sus frentes mientras meditan flotando en el aire. Sin embargo, la paz mental que buscan está a punto de verse perturbada por una vieja y oscura sombra del pasado que se niega a morir.</i>"
+      "text": "<i>[NARRADOR] Meditan flotando a tres metros del suelo. El viento no les molesta. El frío tampoco. Están donde necesitan estar.</i>"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -299,7 +321,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Chaoz",
-      "text": "Ten... Disculpa que interrumpa tu concentración, pero acabo de percibir un Ki extraño que se aproxima lentamente por la ladera este de la montaña. Es una energía bastante débil y desgastada, pero... me resulta horriblemente familiar."
+      "text": "Ten... hay alguien subiendo por la ladera este. Ki débil, irregular. Cansado. Pero... lo conozco."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -307,7 +329,7 @@
       "rightPort": "avatartenshinhan23gipreocupado.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Mmm... Sí, Chaoz. Yo también lo he sentido hace unos instantes. Esperaba estar sufriendo una alucinación debido al cansancio, pero no cabe duda. Es él... Quédate detrás de mí y no intervengas pase lo que pase."
+      "text": "Sí. Ya lo sentí. Pensé que sería el cansancio jugándome una mala pasada. No lo es. Quédate detrás de mí y no intervengas sin que yo te lo diga."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -315,7 +337,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Maestro Shen",
-      "text": "Vaya, vaya... Pero si es Tenshinhan, mi antiguo alumno prodigio y mi mayor orgullo decepcionante. Te he estado buscando por mar y tierra. Mírate nada más, desperdiciando tu inmenso potencial marcial meditando en este estúpido agujero polvoriento."
+      "text": "Cuánto tiempo, Tenshinhan. Te encuentro bien. Más fuerte que la última vez que te vi, si es posible. Aunque malgastando ese poder meditando en una roca en medio de ningún sitio."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -323,7 +345,47 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "¿Qué es lo que buscas aquí, Shen? Pensé que te había quedado meridianamente claro en el último torneo que ni Chaoz ni yo queríamos volver a saber nada de ti ni de tus sucios ideales."
+      "text": "Shen. Creí que habías entendido el mensaje en el torneo."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "leftPort": "avatarshengrulla.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "left",
+      "name": "Maestro Shen",
+      "text": "El mensaje lo entendí perfectamente. Vine de todas formas. Desde que abandonaste la escuela, el nombre de la Grulla ha quedado en el suelo. Los otros dojos nos señalan. Mis alumnos me abandonan. Todo lo que construí durante décadas se está desmoronando."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "leftPort": "avatarshengrulla.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "left",
+      "name": "Maestro Shen",
+      "text": "Necesito que vuelvas. Tú eres la Escuela de la Grulla, Tenshinhan, aunque no lo quieras reconocer. Juntos podemos reconstruirla. Te doy todo lo que quieras. Dinero, influencia, territorio."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "leftPort": "avatarshengrulla.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "right",
+      "name": "Tenshinhan",
+      "text": "No."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "leftPort": "avatarshengrulla.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "left",
+      "name": "Maestro Shen",
+      "text": "¿No? ¿Solo eso? ¿Después de todo lo que te di? Te saqué de la calle siendo un crío. Te enseñé cada técnica que tienes. Te convertí en el guerrero que eres ahora."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "leftPort": "avatarshengrulla.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "right",
+      "name": "Tenshinhan",
+      "text": "Me enseñaste a matar. A cobrar. A no hacer preguntas sobre a quién le hacíamos daño. Sí, me hiciste fuerte. Y luego usé esa fuerza para hacerle daño a gente inocente durante años. Eso es lo que me diste, Shen."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -331,15 +393,7 @@
       "rightPort": "avatarchaozserio.png",
       "speaker": "left",
       "name": "Maestro Shen",
-      "text": "¡Cierra el pico, enano traidor y desagradecido! Escúchame bien, Tenshinhan: desde el absoluto desastre y la humillación del último Torneo de Artes Marciales, la Escuela de la Grulla ha caído en la miseria absoluta. ¡Todos los dojos rivales se ríen de nosotros en nuestra propia cara!"
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "leftPort": "avatarshengrulla.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Maestro Shen",
-      "text": "Por eso he venido personalmente. Necesito que regreses a mi lado. Juntos refundaremos la orden de asesinos implacables más temida y respetada de todo el planeta. Te daré una vida llena de lujos, riquezas y un poder inimaginable."
+      "text": "¡Malagradecido! ¡Tú y este enano inútil sois iguales! ¿Crees que ese camino de santidad que has elegido te va a proteger cuando lleguen enemigos de verdad? ¡La bondad no detiene los golpes!"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -347,32 +401,16 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Ahórrate tus discursos vacíos. No me interesa en lo más mínimo tu sucio dinero ni un poder que esté manchado con la sangre de inocentes. Mi camino espiritual y el de Chaoz ya no están encadenados a las crueles técnicas de asesinato de tu escuela."
+      "text": "No. Pero el Kikoho sí. Y si vuelves a llamar inútil a Chaoz, te lo demuestro ahora mismo. Tienes diez segundos para empezar a bajar esa ladera."
     },
     {
       "bg": "trainingislandbackground.png",
-      "leftPort": "avatarshengrulla.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Maestro Shen",
-      "text": "¡¡Malagradecido infame!! ¡¿Cómo te atreves a darme la espalda?! ¡Yo te enseñé cada técnica que ejecutas! ¡Yo te crié cuando no eras nadie! ¡Me debes absoluto respeto, sumisión y obediencia eterna por el resto de tus días!"
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "leftPort": "avatarshengrulla.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "right",
-      "name": "Tenshinhan",
-      "text": "Te debo haber malgastado toda mi juventud creyendo falsamente que arrebatar vidas ajenas era un arte respetable. No te debo absolutamente nada más, viejo decrépito."
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] El aire se vuelve denso y pesado, la tensión se palpa en cada rincón de la montaña. Tenshinhan aprieta los puños con fuerza, recordando los años de abusos psicológicos. Debe tomar una decisión definitiva sobre su antiguo mentor...</i>",
+      "text": "<i>[NARRADOR] El silencio se extiende entre ellos. Shen no se mueve. Tenshinhan tampoco. Chaoz observa en silencio. La decisión que tome Tenshinhan ahora dirá mucho sobre el hombre en que se está convirtiendo.</i>",
       "control": {
         "tipo": "eleccion",
         "opciones": [
-          { "texto": "Perdonar a Shen y pedirle que se vaya (+30 Ki)", "salto_a": "MISION_GRULLA_PERDON" },
-          { "texto": "Darle la espalda con desprecio y amenazarlo (+30 ATK)", "salto_a": "MISION_GRULLA_RECHAZO" }
+          { "texto": "Perdonarlo y dejarlo ir en paz (+30 Ki Max)", "salto_a": "MISION_GRULLA_PERDON" },
+          { "texto": "Amenazarlo y expulsarlo con dureza (+30 ATK)", "salto_a": "MISION_GRULLA_RECHAZO" }
         ]
       }
     }
@@ -385,7 +423,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Vete de aquí de una vez, viejo. Ya no te guardo ningún tipo de rencor ni odio en mi interior, porque he aprendido a superar las enseñanzas oscuras que me inculcaste en la infancia. Encuentra tu propia paz lejos de nuestras vidas."
+      "text": "Vete, Shen. No te guardo rencor. Eso terminó hace tiempo. Pero tampoco voy a volver. Este es mi camino y no tiene nada que ver con el tuyo. Ojalá encuentres el tuyo."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -393,11 +431,19 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Maestro Shen",
-      "text": "Tch... Qué decepción tan grande. Has ablandado por completo tu corazón guerrero, Tenshinhan. Esa ridícula debilidad emocional será tu perdición absoluta tarde o temprano ante los verdaderos monstruos del universo."
+      "text": "... Eres un necio. Siempre lo fuiste. Esa compasión tuya te va a costar caro algún día."
     },
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] El viejo maestro se marcha refunfuñando entre los arbustos rocosos. Al soltar de forma definitiva el último lastre del odio reprimido, el espíritu de Tenshinhan se purifica, expandiendo sus reservas de ki. (+30 Ki Max)</i>",
+      "leftPort": "avatarshengrulla.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "left",
+      "name": "Maestro Shen",
+      "text": "Pero... supongo que ya no es asunto mío."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "text": "<i>[NARRADOR] Shen baja la montaña sin mirar atrás. Tenshinhan lo observa hasta que desaparece entre las rocas. Algo se afloja en su interior, un peso que llevaba tanto tiempo que ya ni lo notaba. Su Ki se expande solo, como si respirara por primera vez. (+30 Ki Max)</i>",
       "recompensas": { "ki_boost": 30 },
       "control": { "tipo": "comprobacion", "default": "FIN_MISION_ANUAL" }
     }
@@ -410,7 +456,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Lárgate de mi vista inmediatamente, Shen. Lárgate antes de que agote la poca paciencia que me queda, deje a un lado mi clemencia y te mande a volar al horizonte de un solo Kikoho fulminante. No vuelvas jamás."
+      "text": "Vete. Ahora. Y no vuelvas. La próxima vez que aparezca en mi vida no voy a tener esta conversación. Simplemente vas a ver el Kikoho de muy cerca."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -418,11 +464,11 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Maestro Shen",
-      "text": "¡¡E-Eres un insolente indomable!! ¡Te arrepentirás amargamente de hablarle de esa manera tan despectiva a tu gran y supremo maestro! ¡Esto no se va a quedar así!"
+      "text": "T-Tú... ¡eres un ingrato miserable! ¡Vas a arrepentirte! ¡La Escuela de la Grulla no olvida!"
     },
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] Aterrado por la presión espiritual opresiva y destructiva que emana del cuerpo de Tenshinhan, Shen huye corriendo despavorido. La determinación fría endurece los músculos del guerrero triclópe. (+30 ATK)</i>",
+      "text": "<i>[NARRADOR] Shen tropieza al retroceder, casi cae, y acaba corriendo ladera abajo entre gruñidos. Tenshinhan no dice nada más. La frialdad de ese momento, esa decisión sin titubeos, endurece algo en él. Sus músculos se tensan con una energía nueva. (+30 ATK)</i>",
       "recompensas": { "atk_boost": 30 },
       "control": { "tipo": "comprobacion", "default": "FIN_MISION_ANUAL" }
     }
@@ -431,24 +477,29 @@
   "MISION_KRILLIN_INICIO": [
     {
       "bg": "backgorundkamehouse.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Año de paz. Krillin no ha dejado de entrenar ni un solo día desde que concluyó el torneo. Hoy se somete a una prueba de fuego definitiva ideada en secreto en la mismísima playa de Kame House...</i>"
+      "text": "<i>[NARRADOR] Kame House. El sol pega fuerte sobre la pequeña isla. Krillin lleva desde el amanecer entrenando solo en la playa, con el único sonido del mar y su propia respiración como compañía.</i>"
     },
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarkrilin23giserio.png",
-      "rightPort": null,
       "speaker": "left",
       "name": "Krillin",
-      "text": "Uf... jadeo... mil flexiones de brazos con un solo dedo, mil sentadillas cargando rocas... A este ritmo de locos, me voy a quedar sin rutinas de ejercicio que inventar en esta pequeña isla desierta."
+      "text": "Mil. Eso son mil flexiones con un dedo. Bien. Ahora las sentadillas."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarkrilin23giserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "... El maestro Roshi lleva tres días sin salir de casa. Dice que está descansando. Yo creo que me está observando por la ventana."
     },
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarjackiechun.png",
-      "rightPort": "avatarkrilin23giserio.png",
+      "rightPort": "avatarkrilin23gipreocupado.png",
       "speaker": "left",
       "name": "Jackie Chun",
-      "text": "¡Ha pasado una enorme cantidad de tiempo, muchacho! He observado detalladamente cada uno de tus combates en el torneo desde las sombras del anonimato. Has crecido bastante bien, debo admitirlo..."
+      "text": "¡Hola, muchachote! Qué casualidad tan enorme encontrarte aquí entrenando en esta playa tan específica en este día tan concreto."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -456,15 +507,7 @@
       "rightPort": "avatarkrilin23gipreocupado.png",
       "speaker": "right",
       "name": "Krillin",
-      "text": "¡¿J-Jackie Chun?! ¡No puede ser! ¿Qué hace usted aquí de repente apareciendo de la nada en la playa de Kame House?"
-    },
-    {
-      "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarjackiechun.png",
-      "rightPort": "avatarkrilin23gipreocupado.png",
-      "speaker": "left",
-      "name": "Jackie Chun",
-      "text": "He venido exclusivamente a comprobar con mis propios puños si de verdad eres digno de llamarte el orgullo definitivo de la Escuela Tortuga, o si tu desempeño contra el temible Piccolo fue simple y llana suerte de principiante."
+      "text": "Jackie Chun. Vaya. Cuánto tiempo."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -472,15 +515,7 @@
       "rightPort": "avatarkrilin23gismile.png",
       "speaker": "right",
       "name": "Krillin",
-      "text": "(Piensa: Vamos, que ya no soy un niño inocente... Es extremadamente obvio que es el Maestro Roshi quitándose las gafas de sol y poniéndose esa peluca ridícula y anticuada... pero hay que admitir que su nivel de Ki actual es brutal. No planea contenerse)."
-    },
-    {
-      "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarjackiechun.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "right",
-      "name": "Krillin",
-      "text": "¡Está bien, acepto el desafío! ¡No voy a contenerme en absoluto yo tampoco! ¡Es un auténtico honor medir mis fuerzas actuales contra una leyenda como usted!"
+      "text": "(Pensando: Maestro Roshi. Peluca nueva, ropa diferente, mismo ki descomunal de siempre. Al menos se ha esforzado un poco más con el disfraz esta vez.)"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -488,7 +523,31 @@
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Jackie Chun",
-      "text": "¡Esas palabras quería escuchar! ¡Esta vez no usaré trucos raros ni hipnosis, será un combate limpio de pura fuerza y destreza marcial! ¡A defenderse se ha dicho!",
+      "text": "He seguido tu evolución desde el torneo con gran interés, muchacho. Peleaste bien. Muy bien, incluso. Pero me pregunto si lo de Piccolo fue una demostración real de tus capacidades o simplemente tuviste un buen día."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarjackiechun.png",
+      "rightPort": "avatarkrilin23giserio.png",
+      "speaker": "right",
+      "name": "Krillin",
+      "text": "Solo hay una forma de saberlo."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarjackiechun.png",
+      "rightPort": "avatarkrilin23giserio.png",
+      "speaker": "left",
+      "name": "Jackie Chun",
+      "text": "Exactamente lo que esperaba escuchar. Sin trucos, sin hipnosis. Combate limpio, todo el ki. ¿Preparado?"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarjackiechun.png",
+      "rightPort": "avatarkrilin23giserio.png",
+      "speaker": "right",
+      "name": "Krillin",
+      "text": "Llevo meses preparado para esto. Usted no lo sabe todavía, pero este combate va a ser diferente a los anteriores.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -508,7 +567,7 @@
       "rightPort": "avatarkrilin23gismile.png",
       "speaker": "left",
       "name": "Maestro Roshi",
-      "text": "¡Jo, jo, jo! Me rindo por completo, me rindo... Mis viejos y oxidados huesos ya no pueden seguirle el ritmo a tu increíble agilidad y velocidad. Has superado todas mis expectativas por un amplio margen, Krillin."
+      "text": "Jo, jo... Me rindo. Me rindo de verdad esta vez, Krillin. No es educación."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -516,7 +575,7 @@
       "rightPort": "avatarkrilin23gismile.png",
       "speaker": "right",
       "name": "Krillin",
-      "text": "¡Muchísimas gracias, Maestro Roshi! Sabía perfectamente que era usted disfrazado desde el primer segundo, pero me alegra profundamente haber podido medir mis capacidades reales contra mi querido mentor."
+      "text": "Maestro Roshi. Ya podemos dejar de fingir."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -524,11 +583,35 @@
       "rightPort": "avatarkrilin23gismile.png",
       "speaker": "left",
       "name": "Maestro Roshi",
-      "text": "Ya no tienes absolutamente nada más que aprender de este viejo maestro. Te has convertido en un verdadero referente de las artes marciales. A partir de hoy, dejaré a un lado mi retiro definitivo y lucharé codo con codo a vuestro lado si el planeta Tierra vuelve a estar en peligro."
+      "text": "¿Tan obvio era?"
     },
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Al superar con honores la prueba definitiva de la Escuela Tortuga, el control de la energía espiritual de Krillin aumenta exponencialmente, ganando confianza. (+50 Ki Max y el Maestro Roshi se desbloquea como aliado permanente).</i>",
+      "leftPort": "avatarroshinaranjasonrisa.png",
+      "rightPort": "avatarkrilin23gismile.png",
+      "speaker": "right",
+      "name": "Krillin",
+      "text": "Desde el primer segundo. Pero me alegra que haya venido. En serio. Necesitaba saber dónde estoy realmente."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarroshinaranjasonrisa.png",
+      "rightPort": "avatarkrilin23gismile.png",
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "Pues ya lo sabes. Estás más allá de lo que yo te puedo enseñar, muchacho. Ya no tengo nada nuevo que darte en cuanto a técnica. Lo que puedo darte es esto: si la Tierra vuelve a necesitar defensa, no me quedaré viendo desde la orilla. Estaré ahí."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarroshinaranjasonrisa.png",
+      "rightPort": "avatarkrilin23gismile.png",
+      "speaker": "right",
+      "name": "Krillin",
+      "text": "Eso es lo mejor que me ha dicho nadie en mucho tiempo."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "text": "<i>[NARRADOR] Krillin ha superado al maestro que lo formó. Su control del Ki se expande a nuevos límites tras la prueba. El Maestro Roshi se desbloquea como aliado permanente. (+50 Ki Max)</i>",
       "recompensas": {
         "ki_boost": 50,
         "desbloquear_personaje": "jackie_chun"
@@ -540,8 +623,7 @@
   "MISION_KORIN_INICIO": [
     {
       "bg": "backgroundcasagoku.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Un hermoso y sumamente apacible día del año de paz. Son Goku se encuentra cortando pesados troncos de leña fuera de su hogar en la Montaña Paoz cuando una voz nítida y alterada resuena directamente en los confines de su mente...</i>"
+      "text": "<i>[NARRADOR] Montaña Paoz. Una mañana tranquila. Goku está partiendo troncos en el jardín cuando escucha una voz directamente dentro de su cabeza. Una voz que conoce bien.</i>"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -549,7 +631,7 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "left",
       "name": "Maestro Korin",
-      "text": "<i>Goku... ¿Me estás escuchando bien, Goku? ¡Tienes que venir volando a la torre de forma inmediata! ¡Estamos sufriendo una auténtica emergencia de proporciones cataclísmicas!</i>"
+      "text": "Goku. Goku, ¿me escuchas? Necesito que vengas a la torre ahora mismo. Es urgente de verdad, no es una exageración."
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -557,15 +639,11 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡¿Maestro Korin?! ¡¿Qué es lo que está pasando allá arriba?! ¡Resista por favor, voy para allá en este mismo instante! ¡¡Nube Kinton, ven rápido y llévame a toda velocidad a la torre!!"
+      "text": "¡Maestro Korin! ¿Qué pasa? ¿Está bien? ¡Nube Kinton, date prisa!"
     },
     {
       "bg": "backgroundtorrekorin.png",
-      "text": "<i>[NARRADOR] Tras cruzar los cielos como un auténtico relámpago dorado, Goku aterriza de un salto en el sagrado santuario de las nubes. Sin embargo, allí no hay ejércitos de monstruos ni demonios del espacio...</i>"
-    },
-    {
-      "bg": "backgroundtorrekorin.png",
-      "text": "<i>[NARRADOR] Lo único que encuentra es a un samurái bastante regordete masticando desesperadamente a dos carrillos frente a un tarro de cerámica gigante y a un gato blanco sumamente alterado dando saltos.</i>"
+      "text": "<i>[NARRADOR] La Nube Kinton sube en espiral hacia las alturas. Goku llega a la cima esperando encontrar un ejército o alguna catástrofe. Lo que encuentra es mucho peor en cierto modo.</i>"
     },
     {
       "bg": "backgroundtorrekorin.png",
@@ -573,7 +651,7 @@
       "rightPort": "avatargoku23weightlessbocabierto.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡¿Yajirobe?! ¡Pero qué demonios estás haciendo aquí arriba! ¡Te estás atiborrando como un loco de las Semillas del Ermitaño directas del tarro principal!"
+      "text": "¿Yajirobe? ¿QUÉ estás haciendo?"
     },
     {
       "bg": "backgroundtorrekorin.png",
@@ -581,15 +659,7 @@
       "rightPort": "AvatarYajirobeNervioso.png",
       "speaker": "left",
       "name": "Maestro Korin",
-      "text": "¡Lleva haciendo exactamente eso durante horas enteras! ¡Si continúa devorando las semillas a este ritmo tan desenfrenado, va a vaciar por completo las reservas mágicas de la próxima década del santuario! ¡Detenlo de una vez, Goku!"
-    },
-    {
-      "bg": "backgroundtorrekorin.png",
-      "leftPort": "avatargoku23weightlessserio.png",
-      "rightPort": "AvatarYajirobeEnfadado.png",
-      "speaker": "left",
-      "name": "Goku",
-      "text": "¡Oye, Yajirobe, detén tus mandíbulas ahora mismo! ¡Sabes perfectamente que esas semillas sagradas son exclusivas para emergencias médicas extremas en combate, no para calmar tu gula insaciable!"
+      "text": "¡Lleva aquí desde el amanecer! ¡Ya va por el tercer tarro grande! ¡Si no lo paras ahora, en diez minutos no me queda ni una semilla para los próximos cinco años!"
     },
     {
       "bg": "backgroundtorrekorin.png",
@@ -597,7 +667,7 @@
       "rightPort": "AvatarYajirobeEnfadado.png",
       "speaker": "right",
       "name": "Yajirobe",
-      "text": "¡No me vengas a molestar tú también, Goku! ¡El maldito gato blanco me dijo que una sola semilla te mantiene lleno por diez días, pero yo tengo muchísima más hambre acumulada que diez días! ¡Déjame comer mi merienda en total paz!"
+      "text": "Oye, relájate. El gato me dijo que una semilla te llena diez días. Yo tenía mucha más hambre que diez días acumulada. Son matemáticas."
     },
     {
       "bg": "backgroundtorrekorin.png",
@@ -605,7 +675,23 @@
       "rightPort": "AvatarYajirobeEnfadado.png",
       "speaker": "left",
       "name": "Goku",
-      "text": "Conque con esas estamos, ¿eh? Te niegas a escuchar razones... Muy bien, ¡tendré que pararte los pies por las malas antes de que dejes la despensa completamente vacía! ¡Prepara tus defensas!",
+      "text": "Yajirobe, esas semillas son para emergencias. Para cuando alguien está al borde de la muerte en combate."
+    },
+    {
+      "bg": "backgroundtorrekorin.png",
+      "leftPort": "avatargoku23weightlessserio.png",
+      "rightPort": "AvatarYajirobeEnfadado.png",
+      "speaker": "right",
+      "name": "Yajirobe",
+      "text": "Y yo estaba al borde de la muerte de hambre. Cuenta."
+    },
+    {
+      "bg": "backgroundtorrekorin.png",
+      "leftPort": "avatargoku23weightlessserio.png",
+      "rightPort": "AvatarYajirobeEnfadado.png",
+      "speaker": "left",
+      "name": "Goku",
+      "text": "No cuenta. Yajirobe, voy a tener que detenerte. Lo siento, pero es lo que hay.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -621,15 +707,7 @@
   "MISION_KORIN_VICTORIA": [
     {
       "bg": "backgroundtorrekorin.png",
-      "text": "<i>[NARRADOR] Tras un intercambio de golpes bastante torpe por parte del pesadísimo y empachado samurái, Goku aprovecha un descuido para desarmarlo de su catana y noquearlo limpiamente de un golpe en la nuca.</i>"
-    },
-    {
-      "bg": "backgroundtorrekorin.png",
-      "leftPort": "AvatarYajirobeAsustado.png",
-      "rightPort": "avatargoku23weightlesshappy.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "Uf... Menudo estómago tienes, amigo... Menos mal que logré dormirte con ese golpe antes de que metieras la mano en el último tarro que le quedaba al maestro."
+      "text": "<i>[NARRADOR] Yajirobe cae al suelo con un golpe seco en la nuca, dormido al instante. El tarro que tenía en la mano rueda por el suelo. Todavía le quedaban semillas dentro.</i>"
     },
     {
       "bg": "backgroundtorrekorin.png",
@@ -637,7 +715,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Maestro Korin",
-      "text": "Has salvado el santuario de una hambruna histórica, Goku. Sinceramente pensé que este bruto incontrolable me iba a devorar a mí también de postre si se quedaba sin semillas. Qué alivio tan grande."
+      "text": "Gracias. De verdad. Pensé que también iba a intentar comerme a mí cuando se acabaran las semillas."
     },
     {
       "bg": "backgroundtorrekorin.png",
@@ -645,11 +723,23 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "No hay de qué preocuparse, maestro. Aunque para ser honesto, me da un poco de pena Yajirobe... Cuando se despierte de la siesta forzada, va a tener un dolor de barriga monumental por comer tantas seguidas."
+      "text": "No creo que llegara a tanto. Aunque con el hambre que tenía... mejor no saberlo."
     },
     {
       "bg": "backgroundtorrekorin.png",
-      "text": "<i>[NARRADOR] En profunda señal de agradecimiento por su heroica y veloz intervención, el Maestro Korin le regala a Goku un puñado de valiosas provisiones sagradas directamente para su inventario de viaje. (+3 Semillas del Ermitaño).</i>",
+      "leftPort": "AvatarYajirobeAsustado.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Cuando despierte va a tener el dolor de tripa más grande de su vida. Las semillas no están pensadas para comerse veinte seguidas."
+    },
+    {
+      "bg": "backgroundtorrekorin.png",
+      "leftPort": "AvatarKarinNormal.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Maestro Korin",
+      "text": "Toma. Por haberme salvado el santuario. Y por llegar tan rápido cuando te llamé. Cuida bien de estas.",
       "recompensas": {
         "añadir_item": "senzu.png",
         "cantidad": 3
@@ -661,8 +751,7 @@
   "MISION_OCTAVIO_INICIO": [
     {
       "bg": "bumpforestbackground.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Un frío día del año de paz. Goku camina tranquilamente por los linderos del bosque en busca de madera seca cuando divisa a la distancia a la pequeña Suno corriendo desesperada y llorando con amargura...</i>"
+      "text": "<i>[NARRADOR] Un día frío y tranquilo en los alrededores de la Montaña Paoz. Goku está recogiendo leña cuando ve a alguien corriendo hacia él a toda velocidad desde la distancia. Una figura pequeña, pelirroja, con los ojos llenos de lágrimas.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -670,7 +759,7 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "left",
       "name": "Suno",
-      "text": "¡¡Goku, por favor, ayuda, te lo ruego!! ¡Es Octavio! ¡Unos hombres extraños y despiadados con batas blancas de laboratorio lo secuestraron en las heladas montañas del norte y le hicieron algo verdaderamente terrible a sus circuitos!"
+      "text": "¡Goku! ¡Goku, por favor! ¡Es Octavio! ¡Unos hombres con batas blancas vinieron a la aldea y se lo llevaron! ¡Le han hecho algo en la cabeza, no es él!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -678,7 +767,15 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡¿Qué dijiste?! ¡¿Lograron capturar y secuestrar al bueno de Octavio?! ¿Pero qué clase de monstruo desalmado querría hacerle daño a un androide tan pacífico y bondadoso como él?"
+      "text": "Suno, respira. Cuéntame todo desde el principio."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarPelirroja8.Llorando.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Suno",
+      "text": "Vinieron hace dos días. Dijeron que necesitaban un androide para unas pruebas. Se lo llevaron a la fuerza. Esta mañana volvió solo, pero... sus ojos brillan en rojo, Goku. Rojo. Y me miraba como si no me conociera."
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -686,7 +783,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "¡¡Sistemas principales reiniciados al cien por cien de potencia...!! ¡Objetivo prioritario localizado en el cuadrante: Son Goku! ¡Procediendo de forma inmediata a la eliminación absoluta por orden directa de mi creador supremo, el Dr. Wheelo!"
+      "text": "OBJETIVO DETECTADO. SON GOKU. INICIANDO PROTOCOLO DE ELIMINACIÓN POR ORDEN DEL DR. WHEELO."
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -694,7 +791,7 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "left",
       "name": "Suno",
-      "text": "¡¡Goku, ten muchísimo cuidado, sus ojos brillan con una luz roja siniestra, ese no es nuestro amigo!! ¡Le han modificado por la fuerza los circuitos integrados y le han lavado el cerebro por completo! ¡Por lo que más quieras, sálvalo!"
+      "text": "¡¡Eso no es Octavio!! ¡Por favor, Goku, sálvalo! ¡Está ahí dentro, estoy segura!"
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -702,7 +799,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Maldición, la presión de sus golpes rompe el aire a su alrededor! ¡Ese tal científico loco llamado Wheelo lo ha vuelto increíblemente fuerte y agresivo! ¡Octavio, lo siento muchísimo, pero tendré que noquearte con todas mis fuerzas para que vuelvas en ti!",
+      "text": "Lo sé, Suno. Octavio sigue ahí. Solo tengo que encontrar el camino de vuelta para él. Aguanta un poco más, amigo.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -718,7 +815,7 @@
   "MISION_OCTAVIO_POST_COMBATE": [
     {
       "bg": "backgroundjinglevillage.png",
-      "text": "<i>[NARRADOR] Tras una fiera y destructiva batalla donde Goku se ve obligado a emplearse a fondo debido a las drásticas mejoras cibernéticas que le hicieron a Octavio, un fuerte cortocircuito generado por un impacto preciso hace que las luces rojas de sus ojos se apaguen de golpe.</i>"
+      "text": "<i>[NARRADOR] El último golpe de Goku impacta en el lateral del cuello de Octavio, justo donde están los módulos de control. Los ojos rojos parpadean. Se apagan. Un segundo de silencio total.</i>"
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -726,7 +823,7 @@
       "rightPort": "avatargoku23weightlessbocabierto.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "Parpadeando confundido... ¡Agh...! ¿Goku? ¿Suno? ¿Qué... qué demonios ha pasado aquí? Siento la cabeza completamente vacía de órdenes... y todo mi cuerpo metálico me pesa una tonelada métrica."
+      "text": "Yo... ¿Goku? ¿Suno? ¿Qué ha pasado? Tengo la cabeza llena de ruido. Como si alguien hubiera estado gritando dentro de mí y acabara de callarse."
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -734,7 +831,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Suno",
-      "text": "¡¡Octavio, mi querido amigo, por fin has vuelto a ser tú mismo!! ¡Goku lo ha logrado con éxito, te ha liberado por completo de ese maldito chip de control mental maligno!"
+      "text": "¡Octavio! ¡Eres tú! ¡De verdad eres tú otra vez!"
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -742,11 +839,11 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Me alegro infinitamente de que estés bien y de regreso, amigo. Pero dime una cosa muy importante... ¿quién es exactamente ese tal Dr. Wheelo del que hablabas con tanta furia robótica mientras me atacabas?"
+      "text": "Te pusieron un chip de control. Alguien llamado Dr. Wheelo. ¿Sabes algo de él?"
     },
     {
       "bg": "backgroundjinglevillage.png",
-      "text": "<i>[MOTOR] El sistema de juego procede a comprobar minuciosamente si el evento del Dr. Wheelo ya ha sido superado con éxito en la línea temporal actual...</i>",
+      "text": "<i>[NARRADOR] El sistema comprueba si el Dr. Wheelo ya ha sido derrotado en esta línea temporal...</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -764,7 +861,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "Ah, es verdad... Bulma y el resto de tus amigos me comentaron hace poco que asaltasteis con éxito su laboratorio congelado en las montañas y destruisteis su cerebro informático flotante para siempre. Gracias por salvarme de vivir esa horrible pesadilla cibernética, Goku."
+      "text": "Bulma me lo contó. Que fuisteis al norte y destruisteis su laboratorio. Que él ya no puede hacerle daño a nadie más. Gracias, Goku. Por mí y por la aldea."
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -772,11 +869,11 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Suno",
-      "text": "Sí, muchísimas gracias a ti y a todos tus compañeros, el pacífico pueblo del norte vuelve a estar completamente a salvo de las garras de esos científicos locos del laboratorio. ¡Sois nuestros héroes definitivos!"
+      "text": "La aldea entera quiere daros las gracias. Y yo también. A ti y a todos los que fuisteis."
     },
     {
       "bg": "backgroundjinglevillage.png",
-      "text": "<i>[NARRADOR] Al haber sido modificado previamente con tecnología de punta antes de la caída definitiva de Wheelo, Octavio conserva sus nuevos y potentes módulos de fuerza de forma permanente en sus sistemas, agradeciendo de corazón la paz recobrada. Suno te entrega un premio de la aldea. (+1 Ropa Pesada).</i>",
+      "text": "<i>[NARRADOR] Las mejoras que le hicieron a Octavio permanecen en sus sistemas, pero ahora al servicio de lo que él quiere proteger. Suno te entrega un regalo de la aldea en señal de agradecimiento. (+1 Ropa Pesada)</i>",
       "recompensas": {
         "añadir_item": "ropapesada.png",
         "cantidad": 1
@@ -792,15 +889,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "Es un cerebro flotante maligno metido dentro de una armadura robótica colosal, totalmente oculto en las montañas heladas del norte... Su fiel asistente, el Dr. Kochin, me capturó a traición para probar mi resistencia. Tened muchísimo cuidado, Goku... Ese demente busca desesperadamente el cuerpo del hombre más fuerte del mundo."
-    },
-    {
-      "bg": "backgroundjinglevillage.png",
-      "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¿El cuerpo del combatiente más fuerte de todo el mundo? Vaya... eso suena bastante a que tarde o temprano ese sujeto planeará venir a por mí o a por el campeón del torneo. No se lo dejaré fácil, estaremos muy bien preparados para recibirlo."
+      "text": "Wheelo es un cerebro. Solo un cerebro, dentro de una armadura mecánica enorme. Vive en una fortaleza en las montañas del norte, bajo el hielo. Su asistente, el Dr. Kochin, fue quien me capturó."
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -808,16 +897,32 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "Ese malvado demente merece que lo detengan de inmediato por todo el daño que le causa a la pobre gente inocente y a la naturaleza del norte... Goku, por favor déjame ayudarte en tu viaje. Quiero ir contigo para destruir su base y así tomar venganza por lo que me hicieron en el laboratorio."
+      "text": "Me usaron para probar si resistía sus modificaciones. Busca el cuerpo del guerrero más fuerte del mundo para transplantarse. Tened mucho cuidado."
     },
     {
       "bg": "backgroundjinglevillage.png",
-      "text": "<i>[NARRADOR] Octavio aprieta con furia sus enormes y mejorados puños metálicos. ¿Debería Goku aceptar su valiosa pero arriesgada ayuda mecánica para el inminente asalto al laboratorio del norte del Dr. Wheelo?</i>",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "El cuerpo del más fuerte... Tarde o temprano va a venir a por alguien que conozco. Mejor ir nosotros primero."
+    },
+    {
+      "bg": "backgroundjinglevillage.png",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "Goku. Déjame ir contigo. Lo que me hicieron... no puedo simplemente dejarlo pasar. Y conozco su fortaleza por dentro. Puedo ayudar."
+    },
+    {
+      "bg": "backgroundjinglevillage.png",
+      "text": "<i>[NARRADOR] Octavio aprieta los puños. No con rabia irreflexiva, sino con una determinación tranquila y firme. Goku le mira un momento antes de responder.</i>",
       "control": {
         "tipo": "eleccion",
         "opciones": [
           { "texto": "Aceptar la ayuda de Octavio", "salto_a": "MISION_OCTAVIO_ACEPTA_VENGANZA" },
-          { "texto": "Rechazarla (Que se quede protegiendo a Suno)", "salto_a": "MISION_OCTAVIO_RECHAZA_VENGANZA" }
+          { "texto": "Pedirle que se quede protegiendo a Suno", "salto_a": "MISION_OCTAVIO_RECHAZA_VENGANZA" }
         ]
       }
     }
@@ -830,11 +935,19 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Claro que sí, amigo! Tu increíble nueva fuerza cibernética nos vendrá genial para infiltrarnos. Cuando llegue el momento exacto de partir hacia esas frías montañas heladas, contaré contigo sin dudarlo."
+      "text": "De acuerdo. Si conoces el interior de esa fortaleza, nos vas a ahorrar mucho tiempo. Y la fuerza que te pusieron esos tipos ahora trabaja para nosotros. Cuando sea el momento, cuento contigo."
     },
     {
       "bg": "backgroundjinglevillage.png",
-      "text": "<i>[NARRADOR] Octavio asiente con absoluta determinación robótica en su mirada. ¡Has conseguido reclutar a un poderoso e implacable aliado para el futuro asalto contra el laboratorio del Dr. Wheelo! Además, Suno te entrega un obsequio textil para el frío. (+1 Ropa Pesada y Flag activada).</i>",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "Gracias, Goku. Estaré listo."
+    },
+    {
+      "bg": "backgroundjinglevillage.png",
+      "text": "<i>[NARRADOR] Octavio asiente. Suno le mira con una mezcla de orgullo y miedo, pero no dice nada. Sabe que es su decisión. Te entrega algo para el viaje. (+1 Ropa Pesada)</i>",
       "recompensas": {
         "añadir_item": "ropapesada.png",
         "cantidad": 1
@@ -854,7 +967,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Te agradezco de corazón el ofrecimiento, Octavio, pero este combate de infiltración es demasiado peligroso para ti. Además, Suno y toda tu aldea te necesitan desesperadamente aquí para protegerlos de bandidos. Yo mismo me encargaré por completo de ese tal Wheelo, te lo prometo."
+      "text": "No, Octavio. Esta vez no. La aldea te necesita aquí. Suno te necesita aquí. Y lo que vamos a hacer en el norte va a ser peligroso de una forma que... que prefiero que no veas de cerca."
     },
     {
       "bg": "backgroundjinglevillage.png",
@@ -862,11 +975,19 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "...Entiendo perfectamente tus motivos. Tienes mucha razón, Goku. Mi prioridad debe ser la seguridad de la aldea Jingle. Por favor, ten muchísimo cuidado allá arriba."
+      "text": "... Entiendo. Cuídate mucho, Goku."
     },
     {
       "bg": "backgroundjinglevillage.png",
-      "text": "<i>[NARRADOR] Con los circuitos de Octavio completamente a salvo y una firme promesa de protección hecha, la pacífica misión concluye. Suno te entrega un obsequio protector antes de marcharte de la Aldea. (+1 Ropa Pesada).</i>",
+      "leftPort": "AvatarAndroide8.Normal.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Octavio",
+      "text": "Y acaba con él. Por favor."
+    },
+    {
+      "bg": "backgroundjinglevillage.png",
+      "text": "<i>[NARRADOR] Suno te entrega algo para el camino antes de que te marches. (+1 Ropa Pesada)</i>",
       "recompensas": {
         "añadir_item": "ropapesada.png",
         "cantidad": 1
@@ -878,8 +999,7 @@
   "MISION_UPA_INICIO": [
     {
       "bg": "backgroundcasagoku.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Otro pacífico año transcurre con total normalidad en los linderos de la pintoresca Montaña Paoz. Goku está a punto de salir a realizar sus extenuantes entrenamientos diarios cuando la enérgica Chi-Chi lo intercepta bruscamente en la puerta...</i>"
+      "text": "<i>[NARRADOR] Montaña Paoz. Una mañana como otra cualquiera. Goku está a punto de salir a entrenar cuando Chi-Chi aparece en la puerta con cara de pocos amigos.</i>"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -887,7 +1007,7 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "left",
       "name": "Chi-Chi",
-      "text": "¡¡Goku, detén el paso de una vez!! Tienes una visita sumamente urgente esperándote afuera de la casa. Se trata de un joven nativo y un guerrero increíblemente alto que afirman venir viajando desde las lejanas e sagradas tierras de la base de la Torre de Korin."
+      "text": "Goku. Hay dos personas esperándote fuera. Un chico joven y un hombre enorme. Dicen que vienen de las tierras de la Torre de Korin y que es urgente."
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -895,7 +1015,7 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "left",
       "name": "Upa",
-      "text": "¡¡Goku!! ¡Por fin logramos encontrarte en este enorme bosque! ¡Tienes que venir a ayudarnos de inmediato de forma urgente, una bestia monstruosa y colosal está atacando sin piedad a los miembros de nuestra pacífica aldea!"
+      "text": "¡Goku! Has crecido mucho desde la última vez. Ojalá fuera una visita tranquila, pero no lo es. Hay una criatura atacando nuestra aldea. Grande. Con escamas de piedra. Nuestras lanzas no le hacen nada."
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -903,11 +1023,11 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡¡Upa!! ¡Pero si has crecido un montón desde la última vez que te vi! No te preocupes en lo más mínimo por ese monstruo, iré volando con vosotros de inmediato en la nube Kinton a ver qué es lo que está ocurriendo allá abajo."
+      "text": "¡Upa! ¡Cuánto tiempo! Tranquilo, vamos ahora mismo. Nube Kinton puede llevarnos en pocos minutos."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Al llegar en pocos minutos a las tierras sagradas de los nativos, descubren de inmediato el motivo del pánico generalizado: una colosal y rabiosa serpiente salvaje de escamas de piedra está aterrorizando a los habitantes y derribando con violencia los tipis de la tribu.</i>"
+      "text": "<i>[NARRADOR] Las tierras sagradas de la tribu de Bora. Los tipis están dañados. Hay huellas enormes en el barro. Y en el centro de todo, una serpiente del tamaño de un árbol se retuerce entre los edificios destruyendo todo lo que toca.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -915,7 +1035,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Bora",
-      "text": "Esa criatura es demasiado fuerte y resistente, Goku. Nuestras lanzas de caza rebotan miserablemente contra sus escamas duras como si fueran simples ramitas secas de árbol. Confiamos plenamente en tus habilidades."
+      "text": "Apareció esta mañana desde el bosque del sur. No huye, no tiene miedo. Cada vez que intentamos rodearla simplemente aplasta lo que tiene delante."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -923,11 +1043,11 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Vaya bicho más gigantesco y extraño! Se parece bastante a las serpientes devoradoras de las antiguas leyendas marciales de las que me hablaba mi abuelito Gohan. Déjamelo completamente a mí, Bora, poned a salvo al resto de la tribu. ¡Le daré su merecido castigo!"
+      "text": "Yo me encargo. Sacad a todos de la zona central, no quiero que nadie salga herido cuando empiece a moverse en serio."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Goku da un tremendo salto acrobático por los aires y aterriza con firmeza directamente frente a las afiladas fauces venenosas de la bestia escamosa, listo para dar inicio al combate defensivo.</i>",
+      "text": "<i>[NARRADOR] Goku aterriza frente a la criatura. Es más grande de cerca. Sus escamas brillan como piedra mojada. Sus ojos son fríos, sin inteligencia visible. Solo hambre e instinto.</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -943,19 +1063,22 @@
   "MISION_UPA_SORPRESA": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] El experimentado guerrero saiyan aturde por completo a la feroz criatura con una patada giratoria de impacto impecable en toda la cabeza, haciéndola morder el polvo y caer al suelo con un golpe seco y pesado.</i>"
+      "text": "<i>[NARRADOR] La serpiente cae con un golpe seco que hace temblar el suelo. Inconsciente. Goku aterriza y sacude la mano.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": null,
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Ja! Tampoco era para tanto como decían, su piel de piedra era ciertamente dura pero sus ataques frontales eran demasiado lentos... ¡Un maldito momento! ¡¿Qué demonios es ese fuerte ruido telúrico de pisadas?!"
+      "text": "Las escamas eran duras pero se movía muy despacio. No era tan... espera."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Todo el suelo sagrado empieza a temblar con violencia destructiva. De entre la densa espesura del bosque emergen de golpe tres gigantescas e idénticas cabezas escamosas más, siseando llenas de furia tras presenciar la caída de su compañera de nido.</i>"
+      "text": "<i>[NARRADOR] El suelo tiembla. No como antes, no como el golpe de la caída. Tiembla desde abajo, desde muy abajo, con un ritmo regular y pesado que va en aumento.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Tres cabezas emergen del bosque al mismo tiempo. Tres serpientes idénticas a la primera, siseando con furia, con los ojos fijos en Goku.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -963,7 +1086,7 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "left",
       "name": "Upa",
-      "text": "¡¡Ay, no puede ser posible!! ¡Hay muchísimas más ocultas bajo tierra! ¡Estamos completamente rodeados por los monstruos, Goku! ¡Cuidado con los colmillos!"
+      "text": "¡Hay más! ¡Eran un nido entero! ¡Goku, son tres a la vez!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -971,7 +1094,15 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Madre mía, parece ser que habías pisado sin querer un nido reproductivo entero de estas cosas! ¡Esta vez tendré que tomármelo muy en serio y usar mi poder al máximo absoluto! ¡Todos den un paso atrás, voy con todo!",
+      "text": "Todos atrás. Lejos. Esto ya es diferente."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "AvatarIndioJovenSorprendido.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Voy con todo.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -987,15 +1118,14 @@
   "MISION_UPA_VICTORIA": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Tras una fiera y agotadora batalla de resistencia pura esquivando veloces mordiscos cargados de veneno letal, Goku barre de un plumazo con todos los monstruos lanzando un potente e histórico Kamehameha que los hace huir despavoridos hacia el horizonte lejano.</i>"
+      "text": "<i>[NARRADOR] El Kamehameha barre las tres serpientes de un solo impacto. Las criaturas huyen hacia el bosque dejando un rastro de tierra removida. El silencio vuelve a las tierras sagradas.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "AvatarIndioJovenNormal.png",
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Uf! Qué excelente calentamiento físico ha sido este combate. Ya podéis salir todos de vuestros refugios con total confianza, la zona sagrada vuelve a ser completamente segura para la tribu."
+      "text": "Ya podéis salir. Se han ido."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1003,11 +1133,19 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Bora",
-      "text": "No nos quedan palabras terrenales suficientes en nuestra tribu para agradecerte semejante hazaña, gran guerrero. Toda la gente de las tierras sagradas te estaremos eternamente en deuda por salvar nuestras vidas y hogares hoy."
+      "text": "Goku... no tenemos palabras. Has protegido estas tierras que protegieron a nuestros antepasados. La deuda que tenemos contigo no tiene precio."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] En profunda e imperecedera señal de agradecimiento, Upa y Bora le entregan formalmente a Goku un lote completo de valiosas medicinas ancestrales y tónicos espirituales de curación secreta de la tribu. (+Lote de ítems al inventario).</i>",
+      "leftPort": "AvatarIndioJovenNormal.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Upa",
+      "text": "Toma esto. Son remedios de la tribu. Para curaciones, para el Ki, para el camino que tienes por delante. Es lo menos que podemos hacer."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Upa y Bora entregan a Goku los remedios sagrados de la tribu. (+Boost Temp, Poción HP y Poción Ki al inventario)</i>",
       "recompensas": {
         "añadir_items_lote": ["boost.png", "pocionhp.png", "pocionki.png"]
       },
@@ -1018,7 +1156,7 @@
   "FIN_MISION_ANUAL": [
     {
       "bg": "backgroundcasagoku.png",
-      "text": "<i>[NARRADOR] La intensa e inolvidable misión anual concluye con un rotundo éxito, dejando valiosas lecciones de combate aprendidas, lazos reforzados y nuevos aliados estratégicos en el camino. El pacífico año de la Tierra sigue su curso natural en el gran calendario cósmico universal...</i>"
+      "text": "<i>[NARRADOR] El año de paz avanza. Cada misión cumplida, cada aliado reforzado, cada decisión tomada va construyendo algo. El torneo que viene no será como el anterior. Nada volverá a ser como antes.</i>"
     }
   ]
 }
