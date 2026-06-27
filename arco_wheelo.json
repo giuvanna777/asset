@@ -16,7 +16,6 @@
   "WHEELO_PICCOLO_INICIO": [
     {
       "bg": "trainingislandbackground.png",
-      "cg": null,
       "text": "<i>[NARRADOR] En las desoladas, gélidas y perpetuas laderas del norte del planeta, el viento ruge con una fuerza capaz de congelar los huesos de cualquier mortal...</i>"
     },
     {
@@ -125,10 +124,7 @@
     {
       "bg": "backgroundwheelo.png",
       "text": "<i>[NARRADOR] Las compuertas blindadas de la fortaleza se abren de par en par, desatando densas ráfagas láser y armas cibernéticas de última generación. Piccolo, completamente enfurecido, desciende al combate desatando su Ki de 700 unidades.</i>",
-      "recompensas": {
-        "desbloquear_personaje": "piccolo",
-        "heal_all": true
-      },
+      "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["piccolo_700"],
@@ -237,20 +233,8 @@
     },
     {
       "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarroshinaranjasonrisa.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "left",
-      "name": "Maestro Roshi",
-      "text": "Iré adentro de Kame House a por unas medicinas herbales y a... buscar algún tipo de ayuda profesional externa de inmediato. ¡No os mováis!"
-    },
-    {
-      "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] El Maestro Roshi corre hacia el interior de la casa cerrando la puerta con un cerrojo a toda prisa. Se escuchan ruidos de armarios abriéndose y pasos apresurados. Menos de dos minutos después, la puerta se abre con una energía arrolladora...</i>"
-    },
-    {
-      "bg": "backgorundkamehouse.png",
       "leftPort": "avatarjackiechun.png",
-      "rightPort": "avatarkrilin23gismile.png",
+      "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Jackie Chun",
       "text": "¡¡SALUDOS, JÓVENES CAMPEONES DEL MUNDO Y MAESTROS DE LAS ARTES MARCIALES MARÍTIMAS!!"
@@ -285,7 +269,7 @@
       "rightPort": "avatarkrilin23gismile.png",
       "speaker": "right",
       "name": "Krillin",
-      "text": "(Pensando: Es tan obvio que es el maestro Roshi con su ropa de gala del torneo anterior y esa peluca ridícula pegada a la frente con cinta de doble cara... pero su nivel de Ki sigue siendo descomunal y no tenemos otra alternativa ahora mismo)."
+      "text": "(Pensando: Es tan obvio que es el maestro Roshi con su ropa de gala del torneo anterior y esa peluca ridícula... pero su nivel de Ki sigue siendo descomunal y no tenemos otra alternativa ahora mismo)."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -297,46 +281,35 @@
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] El grupo rompe la violenta ventisca del norte y aterriza directamente en las plataformas del hangar principal. ¡Al instante, un escuadrón de bionoides armados se abalanza sobre ellos buscando capturarlos!</i>",
-      "recompensas": {
-        "desbloquear_personaje": "roshi",
-        "heal_all": true
-      },
+      "text": "<i>[NARRADOR] El grupo rompe la violenta ventisca del norte y aterriza directamente en las plataformas del hangar principal. ¡Al instante, un escuadrón de bionoides armados se abalanza sobre ellos!</i>",
+      "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["krillin", "jackie_chun"],
         "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "backgroundwheelo.png",
-        "on_win": "WHEELO_KRILLIN_RESCATE",
+        "on_win": "WHEELO_KRILLIN_LIBERAN_YAMCHA",
         "on_lose": "WHEELO_KRILLIN_ENCERRADO"
       }
     }
   ],
 
-  "WHEELO_KRILLIN_RESCATE": [
+  "WHEELO_KRILLIN_LIBERAN_YAMCHA": [
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
       "rightPort": "avataryamcha23sorprendido.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡¡Krillin!! ¡¡Jackie Chun!! ¡Tened muchísimo cuidado con las descargas eléctricas de alta tensión que emanan de las paredes metálicas de la sala!"
+      "text": "¡¡Krillin!! ¡¡Jackie Chun!! ¡Por fin alguien ha llegado a este infierno de hielo! ¡Nos tenían completamente bloqueadas las comunicaciones!"
     },
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
       "rightPort": "avataryamcha23sorprendido.png",
-      "speaker": "left",
-      "name": "Bulma",
-      "text": "¡Esa monstruosidad mecánica que está flotando al fondo de la plataforma central es un cerebro informático viviente!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23sorprendido.png",
-      "speaker": "left",
-      "name": "Bulma",
-      "text": "¡Es el mismísimo cerebro del Dr. Wheelo! ¡Está buscando de forma desesperada el cuerpo físico del hombre más fuerte del mundo para transplantarse y dominar la Tierra con su intelecto!"
+      "speaker": "right",
+      "name": "Yamcha",
+      "text": "Ugh... Krillin, amigo... Menos mal que llegaste. Intenté resistir cuando nos capturaron pero esas malditas descargas eléctricas de sus robots me dejaron completamente sin fuerzas."
     },
     {
       "bg": "backgroundwheelo.png",
@@ -344,15 +317,23 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Nos tenían completamente inmovilizados y neutralizados en estas malditas cápsulas de energía cuántica que absorben de forma pasiva el Ki corporal..."
+      "text": "Escuchadme bien, esta fortaleza está llena de trampas de energía. El que manda aquí es un cerebro flotante metido en una armadura gigantesca. ¡No os confiéis ni un momento!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarjackiechun.png",
+      "rightPort": "avatarkrilin23giserio.png",
+      "speaker": "right",
+      "name": "Krillin",
+      "text": "Yamcha, ¿te encuentras en condiciones de pelear? Vamos a necesitar toda la fuerza disponible para abrinos paso hasta ese bicho flotante."
     },
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23smile.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Muchas gracias por sacarnos de este terrible apuro, muchachos. Pero mirad con atención hacia la plataforma superior, el peligro real viene de allí arriba..."
+      "text": "¿Que si puedo pelear? Acabo de recuperar la mitad del Ki gracias a vosotros. ¡No pienso quedarme aquí de brazos cruzados mientras vosotros lo hacéis todo! ¡Voy con vosotros!"
     },
     {
       "bg": "backgroundwheelo.png",
@@ -360,39 +341,15 @@
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Mua ja ja ja! ¡Estúpidos e insolentes insectos biológicos insignificantes!"
+      "text": "¡Ja! Conque el campeón del torneo ha venido personalmente a rescatar a sus patéticos amiguitos... ¡Guardia de élite pesada, detenedlos ahora mismo!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "Habéis logrado destruir con relativa facilidad a mi guardia bionoide menor, pero vuestro destino final está totalmente sellado dentro de este complejo fortificado."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Tú, el pequeño monje calvo de la Escuela Tortuga! ¡Los registros históricos de mi satélite privado indican que te coronaste como el campeón indiscutible del último torneo de artes marciales!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Por lo tanto, tu estructura ósea y muscular es de mi propiedad legítima! ¡Guardia de élite pesada, subyuguen de inmediato al espécimen campeón!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡Las compuertas hidráulicas pesadas de los laboratorios internos se abren de golpe, dejando salir a un pelotón blindado modificado genéticamente para capturar a los héroes!</i>",
+      "text": "<i>[NARRADOR] ¡Las compuertas del laboratorio interno se abren liberando un pelotón blindado de bionoides de élite!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["krillin", "jackie_chun"],
+        "aliados": ["krillin", "jackie_chun", "yamcha"],
         "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_KRILLIN_BOSS",
@@ -416,23 +373,15 @@
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Jackie Chun",
-      "text": "¡Va a lanzar un ataque masivo con toda la energía fotónica que ha acumulado en sus condensadores principales! ¡No te dejes intimidar por su tamaño colosal!"
+      "text": "¡Va a lanzar un ataque masivo con toda la energía fotónica acumulada! ¡No te dejes intimidar por su tamaño colosal!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarjackiechun.png",
+      "leftPort": "avataryamcha23giserious.png",
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "right",
       "name": "Krillin",
-      "text": "¡Estoy más que listo, maestro! ¡Demostremos a este tarro de metal con cables por qué ganamos el torneo mundial de artes marciales basándonos en la disciplina y el esfuerzo real!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarjackiechun.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "right",
-      "name": "Krillin",
-      "text": "¡No dejaremos bajo ningún concepto que conviertas este hermoso mundo en tu laboratorio privado de experimentos biológicos, Wheelo! ¡Es hora de pelear de verdad!"
+      "text": "¡Estoy más que listo! ¡Yamcha, Maestro, flanqueadlo por ambos lados mientras yo cargo el Kienzan!"
     },
     {
       "bg": "backgroundwheelo.png",
@@ -440,23 +389,15 @@
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Contemplad con vuestros ojos primitivos el auténtico pináculo del conocimiento humano unificado con la cibernética más avanzada!"
+      "text": "¡Contemplad el auténtico pináculo del conocimiento humano unificado con la cibernética más avanzada! ¡Vuestras técnicas marciales serán borradas de la existencia!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatarkrilin23giserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Vuestras débiles técnicas de combate tradicionales y vuestros ridículos dogmas de artes marciales serán borrados de la existencia por mi rayo fotónico experimental! ¡Muere, campeón!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡El Dr. Wheelo rompe de forma violenta sus amarras hidráulicas de soporte y desciende de la plataforma rugiendo con sus propulsores mecánicos para aplastar de una vez por todas a los invasores!</i>",
+      "text": "<i>[NARRADOR] ¡El Dr. Wheelo rompe sus amarras hidráulicas y desciende de la plataforma para aplastar a los invasores de una vez por todas!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["krillin", "jackie_chun"],
+        "aliados": ["krillin", "jackie_chun", "yamcha"],
         "enemigos": ["wheelo"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_VICTORIA_BUENA",
@@ -467,6 +408,24 @@
 
   "WHEELO_KRILLIN_ENCERRADO": [
     {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avatarkrilin23gipreocupado.png",
+      "speaker": "right",
+      "name": "Krillin",
+      "text": "Ugh... No... No puede ser... Hemos fallado..."
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23sorprendido.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡Nos han vuelto a encerrar a todos en las cápsulas de contención! ¡Krillin, Yamcha, Jackie! ¡Nuestra única esperanza ahora es que Goku llegue a tiempo!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "text": "<i>[NARRADOR] El Dr. Wheelo ordena encerrar a todos los rescatadores fallidos. La fortaleza espera ahora la llegada del guerrero más poderoso...</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "krilin_encarcelado",
@@ -498,15 +457,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Puar",
-      "text": "Unos científicos locos del norte, comandando un ejército implacable de ciborgs y bionoides armados, han asaltado la ciudad destruyendo los laboratorios de la Corporación Cápsula."
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "leftPort": "avatarpuar.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Puar",
-      "text": "¡Se han llevado secuestrados a Bulma y a Yamcha a una inmensa e impenetrable fortaleza helada situada en las cordilleras polares!"
+      "text": "Unos científicos locos del norte han asaltado los laboratorios de la Corporación Cápsula. ¡Se han llevado secuestrados a Bulma y a Yamcha a una inmensa fortaleza helada del norte!"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -514,7 +465,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Chaoz",
-      "text": "¡Ten, esto es absolutamente horrible! ¡Bulma y Yamcha son nuestros compañeros de batallas, no podemos quedarnos de brazos cruzados mientras unos monstruos mecánicos experimentan con ellos en sus laboratorios ocultos del norte!"
+      "text": "¡Ten, no podemos quedarnos de brazos cruzados mientras unos monstruos mecánicos experimentan con ellos en sus laboratorios ocultos!"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -522,111 +473,79 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "Tranquilízate por completo, Puar. Respira hondo. Secuestrar a personas inocentes y pacíficas para utilizarlas como cobayas en sucios propósitos científicos es algo que no voy a tolerar bajo ningún concepto ni en ningún planeta."
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "leftPort": "avatarchaozserio.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "right",
-      "name": "Tenshinhan",
-      "text": "Mi fuerza física renovada y mi Ki purificado y templado como el campeón absoluto del último torneo de artes marciales no flaquearán ni un milímetro ante unos simples robots de laboratorio."
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "leftPort": "avatarchaozserio.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "right",
-      "name": "Tenshinhan",
-      "text": "Chaoz, interrumpe tu meditación y recoge de inmediato todo nuestro equipo de viaje marcial, partimos hacia esas cordilleras del norte ahora mismo. ¡Nuestros amigos nos necesitan!"
+      "text": "Tranquilízate, Puar. Secuestrar a personas inocentes para utilizarlas como cobayas es algo que no voy a tolerar bajo ningún concepto. Chaoz, recoge el equipo. Partimos ahora mismo."
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] Tenshinhan y Chaoz asaltan las compuertas de la entrada principal de la base. ¡Al instante, una horda coordinada de tres bionoides de asalto les cierra el paso de forma violenta desplegando escudos de energía!</i>",
+      "text": "<i>[NARRADOR] Tenshinhan y Chaoz asaltan las compuertas de la entrada principal de la base. ¡Una horda de tres bionoides de asalto les cierra el paso desplegando escudos de energía!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
         "aliados": ["tenshinhan", "chaoz"],
         "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "backgroundwheelo.png",
-        "on_win": "WHEELO_TIEN_RESCATE",
+        "on_win": "WHEELO_TIEN_LIBERAN_YAMCHA",
         "on_lose": "WHEELO_TIEN_ENCERRADO"
       }
     }
   ],
 
-  "WHEELO_TIEN_RESCATE": [
+  "WHEELO_TIEN_LIBERAN_YAMCHA": [
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23sorprendido.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡¡Tenshinhan!! ¡¡Chaoz!! ¡No me puedo creer que hayáis venido hasta aquí por nosotros!"
+    },
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
       "rightPort": "avataryamcha23sorprendido.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "¡¡Ten, Chaoz!! ¡Menos mal que habéis logrado detectar de alguna forma nuestro debilitado Ki marcial en mitad de esta tormenta de nieve!"
+      "text": "Ten... Chaoz... Os lo agradezco de corazón, chicos. Esas malditas máquinas nos tendieron una emboscada muy sucia en la Corporación Cápsula. ¿Cómo os enterasteis?"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarchaozserio.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "left",
+      "name": "Chaoz",
+      "text": "Puar nos encontró entrenando en las cumbres del norte. ¡Yamcha, tienes muy mal aspecto! ¿Puedes mantenerte en pie para pelear?"
     },
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
-      "rightPort": "avataryamcha23giserious.png",
+      "rightPort": "avataryamcha23gismile.png",
       "speaker": "right",
       "name": "Yamcha",
-      "text": "Esas malditas máquinas nos tendieron una emboscada muy sucia en la Corporación Cápsula... Tened muchísimo cuidado al avanzar, el líder supremo de este complejo científico es un cerebro flotante metido en una armadura gigantesca."
+      "text": "¿Que si puedo pelear? Vosotros me habéis devuelto las fuerzas con vuestra llegada. ¡No pienso quedarme aquí mientras vosotros arriesgáis vuestras vidas! ¡Cuatro somos más que tres!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatartenshinhan23giserious.png",
+      "leftPort": "avatartenshinhan23giserious.png",
+      "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Ja ja ja! ¡Esto es absolutamente fascinante desde el punto de vista del análisis evolutivo y la biología guerrera!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "Conque este es el inusual espécimen de tres ojos que logró dominar con mano de hierro el último torneo mundial de artes marciales de este año..."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "Tu extraña e interesante estructura física, tu disciplina espartana de entrenamiento y tu control mental absoluto sobre la energía biológica encajarán de forma sublime con mis propósitos científicos de dominación global."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Tu cuerpo será el contenedor perfecto para mi mente eterna! ¡Guardia de élite mecanizada, capturen de inmediato al campeón marcial!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "right",
       "name": "Tenshinhan",
-      "text": "¡Jamás permitiré que utilices tus conocimientos científicos deformados para intentar esclavizar el espíritu libre de los guerreros de la Tierra, Wheelo!"
+      "text": "De acuerdo. Pero escúchame bien, Yamcha: tú y Chaoz cubridme los flancos. El objetivo principal soy yo. ¿Entendido?"
     },
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarwheelo.png",
       "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "right",
-      "name": "Tenshinhan",
-      "text": "¡Prepárate para recibir en tus circuitos toda la potencia destructiva acumulada de mi técnica del KIKO-HO si das un solo paso más hacia mí!"
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "Conque este es el inusual espécimen de tres ojos que dominó el último torneo mundial... ¡Tu cuerpo será el contenedor perfecto para mi mente eterna! ¡Guardia de élite, capturen al campeón!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡Las compuertas hidráulicas pesadas de los laboratorios internos liberan a un peligroso trío de bionoides de élite pesada modificados genéticamente para anular el Ki marcial de los héroes!</i>",
+      "text": "<i>[NARRADOR] ¡Las compuertas del laboratorio interno liberan un pelotón blindado de bionoides de élite pesada!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["tenshinhan", "chaoz"],
+        "aliados": ["tenshinhan", "chaoz", "yamcha"],
         "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_TIEN_BOSS",
@@ -642,15 +561,15 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "¡Chaoz, retrocede de inmediato y mantén tu barrera telequinética al máximo de potencia alrededor de Bulma y Yamcha para que no sufran daños!"
+      "text": "¡Chaoz, mantén tu barrera telequinética al máximo alrededor de Bulma! ¡Yamcha, flanquéalo por la derecha cuando yo cargue el Kikoho!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarchaozserio.png",
+      "leftPort": "avataryamcha23giserious.png",
       "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "right",
-      "name": "Tenshinhan",
-      "text": "¡Este monstruo cibernético flotante emana una presión opresiva enorme a través de sus reactores térmicos! ¡Va a atacar con todo lo que tiene!"
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "¡Entendido! ¡Roga Fufu Ken listo para cuando des la señal, Ten!"
     },
     {
       "bg": "backgroundwheelo.png",
@@ -658,15 +577,7 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Ríndete de una vez por todas, patético guerrero triclópe! Da igual cuánto Ki intentes reunir en esos pulmones biológicos tan limitados."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatartenshinhan23giserious.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Vuestro planeta entero será el patio de recreo privado de mi ciencia inmortal y mis creaciones mecánicas superiores! ¡Desapareced de mi vista!"
+      "text": "¡Da igual cuántos vengáis a desafiarme! ¡Vuestro planeta entero será el patio de recreo privado de mi ciencia inmortal! ¡Desapareced de mi vista!"
     },
     {
       "bg": "backgroundwheelo.png",
@@ -674,15 +585,15 @@
       "rightPort": "avatartenshinhan23giserious.png",
       "speaker": "right",
       "name": "Tenshinhan",
-      "text": "¡La fuerza real no proviene del metal ni de los circuitos integrados, proviene de la templanza del espíritu! ¡Siente la furia de los guerreros de la Tierra! ¡¡KIKO-HO!!"
+      "text": "¡La fuerza real no proviene del metal ni de los circuitos, proviene de la templanza del espíritu! ¡Siente la furia de los guerreros de la Tierra! ¡¡KIKO-HO!!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡El gigantesco armazón blindado del Dr. Wheelo se desconecta bruscamente de los generadores de energía del techo y desciende haciendo temblar los cimientos de la fortaleza helada!</i>",
+      "text": "<i>[NARRADOR] ¡El gigantesco armazón blindado del Dr. Wheelo desciende haciendo temblar los cimientos de la fortaleza helada para el combate final!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["tenshinhan", "chaoz"],
+        "aliados": ["tenshinhan", "chaoz", "yamcha"],
         "enemigos": ["wheelo"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_VICTORIA_BUENA",
@@ -693,6 +604,24 @@
 
   "WHEELO_TIEN_ENCERRADO": [
     {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarchaozserio.png",
+      "rightPort": "avatartenshinhan23giserious.png",
+      "speaker": "right",
+      "name": "Tenshinhan",
+      "text": "Maldición... Mis mejores técnicas espirituales fueron completamente inútiles contra su aleación blindada. Chaoz, lo siento... He fallado."
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarbulmaraditzsorpresa.png",
+      "rightPort": "avataryamcha23sorprendido.png",
+      "speaker": "left",
+      "name": "Bulma",
+      "text": "¡Nos han vuelto a encerrar a todos! ¡Yamcha, Tenshinhan, Chaoz! ¡Nuestra única esperanza ahora es que Goku llegue a tiempo!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "text": "<i>[NARRADOR] El Dr. Wheelo ordena encerrar a todos los rescatadores fallidos. La fortaleza aguarda la llegada del guerrero más poderoso...</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "tien_encarcelado",
@@ -708,7 +637,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Puar",
-      "text": "¡¡Goku, por fin logro encontrarte cortando madera en los confines de las montañas Paoz!! ¡Es una catástrofe absoluta de proporciones gigantescas!"
+      "text": "¡¡Goku, por fin logro encontrarte!! ¡Es una catástrofe! ¡El malvado Dr. Wheelo ha secuestrado por la fuerza a Yamcha y a Bulma en su laboratorio del norte!"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -716,15 +645,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Puar",
-      "text": "¡El malvado Dr. Wheelo ha secuestrado por la fuerza a Yamcha y a Bulma en su laboratorio fortificado del norte!"
-    },
-    {
-      "bg": "backgroundcasagoku.png",
-      "leftPort": "avatarpuar.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Puar",
-      "text": "Ese demente cerebro informático flotante quiere asaltar y gobernar el planeta entero, y para lograrlo necesita asimilar el cuerpo físico del luchador más fuerte del torneo de artes marciales..."
+      "text": "Ese demente cerebro informático flotante quiere gobernar el planeta entero, y para lograrlo necesita el cuerpo del luchador más fuerte del torneo..."
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -732,7 +653,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡¿Qué es lo que estás diciendo, Puar?! ¡¿Se han llevado a Bulma y a Yamcha por la fuerza a esas montañas congeladas?!"
+      "text": "¡¿Qué?! ¡¿Se han llevado a Bulma y a Yamcha?! ¡No permitiré que utilicen las artes marciales para planes egoístas de dominación!"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -740,15 +661,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Maldito infame! No permitiré bajo ningún concepto que utilicen la fuerza pura de las artes marciales para sus planes egoístas de dominación mundial."
-    },
-    {
-      "bg": "backgroundcasagoku.png",
-      "leftPort": "avatarpuar.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "Puar, quédate aquí en la casa al lado de Chi-Chi y protege la zona de cualquier peligro secundario. ¡Llamaré de inmediato a la Nube Kinton y viajaré hacia el norte a toda velocidad para rescatar a nuestros amigos! ¡Aguantad, ya voy para allá!",
+      "text": "Puar, quédate aquí al lado de Chi-Chi. ¡Llamaré a la Nube Kinton y viajaré hacia el norte a toda velocidad! ¡Aguantad, ya voy para allá!",
       "control": {
         "tipo": "comprobacion",
         "default": "WHEELO_GOKU_LLEGADA"
@@ -775,15 +688,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Octavio",
-      "text": "Goku... El laboratorio centralizado de experimentos del Dr. Wheelo está ubicado justo detrás de esa inmensa muralla de hielo compacto artificial."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Octavio",
-      "text": "Mis sensores mecánicos internos de rastreo detectan múltiples trampas de Ki y sensores láser camuflados en la nieve."
+      "text": "Goku... El laboratorio del Dr. Wheelo está justo detrás de esa muralla de hielo artificial. Mis sensores detectan múltiples trampas de Ki camufladas en la nieve."
     },
     {
       "bg": "backgroundwheelo.png",
@@ -791,15 +696,10 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Muchísimas gracias por venir a prestarme tu ayuda, Octavio! Tu radar táctico de la antigua Patrulla Roja nos vendrá genial para no perder el rumbo en mitad de esta terrible ventisca polar."
+      "text": "¡Muchísimas gracias por venir, Octavio! ¡Tu radar táctico nos vendrá genial en mitad de esta ventisca polar! ¡Vamos a derribar esa compuerta juntos de un golpe combinado!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Vamos a derribar esa compuerta blindada juntos de un solo golpe combinado! ¡Mantente alerta!",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "goku_va_con_ocho",
@@ -811,19 +711,10 @@
   "WHEELO_GOKU_SOLO": [
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": null,
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Uf... Qué frío tan espantoso hace aquí arriba en el polo norte de la Tierra... Pero no hay tiempo para quejarse de la temperatura ni para ponerse a tiritar en la nieve."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": null,
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Tengo que irrumpir con violencia en esa fortaleza metálica flotante y salvar a mis amigos antes de que ese científico loco les cause algún daño irreparable en sus cuerpos!"
+      "text": "Uf... Qué frío tan espantoso hace aquí arriba... Pero no hay tiempo para quejarse. ¡Tengo que irrumpir en esa fortaleza y salvar a mis amigos antes de que ese científico loco les cause algún daño!"
     },
     {
       "bg": "backgroundwheelo.png",
@@ -837,59 +728,27 @@
   "WHEELO_GOKU_COMBATE_1": [
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] Las ruidosas alarmas de intrusión de la base resuenan con estridencia metálica en todo el valle glaciar. ¡Tres bionoides inferiores emergen de la nieve en formación de emboscada armada para frenar en seco el avance de Goku!</i>",
+      "text": "<i>[NARRADOR] Las alarmas de intrusión resuenan en todo el valle glaciar. ¡Tres bionoides inferiores emergen de la nieve en formación de emboscada para frenar el avance de Goku!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["goku"],
+        "aliados_dinamicos": "goku_y_ocho",
         "enemigos": ["wheelosecuaz1", "wheelosecuaz1", "wheelosecuaz1"],
         "fondoCombate": "backgroundwheelo.png",
-        "on_win": "WHEELO_GOKU_COMBATE_2",
+        "on_win": "WHEELO_GOKU_LIBERA_AMIGOS",
         "on_lose": "WHEELO_DERROTA_GENERAL"
       }
     }
   ],
 
-  "WHEELO_GOKU_COMBATE_2": [
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": null,
-      "rightPort": "avatargoku23weightlesshappy.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Je! Esas tristes chatarras andantes de laboratorio no tenían absolutamente ninguna oportunidad contra mi velocidad de desplazamiento actual."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": null,
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Doctor Wheelo, te exijo que des la cara de una vez por todas ante un verdadero artista marcial y dejes de esconderte detrás de tus juguetes!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡Las inmensas compuertas hidráulicas del laboratorio biotecnológico interno se abren de golpe con un siseo de vapor, dejando salir a tres bionoides pesados pertenecientes a la guardia de élite suprema!</i>",
-      "recompensas": { "heal_all": true },
-      "control": {
-        "tipo": "combate",
-        "aliados": ["goku"],
-        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
-        "fondoCombate": "backgroundwheelo.png",
-        "on_win": "WHEELO_GOKU_RESCATE_AMIGOS",
-        "on_lose": "WHEELO_DERROTA_GENERAL"
-      }
-    }
-  ],
-
-  "WHEELO_GOKU_RESCATE_AMIGOS": [
+  "WHEELO_GOKU_LIBERA_AMIGOS": [
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarbulmaraditzsorpresa.png",
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡¡Goku, por fin has logrado llegar hasta aquí!! ¡Rápido, destruye con tus golpes la consola central de mandos analógicos!"
+      "text": "¡¡Goku!! ¡¡Por fin has llegado!! ¡Rápido, destruye la consola central de mandos para liberarnos de estas cápsulas magnéticas!"
     },
     {
       "bg": "backgroundwheelo.png",
@@ -897,18 +756,108 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Nos tenían completamente atrapados e indefensos en estas cápsulas magnéticas drenadoras de energía! ¡Ten cuidado con los niveles térmicos del reactor!"
+      "text": "¡Nos tenían completamente atrapados e indefensos! ¡Ten cuidado con los niveles térmicos del reactor central!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] Con un certero, veloz y potente golpe de artes marciales, Goku hace añicos los paneles de control de la sala, liberando de inmediato a Bulma y a Yamcha de su injusto confinamiento criogénico.</i>",
+      "text": "<i>[NARRADOR] Con un certero y potente golpe, Goku hace añicos los paneles de control, liberando a todos los prisioneros de su confinamiento.</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
           { "flag": "krilin_encarcelado", "valor": true, "salto_a": "WHEELO_GOKU_RESCATA_KRILLIN" },
           { "flag": "tien_encarcelado", "valor": true, "salto_a": "WHEELO_GOKU_RESCATA_TIEN" }
         ],
-        "default": "WHEELO_GOKU_BOSS_STANDALONE"
+        "default": "WHEELO_GOKU_RESCATA_YAMCHA"
+      }
+    }
+  ],
+
+  "WHEELO_GOKU_RESCATA_YAMCHA": [
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avataryamcha23gismile.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "¡Goku! ¡Sabía que vendrías! Esas malditas máquinas me tendieron una emboscada en la Corporación Cápsula... Pero ahora que estás aquí, ¡cuéntame con mi Roga Fufu Ken para el asalto final!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avataryamcha23giserious.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¡Genial, Yamcha! Me alegra que estés en condiciones de pelear. ¡Entre los dos acabamos con ese cerebro flotante en un abrir y cerrar de ojos!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "control": {
+        "tipo": "comprobacion",
+        "default": "WHEELO_GOKU_COMBATE_2_YAMCHA"
+      }
+    }
+  ],
+
+  "WHEELO_GOKU_COMBATE_2_YAMCHA": [
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "¡Doctor, mire las pantallas! ¡Son Goku ha destruido las cápsulas de contención y liberado a los prisioneros!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "¡¡INSOLENTES!! ¡Guardia de élite pesada, aplastadlos de inmediato antes de que lleguen a la sala del reactor!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "text": "<i>[NARRADOR] ¡Las compuertas del laboratorio interno liberan un escuadrón de bionoides pesados de élite!</i>",
+      "recompensas": { "heal_all": true },
+      "control": {
+        "tipo": "combate",
+        "aliados_dinamicos": "goku_ocho_yamcha",
+        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
+        "fondoCombate": "backgroundwheelo.png",
+        "on_win": "WHEELO_GOKU_BOSS_YAMCHA",
+        "on_lose": "WHEELO_DERROTA_GENERAL"
+      }
+    }
+  ],
+
+  "WHEELO_GOKU_BOSS_YAMCHA": [
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "¡Son Goku! Tu estructura física es el templo definitivo que requiero para albergar mi intelecto inmortal. ¡Nadie puede detener el avance de la ciencia!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¡Ni en tus mejores sueños, pedazo de chatarra! ¡Nadie va a usar mi cuerpo ni el de mis amigos para sembrar el terror! ¡Aquí te detenemos!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "text": "<i>[NARRADOR] ¡El Dr. Wheelo desciende de su plataforma para el combate final!</i>",
+      "recompensas": { "heal_all": true },
+      "control": {
+        "tipo": "combate",
+        "aliados_dinamicos": "goku_ocho_yamcha",
+        "enemigos": ["wheelo"],
+        "fondoCombate": "backgroundwheelo.png",
+        "on_win": "WHEELO_VICTORIA_BUENA",
+        "on_lose": "WHEELO_DERROTA_GENERAL"
       }
     }
   ],
@@ -920,7 +869,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Uf... Lo siento muchísimo, Goku... Llegamos antes que tú pero ese maldito cerebro flotante nos tomó por sorpresa con sus descargas energéticas cuánticas y absorbió mi Ki de campeón."
+      "text": "Uf... Lo siento muchísimo, Goku... Llegamos antes que tú pero ese maldito cerebro flotante nos tomó por sorpresa con sus descargas cuánticas y absorbió todo nuestro Ki."
     },
     {
       "bg": "backgroundwheelo.png",
@@ -928,16 +877,85 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Menos mal que tu nivel de combate actual es asombroso y lograste romper el campo de fuerza. ¡Vamos a darle su merecido juntos!"
+      "text": "Menos mal que tu nivel de combate es asombroso y lograste romper el campo de fuerza. ¡Vamos a darle su merecido juntos!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avataryamcha23gismile.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "¡Yo también estoy listo! ¡Con Goku aquí podemos con lo que sea! ¡Vamos a por ese bicho flotante!"
     },
     {
       "bg": "backgroundwheelo.png",
       "control": {
         "tipo": "comprobacion",
-        "flags_a_comprobar": [
-          { "flag": "goku_va_con_ocho", "valor": true, "salto_a": "WHEELO_PARTY_GOKU_OCHO_KRILLIN" }
-        ],
-        "default": "WHEELO_PARTY_GOKU_KRILLIN"
+        "default": "WHEELO_GOKU_COMBATE_2_KRILLIN"
+      }
+    }
+  ],
+
+  "WHEELO_GOKU_COMBATE_2_KRILLIN": [
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "¡¡INSOLENTES!! ¡Han liberado a los prisioneros! ¡Guardia de élite pesada, aplastadlos de inmediato!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "text": "<i>[NARRADOR] ¡Las compuertas del laboratorio interno liberan un nuevo escuadrón de bionoides pesados!</i>",
+      "recompensas": { "heal_all": true },
+      "control": {
+        "tipo": "combate",
+        "aliados_dinamicos": "goku_ocho_krillin",
+        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
+        "fondoCombate": "backgroundwheelo.png",
+        "on_win": "WHEELO_GOKU_BOSS_KRILLIN",
+        "on_lose": "WHEELO_DERROTA_GENERAL"
+      }
+    }
+  ],
+
+  "WHEELO_GOKU_BOSS_KRILLIN": [
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarkrilin23giserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡Goku, carga tu Kamehameha mientras yo lo distraigo con el Kienzan! ¡Es ahora o nunca!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Dr. Wheelo",
+      "text": "¡Vuestra patética resistencia termina aquí! ¡Contemplad la potencia cibernética definitiva!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "leftPort": "avatarwheelo.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¡Nadie en este planeta va a usar mi cuerpo ni el de mis amigos para sembrar el terror, Wheelo! ¡Aquí te detenemos de una vez por todas!"
+    },
+    {
+      "bg": "backgroundwheelo.png",
+      "text": "<i>[NARRADOR] ¡El Dr. Wheelo desciende rugiendo para el combate final!</i>",
+      "recompensas": { "heal_all": true },
+      "control": {
+        "tipo": "combate",
+        "aliados_dinamicos": "goku_ocho_krillin",
+        "enemigos": ["wheelo"],
+        "fondoCombate": "backgroundwheelo.png",
+        "on_win": "WHEELO_VICTORIA_BUENA",
+        "on_lose": "WHEELO_DERROTA_GENERAL"
       }
     }
   ],
@@ -949,7 +967,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Maldición... Mis mejores técnicas espirituales y de control de energía fueron completamente inútiles contra su aleación blindada de metal cuántico. Chaoz y yo estamos demasiado débiles para sostenernos en pie por el momento..."
+      "text": "Maldición... Mis mejores técnicas espirituales fueron completamente inútiles contra su aleación blindada de metal cuántico. Goku... gracias por llegar a tiempo."
     },
     {
       "bg": "backgroundwheelo.png",
@@ -957,100 +975,57 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡No te preocupes en absoluto por eso ahora mismo, Tenshinhan! ¡Yo acabo de irrumpir en el complejo siguiendo el rastro de Puar y daré un paso al frente por ti!"
+      "text": "¡Yo acabo de irrumpir en el complejo siguiendo el rastro de Puar! ¡Lucharé al lado de Goku con todas mis energías restantes para tumbar a esa máquina infernal!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarkrilin23giserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
+      "leftPort": "avataryamcha23gismile.png",
+      "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
-      "name": "Krillin",
-      "text": "¡Lucharé al lado de Goku con todas mis energías restantes para tumbar a esa máquina infernal del Dr. Wheelo! ¡Despierta, Goku!"
+      "name": "Yamcha",
+      "text": "¡Y yo también! ¡Con Goku aquí podemos con lo que sea! ¡Vamos a por ese bicho flotante de una vez!"
     },
     {
       "bg": "backgroundwheelo.png",
       "control": {
         "tipo": "comprobacion",
-        "flags_a_comprobar": [
-          { "flag": "goku_va_con_ocho", "valor": true, "salto_a": "WHEELO_PARTY_GOKU_OCHO_KRILLIN" }
-        ],
-        "default": "WHEELO_PARTY_GOKU_KRILLIN"
+        "default": "WHEELO_GOKU_COMBATE_2_TIEN"
       }
     }
   ],
 
-  "WHEELO_PARTY_GOKU_OCHO_KRILLIN": [
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Octavio",
-      "text": "Dr. Wheelo... Se acabó por completo utilizar la fuerza bruta y el sufrimiento de los inocentes para tus oscuros e inmorales fines científicos de dominación."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "AvatarAndroide8.Normal.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Octavio",
-      "text": "¡La pequeña Suno me dio su bendición sincera desde la lejana aldea Jingle para acabar con esta pesadilla tecnológica de una vez por todas! ¡Siente mis puños!"
-    },
+  "WHEELO_GOKU_COMBATE_2_TIEN": [
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarwheelo.png",
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡¡Insolentes sabandijas invasoras y defectuosas de la evolución biológica!!"
+      "text": "¡¡INSOLENTES!! ¡Han liberado a los prisioneros! ¡Guardia de élite pesada, aplastadlos de inmediato!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¿De verdad creéis en vuestras mentes primitivas que sumar vuestras tristes y patéticas fuerzas detendrá el curso inexorable del intelecto supremo de la ciencia?"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Tanto vuestros campeones mundiales como vuestros ridículos rescatadores arderán bajo el fuego cósmico de las armas de mi fortaleza! ¡Experimentaréis la muerte cuántica en vuestras células!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡Goku, el Androide Octavio y Krillin unifican sus Ki marciales y sistemas de potencia para dar inicio al combate final! (Yamcha se retira a una zona segura protegiendo a Bulma de los inminentes escombros de la fortaleza colapsando).</i>",
+      "text": "<i>[NARRADOR] ¡Las compuertas del laboratorio interno liberan un nuevo escuadrón de bionoides pesados para frenar el avance del grupo!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["goku", "android_8", "krillin"],
-        "enemigos": ["wheelo"],
+        "aliados_dinamicos": "goku_ocho_tien",
+        "enemigos": ["wheelosecuaz2", "wheelosecuaz2", "wheelosecuaz2"],
         "fondoCombate": "backgroundwheelo.png",
-        "on_win": "WHEELO_VICTORIA_BUENA",
+        "on_win": "WHEELO_GOKU_BOSS_TIEN",
         "on_lose": "WHEELO_DERROTA_GENERAL"
       }
     }
   ],
 
-  "WHEELO_PARTY_GOKU_KRILLIN": [
+  "WHEELO_GOKU_BOSS_TIEN": [
     {
       "bg": "backgroundwheelo.png",
-      "leftPort": "avatarkrilin23giserio.png",
+      "leftPort": "avatartenshinhan23giserious.png",
       "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Muy bien, Krillin! ¡Hagámoslo exactamente como en los viejos tiempos en los extenuantes entrenamientos marciales de la Escuela Tortuga del Maestro Roshi!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarkrilin23giserio.png",
-      "rightPort": "avatargoku23weightlesshappy.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Carga tu Ki al máximo absoluto en tus palmas, sincroniza tus latidos conmigo! ¡A por él con toda nuestra energía acumulada!"
+      "speaker": "left",
+      "name": "Tenshinhan",
+      "text": "Goku, krillin, escuchadme. Tengo Ki suficiente para un Kikoho de apertura que lo desestabilice. Aprovechad ese momento para atacar con todo."
     },
     {
       "bg": "backgroundwheelo.png",
@@ -1058,95 +1033,23 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Dr. Wheelo",
-      "text": "¡Jajaja! ¡Reuníos, gritad y luchad, no me importa en lo más mínimo cuántos vengáis a desafiarme!"
+      "text": "¡Vuestra resistencia termina aquí! ¡Contemplad la potencia cibernética definitiva y rendíos ante la ciencia inmortal!"
     },
     {
       "bg": "backgroundwheelo.png",
       "leftPort": "avatarwheelo.png",
       "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "Vuestra patética fuerza puramente biológica será erradicada de la faz de la Tierra por el pináculo del conocimiento científico humano unificado. ¡Contemplad la verdadera potencia cibernética definitiva!"
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¡Nadie va a usar este planeta como laboratorio privado, Wheelo! ¡Aquí te detenemos de una vez por todas!"
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡Goku y Krillin se colocan en una posición estática perfecta, cargando sus respectivas e imponentes ráfagas de Kamehameha en perfecta sincronía espiritual para erradicar al coloso cibernético del Dr. Wheelo!</i>",
+      "text": "<i>[NARRADOR] ¡El Dr. Wheelo desciende rugiendo de su plataforma para el combate final!</i>",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
-        "aliados": ["goku", "krillin"],
-        "enemigos": ["wheelo"],
-        "fondoCombate": "backgroundwheelo.png",
-        "on_win": "WHEELO_VICTORIA_BUENA",
-        "on_lose": "WHEELO_DERROTA_GENERAL"
-      }
-    }
-  ],
-
-  "WHEELO_GOKU_BOSS_STANDALONE": [
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Son Goku! Mis bio-escáneres cuánticos registraron tu inmenso e inusual nivel de energía aproximándose a este santuario de hielo a una velocidad supersónica..."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡No me importa en absoluto quién ostente el patético y mundano trofeo de vuestro torneo mundial marcial! ¡Tu estructura física es el templo definitivo que requiero para albergar mi intelecto inmortal!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "Sé perfectamente que fuiste tú, un simple niño en ese entonces, quien destruyó por completo los laboratorios y los sueños globales de la Patrulla Roja en el pasado."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Dr. Wheelo",
-      "text": "¡Qué ironía tan deliciosa y poética! Ahora, esa misma fuerza bruta que frustró el avance de la ciencia servirá como el recipiente perfecto para coronarme como el dios indiscutible de la Tierra."
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Ni en tus mejores sueños científicos, pedazo de chatarra flotante con cables!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Nadie en este planeta va a utilizar mi cuerpo ni el de ninguno de mis queridos amigos para sembrar el terror y la miseria en el mundo! ¡Te detendré aquí mismo!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "leftPort": "avatarwheelo.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "¡Prepara tus circuitos integrados y tus placas blindadas de aleación, porque allá voy con todo mi poder marcial acumulado! ¡¡HAAA!!"
-    },
-    {
-      "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] ¡Goku adopta su característica e icónica postura de combate marcial de la Escuela Tortuga, dando inicio al duelo final en solitario contra la colosal e implacable masa destructiva del Dr. Wheelo!</i>",
-      "recompensas": { "heal_all": true },
-      "control": {
-        "tipo": "combate",
-        "aliados": ["goku"],
+        "aliados_dinamicos": "goku_ocho_tien",
         "enemigos": ["wheelo"],
         "fondoCombate": "backgroundwheelo.png",
         "on_win": "WHEELO_VICTORIA_BUENA",
@@ -1158,12 +1061,11 @@
   "WHEELO_VICTORIA_BUENA": [
     {
       "bg": "backgroundwheelo.png",
-      "cg": null,
-      "text": "<i>[NARRADOR] Con un estallido masivo, cegador y ensordecedor de pura energía marcial concentrada, la gigantesca cúpula de cristal blindado del Dr. Wheelo se resquebraja por completo.</i>"
+      "text": "<i>[NARRADOR] Con un estallido masivo de pura energía marcial concentrada, la gigantesca cúpula de cristal blindado del Dr. Wheelo se resquebraja por completo.</i>"
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] Su cerebro informático salta en mil pedazos flamígeros entre chispas de cortocircuito. La fortaleza tecnológica del norte colapsa de forma estructural y definitiva, hundiéndose en el hielo.</i>"
+      "text": "<i>[NARRADOR] Su cerebro informático salta en mil pedazos entre chispas de cortocircuito. La fortaleza tecnológica del norte colapsa definitivamente, hundiéndose en el hielo.</i>"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -1171,7 +1073,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "¡Uf! Qué susto tan terrible pasamos metidos en esas frías cápsulas mecánicas de absorción de energía... De verdad pensé que ese científico desquiciado nos iba a borrar la mente."
+      "text": "¡Uf! Qué susto tan terrible pasamos metidos en esas frías cápsulas mecánicas... De verdad pensé que ese científico desquiciado nos iba a borrar la mente."
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -1179,7 +1081,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Bulma",
-      "text": "Pensé que nos convertiría en simples piezas de repuesto informáticas para sus robots de guerra. Muchísimas gracias por salvarnos la vida una vez más, chicos. ¡Sois los mejores!"
+      "text": "Muchísimas gracias por salvarnos la vida una vez más, chicos. ¡Sois los mejores!"
     },
     {
       "bg": "backgroundcasagoku.png",
@@ -1199,7 +1101,7 @@
     },
     {
       "bg": "backgroundwheelo.png",
-      "text": "<i>[NARRADOR] El científico demente transfiere con éxito su colosal cerebro al templo definitivo de carne y Ki. GAME OVER. La humanidad cae sin remedio en una ineludible era de tiranía cibernética y biológica global.</i>"
+      "text": "<i>[NARRADOR] El científico demente transfiere con éxito su colosal cerebro al templo definitivo de carne y Ki. GAME OVER. La humanidad cae sin remedio en una era de tiranía cibernética global.</i>"
     }
   ],
 
