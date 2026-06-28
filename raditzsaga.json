@@ -54,13 +54,16 @@
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
-          { "flag": "piccologanatenkaichi", "valor": true, "salto_a": "RADITZ_ENCUENTRA_PICCOLO_CAMPEON" }
+          {
+            "flag": "piccologanatenkaichi",
+            "valor": true,
+            "salto_a": "RADITZ_ENCUENTRA_PICCOLO_CAMPEON"
+          }
         ],
         "default": "RADITZ_ENCUENTRA_PICCOLO_CANON"
       }
     }
   ],
-
   "RADITZ_ENCUENTRA_PICCOLO_CANON": [
     {
       "bg": "trainingislandbackground.png",
@@ -106,22 +109,24 @@
       }
     }
   ],
-
   "RADITZ_PICCOLO_COMBATE_CANON": [
     {
       "bg": "trainingislandbackground.png",
       "text": "<i>[NARRADOR] Piccolo ataca sin más preámbulos. Raditz lo esquiva con una facilidad que duele de ver. El intercambio dura segundos. Piccolo acaba en el suelo.</i>",
       "control": {
         "tipo": "combate",
-        "aliados": ["piccolo"],
-        "enemigos": ["raditz"],
+        "aliados": [
+          "piccolo"
+        ],
+        "enemigos": [
+          "raditz"
+        ],
         "fondoCombate": "trainingislandbackground.png",
         "on_win": "RADITZ_PICCOLO_GANA_CANON",
         "on_lose": "RADITZ_PICCOLO_PIERDE_VA_KAMEHOUSE"
       }
     }
   ],
-
   "RADITZ_ENCUENTRA_PICCOLO_CAMPEON": [
     {
       "bg": "trainingislandbackground.png",
@@ -181,22 +186,24 @@
       }
     }
   ],
-
   "RADITZ_PICCOLO_COMBATE_CAMPEON": [
     {
       "bg": "trainingislandbackground.png",
       "text": "<i>[NARRADOR] Piccolo desata todo el Ki acumulado durante cinco años de entrenamiento solitario. La tierra se agrieta bajo sus pies. Por primera vez, Raditz no esquiva de inmediato.</i>",
       "control": {
         "tipo": "combate",
-        "aliados": ["piccolo_boss_700"],
-        "enemigos": ["raditz"],
+        "aliados": [
+          "piccolo_boss_700"
+        ],
+        "enemigos": [
+          "raditz"
+        ],
         "fondoCombate": "trainingislandbackground.png",
         "on_win": "RADITZ_PICCOLO_GANA_CAMPEON",
         "on_lose": "RADITZ_PICCOLO_PIERDE_VA_KAMEHOUSE"
       }
     }
   ],
-
   "RADITZ_PICCOLO_GANA_CANON": [
     {
       "bg": "trainingislandbackground.png",
@@ -234,7 +241,6 @@
       }
     }
   ],
-
   "RADITZ_PICCOLO_GANA_CAMPEON": [
     {
       "bg": "trainingislandbackground.png",
@@ -281,7 +287,6 @@
       }
     }
   ],
-
   "RADITZ_MUERE_PICCOLO_AVISA": [
     {
       "bg": "trainingislandbackground.png",
@@ -371,7 +376,6 @@
       }
     }
   ],
-
   "RADITZ_FIN_SAGA_TEMPRANO": [
     {
       "bg": "backgorundkamehouse.png",
@@ -394,7 +398,6 @@
       "text": "<i>[NARRADOR] La noticia cae sobre todos como una losa. Pero también hay algo más: determinación. Un año. Solo un año para prepararse para algo que ninguno de ellos puede imaginar todavía.</i>"
     }
   ],
-
   "RADITZ_PICCOLO_PIERDE_VA_KAMEHOUSE": [
     {
       "bg": "trainingislandbackground.png",
@@ -417,7 +420,6 @@
       }
     }
   ],
-
   "RADITZ_LLEGA_KAMEHOUSE": [
     {
       "bg": "backgorundkamehouse.png",
@@ -555,7 +557,6 @@
       }
     }
   ],
-
   "RADITZ_COMBATE_1_KAMEHOUSE": [
     {
       "bg": "backgorundkamehouse.png",
@@ -572,18 +573,23 @@
       "speaker": "right",
       "name": "Goku",
       "text": "Si quieres pelea, la tienes aquí mismo. Pero esto acaba hoy.",
-      "recompensas": { "heal_all": true },
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
-        "aliados": ["goku"],
-        "enemigos": ["raditz"],
+        "aliados": [
+          "goku"
+        ],
+        "enemigos": [
+          "raditz"
+        ],
         "fondoCombate": "backgorundkamehouse.png",
         "on_win": "RADITZ_GOKU_GANA_KAMEHOUSE",
         "on_lose": "RADITZ_GOKU_PIERDE_SECUESTRO"
       }
     }
   ],
-
   "RADITZ_GOKU_GANA_KAMEHOUSE": [
     {
       "bg": "backgorundkamehouse.png",
@@ -655,14 +661,12 @@
       }
     }
   ],
-
   "RADITZ_FIN_ALIADO": [
     {
       "bg": "backgorundkamehouse.png",
       "text": "<i>[NARRADOR] Raditz se queda. Nadie en Kame House confía en él. Él tampoco confía en nadie. Pero por ahora, las Dragon Balls son un objetivo común. El tiempo dirá qué se construye, o qué se destruye, desde ahí.</i>"
     }
   ],
-
   "RADITZ_GOKU_PIERDE_SECUESTRO": [
     {
       "bg": "backgorundkamehouse.png",
@@ -717,7 +721,6 @@
       }
     }
   ],
-
   "RADITZ_PICCOLO_LLEGA_KAMEHOUSE": [
     {
       "bg": "backgorundkamehouse.png",
@@ -768,7 +771,6 @@
       }
     }
   ],
-
   "RADITZ_TENSHINHAN_LLEGA_CHECK": [
     {
       "bg": "backgorundkamehouse.png",
@@ -776,13 +778,16 @@
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
-          { "flag": "tienganatenkaichi", "valor": true, "salto_a": "RADITZ_TENSHINHAN_LLEGA_CAMPEON" }
+          {
+            "flag": "tienganatenkaichi",
+            "valor": true,
+            "salto_a": "RADITZ_TENSHINHAN_LLEGA_CAMPEON"
+          }
         ],
         "default": "RADITZ_ELECCION_ALIADO"
       }
     }
   ],
-
   "RADITZ_TENSHINHAN_LLEGA_CAMPEON": [
     {
       "bg": "backgorundkamehouse.png",
@@ -813,7 +818,6 @@
       }
     }
   ],
-
   "RADITZ_ELECCION_ALIADO": [
     {
       "bg": "backgorundkamehouse.png",
@@ -833,13 +837,16 @@
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
-          { "flag": "tienganatenkaichi", "valor": true, "salto_a": "RADITZ_ELECCION_CON_TIEN" }
+          {
+            "flag": "tienganatenkaichi",
+            "valor": true,
+            "salto_a": "RADITZ_ELECCION_CON_TIEN"
+          }
         ],
         "default": "RADITZ_ELECCION_SIN_TIEN"
       }
     }
   ],
-
   "RADITZ_ELECCION_SIN_TIEN": [
     {
       "bg": "backgorundkamehouse.png",
@@ -847,13 +854,18 @@
       "control": {
         "tipo": "eleccion",
         "opciones": [
-          { "texto": "Ir con Piccolo (Canon)", "salto_a": "RADITZ_PREP_GOKU_PICCOLO" },
-          { "texto": "Ir con Krillin", "salto_a": "RADITZ_PREP_GOKU_KRILLIN" }
+          {
+            "texto": "Ir con Piccolo (Canon)",
+            "salto_a": "RADITZ_PREP_GOKU_PICCOLO"
+          },
+          {
+            "texto": "Ir con Krillin",
+            "salto_a": "RADITZ_PREP_GOKU_KRILLIN"
+          }
         ]
       }
     }
   ],
-
   "RADITZ_ELECCION_CON_TIEN": [
     {
       "bg": "backgorundkamehouse.png",
@@ -861,14 +873,22 @@
       "control": {
         "tipo": "eleccion",
         "opciones": [
-          { "texto": "Ir con Piccolo (Canon)", "salto_a": "RADITZ_PREP_GOKU_PICCOLO" },
-          { "texto": "Ir con Krillin", "salto_a": "RADITZ_PREP_GOKU_KRILLIN" },
-          { "texto": "Ir con Krillin y Tenshinhan", "salto_a": "RADITZ_PREP_GOKU_KRILLIN_TIEN" }
+          {
+            "texto": "Ir con Piccolo (Canon)",
+            "salto_a": "RADITZ_PREP_GOKU_PICCOLO"
+          },
+          {
+            "texto": "Ir con Krillin",
+            "salto_a": "RADITZ_PREP_GOKU_KRILLIN"
+          },
+          {
+            "texto": "Ir con Krillin y Tenshinhan",
+            "salto_a": "RADITZ_PREP_GOKU_KRILLIN_TIEN"
+          }
         ]
       }
     }
   ],
-
   "RADITZ_PREP_GOKU_PICCOLO": [
     {
       "bg": "bumpforestbackground.png",
@@ -904,7 +924,6 @@
       }
     }
   ],
-
   "RADITZ_PREP_GOKU_KRILLIN": [
     {
       "bg": "bumpforestbackground.png",
@@ -932,7 +951,6 @@
       }
     }
   ],
-
   "RADITZ_PREP_GOKU_KRILLIN_TIEN": [
     {
       "bg": "bumpforestbackground.png",
@@ -960,7 +978,6 @@
       }
     }
   ],
-
   "RADITZ_COMBATE_FINAL_FASE1": [
     {
       "bg": "bumpforestbackground.png",
@@ -990,18 +1007,21 @@
       "speaker": "left",
       "name": "Raditz",
       "text": "Podéis intentarlo.",
-      "recompensas": { "heal_all": true },
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados_dinamicos": "equipo_raditz",
-        "enemigos": ["raditz"],
+        "enemigos": [
+          "raditz"
+        ],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "RADITZ_VICTORIA_DIRECTA",
         "on_lose": "RADITZ_GOHAN_SALE_CAPSULA"
       }
     }
   ],
-
   "RADITZ_VICTORIA_DIRECTA": [
     {
       "bg": "bumpforestbackground.png",
@@ -1025,7 +1045,6 @@
       }
     }
   ],
-
   "RADITZ_FIN_VICTORIA_LIMPIA": [
     {
       "bg": "bumpforestbackground.png",
@@ -1052,7 +1071,6 @@
       "text": "<i>[NARRADOR] Las últimas palabras de Raditz flotan en el aire. Un año. Saiyans más fuertes. El combate de hoy ha sido solo un aviso. El entrenamiento empieza mañana.</i>"
     }
   ],
-
   "RADITZ_GOHAN_SALE_CAPSULA": [
     {
       "bg": "bumpforestbackground.png",
@@ -1100,7 +1118,6 @@
       }
     }
   ],
-
   "RADITZ_COMBATE_FINAL_FASE2": [
     {
       "bg": "bumpforestbackground.png",
@@ -1109,18 +1126,21 @@
       "speaker": "right",
       "name": "Goku",
       "text": "Ahora. Todos a la vez mientras está debilitado. Es nuestra única oportunidad.",
-      "recompensas": { "heal_all": true },
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
         "aliados_dinamicos": "equipo_raditz",
-        "enemigos": ["raditz_debilitado"],
+        "enemigos": [
+          "raditz_debilitado"
+        ],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "RADITZ_SACRIFICIO",
         "on_lose": "RADITZ_EQUIPO_RESCATE_CHECK"
       }
     }
   ],
-
   "RADITZ_SACRIFICIO": [
     {
       "bg": "bumpforestbackground.png",
@@ -1129,15 +1149,26 @@
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
-          { "flag": "raditz_fue_con_piccolo", "valor": true, "salto_a": "RADITZ_SACRIFICIO_GOKU" },
-          { "flag": "raditz_fue_con_krillin", "valor": true, "salto_a": "RADITZ_SACRIFICIO_ELECCION_KRILLIN" },
-          { "flag": "raditz_fue_con_krillin_tien", "valor": true, "salto_a": "RADITZ_SACRIFICIO_ELECCION_TIEN_KRILLIN" }
+          {
+            "flag": "raditz_fue_con_piccolo",
+            "valor": true,
+            "salto_a": "RADITZ_SACRIFICIO_GOKU"
+          },
+          {
+            "flag": "raditz_fue_con_krillin",
+            "valor": true,
+            "salto_a": "RADITZ_SACRIFICIO_ELECCION_KRILLIN"
+          },
+          {
+            "flag": "raditz_fue_con_krillin_tien",
+            "valor": true,
+            "salto_a": "RADITZ_SACRIFICIO_ELECCION_TIEN_KRILLIN"
+          }
         ],
         "default": "RADITZ_SACRIFICIO_GOKU"
       }
     }
   ],
-
   "RADITZ_SACRIFICIO_GOKU": [
     {
       "bg": "bumpforestbackground.png",
@@ -1190,7 +1221,6 @@
       }
     }
   ],
-
   "RADITZ_SACRIFICIO_ELECCION_KRILLIN": [
     {
       "bg": "bumpforestbackground.png",
@@ -1226,13 +1256,18 @@
       "control": {
         "tipo": "eleccion",
         "opciones": [
-          { "texto": "Krillin se sacrifica con Goku", "salto_a": "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA" },
-          { "texto": "Buscar otra salida", "salto_a": "RADITZ_EQUIPO_RESCATE_CHECK" }
+          {
+            "texto": "Krillin se sacrifica con Goku",
+            "salto_a": "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA"
+          },
+          {
+            "texto": "Buscar otra salida",
+            "salto_a": "RADITZ_EQUIPO_RESCATE_CHECK"
+          }
         ]
       }
     }
   ],
-
   "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA": [
     {
       "bg": "bumpforestbackground.png",
@@ -1262,7 +1297,6 @@
       }
     }
   ],
-
   "RADITZ_SACRIFICIO_ELECCION_TIEN_KRILLIN": [
     {
       "bg": "bumpforestbackground.png",
@@ -1281,14 +1315,22 @@
       "control": {
         "tipo": "eleccion",
         "opciones": [
-          { "texto": "Tenshinhan se sacrifica (Kikoho combinado)", "salto_a": "RADITZ_SACRIFICIO_TIEN_CONFIRMA" },
-          { "texto": "Krillin se sacrifica (Kamehameha)", "salto_a": "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA" },
-          { "texto": "Buscar otra salida", "salto_a": "RADITZ_EQUIPO_RESCATE_CHECK" }
+          {
+            "texto": "Tenshinhan se sacrifica (Kikoho combinado)",
+            "salto_a": "RADITZ_SACRIFICIO_TIEN_CONFIRMA"
+          },
+          {
+            "texto": "Krillin se sacrifica (Kamehameha)",
+            "salto_a": "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA"
+          },
+          {
+            "texto": "Buscar otra salida",
+            "salto_a": "RADITZ_EQUIPO_RESCATE_CHECK"
+          }
         ]
       }
     }
   ],
-
   "RADITZ_SACRIFICIO_TIEN_CONFIRMA": [
     {
       "bg": "bumpforestbackground.png",
@@ -1318,7 +1360,6 @@
       }
     }
   ],
-
   "RADITZ_FIN_CANON": [
     {
       "bg": "bumpforestbackground.png",
@@ -1350,7 +1391,6 @@
       "text": "<i>[NARRADOR] Un año. Eso es todo lo que tienen. Un año para hacerse más fuertes que nadie en la Tierra ha necesitado ser jamás. El entrenamiento empieza mañana.</i>"
     }
   ],
-
   "RADITZ_EQUIPO_RESCATE_CHECK": [
     {
       "bg": "bumpforestbackground.png",
@@ -1358,23 +1398,38 @@
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
-          { "flag": "raditz_fue_con_piccolo", "valor": true, "salto_a": "RADITZ_RESCATE_EQUIPO_PICCOLO" },
-          { "flag": "raditz_fue_con_krillin", "valor": true, "salto_a": "RADITZ_RESCATE_EQUIPO_KRILLIN" },
-          { "flag": "raditz_fue_con_krillin_tien", "valor": true, "salto_a": "RADITZ_RESCATE_EQUIPO_TIEN_KRILLIN" }
+          {
+            "flag": "raditz_fue_con_piccolo",
+            "valor": true,
+            "salto_a": "RADITZ_RESCATE_EQUIPO_PICCOLO"
+          },
+          {
+            "flag": "raditz_fue_con_krillin",
+            "valor": true,
+            "salto_a": "RADITZ_RESCATE_EQUIPO_KRILLIN"
+          },
+          {
+            "flag": "raditz_fue_con_krillin_tien",
+            "valor": true,
+            "salto_a": "RADITZ_RESCATE_EQUIPO_TIEN_KRILLIN"
+          }
         ],
         "default": "RADITZ_DERROTA_TOTAL"
       }
     }
   ],
-
   "RADITZ_RESCATE_EQUIPO_PICCOLO": [
+    {
+      "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Todo parece perdido. Entonces tres Ki familiares irrumpen desde el horizonte a toda velocidad.</i>"
+    },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarkrilin23giserio.png",
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¡Aquí!! ¡Estamos aquí! ¡Llegamos a tiempo!"
+      "text": "¡¡Aquí!! ¡Llegamos a tiempo! ¡Goku, resiste!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1382,52 +1437,108 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Raditz. Has derrotado a Goku y a Piccolo. Ahora nos toca a nosotros.",
-      "recompensas": { "heal_all": true },
+      "text": "Cuando Piccolo cayó lo sentí desde las montañas. Yamcha también. Sabíamos que tendríamos que venir."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avataryamcha23giserious.png",
+      "rightPort": "avatarraditzserio.png",
+      "speaker": "left",
+      "name": "Yamcha",
+      "text": "Has derrotado a Goku y a Piccolo. Ahora nos toca a nosotros tres."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarraditzsmirk.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "Más insectos. Este planeta no termina de decepcionarme."
+    },
+    {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
-        "aliados": ["krillin", "tenshinhan", "yamcha"],
-        "enemigos": ["raditz_debilitado"],
+        "aliados": [
+          "krillin",
+          "tenshinhan",
+          "yamcha"
+        ],
+        "enemigos": [
+          "raditz_debilitado"
+        ],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "RADITZ_RESCATE_VICTORIA",
         "on_lose": "RADITZ_DERROTA_TOTAL"
       }
     }
   ],
-
   "RADITZ_RESCATE_EQUIPO_KRILLIN": [
     {
       "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Tres Ki se aproximan desde distintas direcciones. Tenshinhan desde el norte. Piccolo desde el oeste. Yamcha desde el sur.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
       "leftPort": "avatartenshinhan23giserious.png",
-      "rightPort": "avatarpiccolosincapaserio.png",
+      "rightPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Piccolo. Tregua. Ahora."
+      "text": "Sentí la batalla desde lejos. Cuando el Ki de Goku y Krillin cayó, supe que era el momento."
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
-      "rightPort": "avataryamcha23giserious.png",
+      "rightPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "... De acuerdo. Acabemos con esto.",
-      "recompensas": { "heal_all": true },
+      "text": "Este saiyan es problema de todos. Tregua, Tenshinhan."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatartenshinhan23giserious.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
+      "speaker": "left",
+      "name": "Tenshinhan",
+      "text": "De acuerdo. Yamcha, flanquéalo por la derecha cuando yo cargue el Kikoho."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarraditzsmirk.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "Interesante. Así que los guerreros de este planeta se unen incluso siendo enemigos entre sí. No cambia nada."
+    },
+    {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
-        "aliados": ["tenshinhan", "piccolo", "yamcha"],
-        "enemigos": ["raditz_debilitado"],
+        "aliados": [
+          "tenshinhan",
+          "piccolo",
+          "yamcha"
+        ],
+        "enemigos": [
+          "raditz_debilitado"
+        ],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "RADITZ_RESCATE_VICTORIA",
         "on_lose": "RADITZ_DERROTA_TOTAL"
       }
     }
   ],
-
   "RADITZ_RESCATE_EQUIPO_TIEN_KRILLIN": [
     {
       "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Dos Ki irrumpen desde el horizonte. Yamcha primero, luego Piccolo aterrizando en silencio a su lado.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
       "leftPort": "avataryamcha23giserious.png",
-      "rightPort": "avatarpiccolosincapaserio.png",
+      "rightPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Yamcha",
       "text": "¡¡No os rindáis!! ¡Aquí estamos!"
@@ -1435,22 +1546,46 @@
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
-      "rightPort": "avatarchaozserio.png",
-      "speaker": "right",
+      "rightPort": "avatarraditzserio.png",
+      "speaker": "left",
+      "name": "Piccolo",
+      "text": "Sentí la caída de Tenshinhan y Krillin. Nadie toca a los guerreros de este planeta sin pasar por mí."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarchaozserio.png",
+      "rightPort": "avatarraditzserio.png",
+      "speaker": "left",
       "name": "Chaoz",
-      "text": "¡Tengo energía para una barrera telequinética! ¡Cubridme mientras la mantengo!",
-      "recompensas": { "heal_all": true },
+      "text": "¡Y yo tengo energía para una barrera telequinética! ¡Cubridme mientras la mantengo activa!"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarraditzsmirk.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "Seguís viniendo. No aprendéis."
+    },
+    {
+      "recompensas": {
+        "heal_all": true
+      },
       "control": {
         "tipo": "combate",
-        "aliados": ["yamcha", "piccolo", "chaoz"],
-        "enemigos": ["raditz_debilitado"],
+        "aliados": [
+          "yamcha",
+          "piccolo",
+          "chaoz"
+        ],
+        "enemigos": [
+          "raditz_debilitado"
+        ],
         "fondoCombate": "bumpforestbackground.png",
         "on_win": "RADITZ_RESCATE_VICTORIA",
         "on_lose": "RADITZ_DERROTA_TOTAL"
       }
     }
   ],
-
   "RADITZ_RESCATE_VICTORIA": [
     {
       "bg": "bumpforestbackground.png",
@@ -1481,7 +1616,6 @@
       }
     }
   ],
-
   "RADITZ_DERROTA_TOTAL": [
     {
       "bg": "bumpforestbackground.png",
@@ -1495,7 +1629,6 @@
       "text": "<i>[NARRADOR] Raditz se marcha con Gohan. Los guerreros de la Tierra yacen derrotados. El planeta no tiene a nadie que lo defienda. GAME OVER.</i>"
     }
   ],
-
   "RADITZ_FIN_SAGA": [
     {
       "bg": "backgorundkamehouse.png",
