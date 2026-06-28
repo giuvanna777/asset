@@ -31,7 +31,7 @@
     {
       "bg": "backgroundtenakichidestruido.png",
       "leftPort": "avatargoku23weightlessserio.png",
-      "rightPort": "avatarpiccolosincapaperio.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Goku",
       "text": "El torneo terminó, Piccolo. Esto ya es otra cosa."
@@ -39,7 +39,7 @@
     {
       "bg": "backgroundtenakichidestruido.png",
       "leftPort": "avatargoku23weightlessserio.png",
-      "rightPort": "avatarpiccolosincapaperio.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "right",
       "name": "Ma Junior",
       "text": "¿Sigues en pie? Qué pertinaz eres, Son Goku. Está bien. Termina aquí."
@@ -252,7 +252,7 @@
         "flags_a_comprobar": [
           { "flag": "mision_yamcha_completada", "valor": true, "salto_a": "RADITZ_RECAP_YAMCHA_VICTORIA_PILAF" }
         ],
-        "default": "RADITZ_RECAP_YAMCHA_DERROTA_PILAF"
+        "default": "RADITZ_CHECK_OCTAVIO"
       }
     }
   ],
@@ -272,7 +272,7 @@
       "rightPort": "avatarmai.png",
       "speaker": "right",
       "name": "Mai",
-      "text": "Y encima aquel anciano de la bata blanca nos observaba desde la colina. Con esos androides suyos escaneando todo. Me pone nerviosa solo recordarlo."
+      "text": "Y encima aquel anciano de la bata blanca nos observaba desde la colina con esos androides suyos escaneando todo. Me pone nerviosa solo recordarlo."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -285,41 +285,6 @@
     {
       "bg": "bumpforestbackground.png",
       "text": "<i>[NARRADOR] Pilaf se retiró humillado. Yamcha demostró lo que valía. Y Bulma no olvidó ese día en el bosque.</i>",
-      "control": {
-        "tipo": "comprobacion",
-        "default": "RADITZ_CHECK_OCTAVIO"
-      }
-    }
-  ],
-
-  "RADITZ_RECAP_YAMCHA_DERROTA_PILAF": [
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "avatarpilaf.png",
-      "rightPort": "avatarmai.png",
-      "speaker": "left",
-      "name": "Pilaf",
-      "text": "¡Mua ja ja! Aquel día en el bosque... fue perfecto. La esfera, la cara de Yamcha, todo."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "avatarpilaf.png",
-      "rightPort": "avatarmai.png",
-      "speaker": "right",
-      "name": "Mai",
-      "text": "Lo dejamos tirado en el barro mientras nos íbamos con la última esfera. No ha sido lo mismo entre él y Bulma desde entonces."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "avatarshu.png",
-      "rightPort": "avatarbulmaraditzsorpresa.png",
-      "speaker": "right",
-      "name": "Bulma",
-      "text": "... Todavía me duele. Se suponía que estaba preparado."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] La derrota de Yamcha ante Pilaf dejó una grieta pequeña pero real en el grupo. Esas cosas no se olvidan fácilmente.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_CHECK_OCTAVIO"
@@ -344,7 +309,7 @@
   "RADITZ_CHECK_OCTAVIO_ALIADO": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[MOTOR] Confirmando si Octavio participó en el asalto a Wheelo...</i>",
+      "text": "<i>[MOTOR] Confirmando participación de Octavio en el asalto a Wheelo...</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -357,7 +322,7 @@
 
   "RADITZ_RECAP_OCTAVIO_ALIADO": [
     {
-      "bg": "bumpforestbackground.png",
+      "bg": "backgroundjinglevillage.png",
       "leftPort": "AvatarAndroide8.Normal.png",
       "rightPort": "AvatarPelirroja8.Normal.png",
       "speaker": "left",
@@ -365,7 +330,7 @@
       "text": "Suno... Cuando pienso en lo que me hicieron en aquel laboratorio, ya no siento rabia. Solo alivio de que haya terminado."
     },
     {
-      "bg": "bumpforestbackground.png",
+      "bg": "backgroundjinglevillage.png",
       "leftPort": "AvatarAndroide8.Normal.png",
       "rightPort": "AvatarPelirroja8.Normal.png",
       "speaker": "right",
@@ -373,7 +338,7 @@
       "text": "Fuiste muy valiente al ir con Goku. No tenías que hacerlo."
     },
     {
-      "bg": "bumpforestbackground.png",
+      "bg": "backgroundjinglevillage.png",
       "leftPort": "AvatarAndroide8.Normal.png",
       "rightPort": "AvatarPelirroja8.Normal.png",
       "speaker": "left",
@@ -381,8 +346,8 @@
       "text": "Sí tenía. Era lo correcto."
     },
     {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Los módulos que le instalaron a la fuerza ahora sirven para cargar leña, mover piedras y proteger la aldea. Octavio encontró la forma de convertir lo que le hicieron en algo útil. No todo el mundo puede hacer eso.</i>",
+      "bg": "backgroundjinglevillage.png",
+      "text": "<i>[NARRADOR] Los módulos que le instalaron a la fuerza ahora sirven para cargar leña, mover piedras y proteger la aldea. Octavio encontró la forma de convertir lo que le hicieron en algo útil.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_REPASO_VIDAS_GENERAL"
@@ -392,7 +357,7 @@
 
   "RADITZ_RECAP_OCTAVIO_ESTANDAR": [
     {
-      "bg": "bumpforestbackground.png",
+      "bg": "backgroundjinglevillage.png",
       "leftPort": "AvatarAndroide8.Normal.png",
       "rightPort": "AvatarPelirroja8.Normal.png",
       "speaker": "left",
@@ -400,7 +365,7 @@
       "text": "Goku me rescató de ese trance. No olvido eso. Ojalá hubiera podido hacer más."
     },
     {
-      "bg": "bumpforestbackground.png",
+      "bg": "backgroundjinglevillage.png",
       "leftPort": "AvatarAndroide8.Normal.png",
       "rightPort": "AvatarPelirroja8.Normal.png",
       "speaker": "right",
@@ -408,7 +373,7 @@
       "text": "Estás aquí. Eso ya es suficiente."
     },
     {
-      "bg": "bumpforestbackground.png",
+      "bg": "backgroundjinglevillage.png",
       "text": "<i>[NARRADOR] Octavio protege la aldea del norte en silencio. Sin batallas épicas, sin grandes gestas. Solo constancia, día tras día.</i>",
       "control": {
         "tipo": "comprobacion",
