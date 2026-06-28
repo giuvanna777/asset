@@ -11,5 +11,14 @@
   "krilin_encarcelado": false,
   "tien_encarcelado": false,
   "goku_va_con_ocho": false,
-  "wheelo_derrotado": false
+  "wheelo_derrotado": false,
+  "raditz_muerto": false,
+  "raditz_aliado": false,
+  "goku_muerto": false,
+  "krillin_muerto": false,
+  "tenshinhan_muerto": false,
+  "raditz_fue_con_piccolo": false,
+  "raditz_fue_con_krillin": false,
+  "raditz_fue_con_krillin_tien": false,
+  "yamcha_liberado": false
 }
