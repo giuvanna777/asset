@@ -1,4 +1,3 @@
-
 {
   "RADITZ_LLEGADA": [
     {
@@ -36,14 +35,7 @@
       "leftPort": "avatargranjeroasustado.png",
       "speaker": "left",
       "name": "Granjero",
-      "text": "¡¿Qué?! ¡Oiga, le estoy hablando! ¡Tenga cuidado con esa cosa que lleva en la mano!"
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "leftPort": "avatarraditzserio.png",
-      "speaker": "left",
-      "name": "Raditz",
-      "text": "..."
+      "text": "¡Oiga! ¡Le estoy hablando! ¡Aparte esa cosa de mi cara!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -54,11 +46,11 @@
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Kakarot... ¿Dónde estás?"
+      "text": "Kakarot... El escáner decía que estarías aquí. ¿Dónde te has metido?"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] El escáner emite un pitido. Una lectura emerge al norte. Poder de combate elevado para los estándares de este planeta, pero no lo que busca. Raditz frunce el ceño.</i>",
+      "text": "<i>[NARRADOR] El escáner emite un pitido. Una lectura emerge al norte. Poder de combate elevado. Muy elevado para los estándares del planeta. No es Kakarot, pero puede servir de pista.</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -79,28 +71,28 @@
       "leftPort": "avatarpiccolosincapapreocupado.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "¿Quién eres? No eres de este planeta."
+      "text": "¿Quién eres? Ese Ki no es de aquí."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarraditzsmirk.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Vaya. Un namekiano. Qué curioso encontrar uno aquí. No importa. Dime dónde está Kakarot y te dejaré seguir respirando."
+      "text": "Un namekiano. Curioso. No esperaba encontrar uno en un planeta de tercera categoría. Dime dónde está Kakarot y seguiré mi camino."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "No sé de quién hablas. Y no me gustan las amenazas."
+      "text": "No sé de quién hablas. Pero si buscas problemas, los has encontrado."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Poder de combate... 322. Interesante para ser un terrícola. Pero insuficiente."
+      "text": "Poder de combate 322. Aceptable para este planeta. Pero no suficiente para detenerme."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -118,7 +110,7 @@
   "RADITZ_PICCOLO_COMBATE_CANON": [
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] Piccolo ataca. Raditz lo esquiva sin moverse prácticamente del sitio. El intercambio dura segundos. Piccolo acaba en el suelo.</i>",
+      "text": "<i>[NARRADOR] Piccolo ataca sin más preámbulos. Raditz lo esquiva con una facilidad que duele de ver. El intercambio dura segundos. Piccolo acaba en el suelo.</i>",
       "control": {
         "tipo": "combate",
         "aliados": ["piccolo"],
@@ -133,35 +125,35 @@
   "RADITZ_ENCUENTRA_PICCOLO_CAMPEON": [
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] Piccolo está entrenando cuando detecta el Ki. Extraño. Ajeno a este planeta. Se pone en pie despacio, con la calma de alguien que no teme lo que viene.</i>"
+      "text": "<i>[NARRADOR] Piccolo está entrenando cuando detecta el Ki. Extraño. Ajeno a este planeta. Potente. Se pone en pie despacio, con la calma de alguien que lleva cinco años preparándose para algo así.</i>"
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Así que por fin llegáis. Sabía que este planeta llamaría la atención tarde o temprano."
+      "text": "Así que por fin llegáis. Sabía que tarde o temprano este planeta llamaría la atención."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarraditzsmirk.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Un namekiano. Qué inesperado. ¿Cuánto tiempo llevas en este agujero miserable?"
+      "text": "Un namekiano. Inesperado. ¿Cuánto tiempo llevas en este agujero perdido?"
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "El suficiente para considerarlo mío. Este planeta está bajo mi dominio. El Gran Rey Demonio Piccolo no comparte territorios."
+      "text": "El suficiente para considerarlo mío. Este planeta está bajo mi dominio. El Gran Rey Demonio Piccolo no comparte territorios con nadie."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarraditzsmirk.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¿Rey Demonio? Je. Un sucio namekiano jugando a ser rey de un planeta de segunda categoría. Qué patético."
+      "text": "¿Rey Demonio? Je. Un namekiano perdido jugando a ser rey de un planeta de tercera. No tienes ni idea de lo que hay ahí fuera, ¿verdad?"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -175,14 +167,14 @@
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "He dicho que eres un namekiano. Una raza de granjeros y curanderos. Ninguno de los vuestros ha supuesto jamás una amenaza real para nadie. Tu poder de combate es... aceptable para este planeta. Pero no tienes ni idea de lo que hay ahí fuera."
+      "text": "Los namekianos son agricultores. Curanderos. Ninguno de vuestra raza ha supuesto jamás una amenaza real. Tu poder de combate es notable para este rincón del universo, lo admito. Pero eso solo significa que eres el más alto en un planeta de enanos."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Entonces te lo demostraré en persona.",
+      "text": "Entonces te lo voy a demostrar en persona.",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_PICCOLO_COMBATE_CAMPEON"
@@ -193,7 +185,7 @@
   "RADITZ_PICCOLO_COMBATE_CAMPEON": [
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] Piccolo desata todo su Ki acumulado durante años de entrenamiento solitario. La tierra se agrieta bajo sus pies. Raditz sonríe por primera vez.</i>",
+      "text": "<i>[NARRADOR] Piccolo desata todo el Ki acumulado durante cinco años de entrenamiento solitario. La tierra se agrieta bajo sus pies. Por primera vez, Raditz no esquiva de inmediato.</i>",
       "control": {
         "tipo": "combate",
         "aliados": ["piccolo_boss_700"],
@@ -219,7 +211,7 @@
       "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Im... imposible. Un terrícola no puede..."
+      "text": "Im... imposible. ¿Cómo puede un namekiano...?"
     },
     {
       "bg": "trainingislandbackground.png",
@@ -227,7 +219,7 @@
       "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "right",
       "name": "Piccolo",
-      "text": "No soy terrícola. Y ahora mismo me importa muy poco lo que tú puedas o no puedas creer."
+      "text": "No soy un namekiano cualquiera. Pero eso ya no importa."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -235,7 +227,7 @@
       "rightPort": "avatarpiccolosincapasmirk.png",
       "speaker": "right",
       "name": "Piccolo",
-      "text": "Por cierto. No te preocupes por las Dragon Balls. Con lo que acabas de hacer no creo que nadie vaya a molestarse en reviverte.",
+      "text": "Por cierto. No te molestes en esperar que alguien te reviva. Las Dragon Balls de este planeta no funcionan con alguien que muere tan lejos de casa.",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_MUERE_PICCOLO_AVISA"
@@ -250,15 +242,7 @@
       "rightPort": "avatarpiccolosincapasmirk.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Cómo... un namekiano con ese nivel de poder... esto no estaba en los registros..."
-    },
-    {
-      "bg": "trainingislandbackground.png",
-      "leftPort": "avatarraditzserio.png",
-      "rightPort": "avatarpiccolosincapasmirk.png",
-      "speaker": "right",
-      "name": "Piccolo",
-      "text": "Debiste haber buscado mejor información antes de venir."
+      "text": "Un namekiano con ese nivel... esto no estaba en ningún registro. No es posible."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -266,7 +250,15 @@
       "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "right",
       "name": "Piccolo",
-      "text": "Este planeta es mío. Lo que hay en él también. Incluido tú ahora mismo."
+      "text": "Debiste informarte mejor antes de venir."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "leftPort": "avatarraditzserio.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
+      "speaker": "right",
+      "name": "Piccolo",
+      "text": "Este planeta es mío. Todo lo que hay en él también."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -274,15 +266,15 @@
       "rightPort": "avatarpiccolosincapasmirk.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Mis compañeros... te escucharán... vendrán... y cuando lleguen..."
+      "text": "Mis compañeros... lo han escuchado todo... vendrán... son mucho más fuertes que yo..."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarraditzserio.png",
-      "rightPort": "avatarpiccolosincapasmirk.png",
+      "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "right",
       "name": "Piccolo",
-      "text": "Que vengan. Los estaré esperando.",
+      "text": "Que vengan.",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_MUERE_PICCOLO_AVISA"
@@ -294,25 +286,44 @@
     {
       "bg": "trainingislandbackground.png",
       "cg": "EsceneRaditzAtravesado.png",
-      "text": "<i>[NARRADOR] Raditz cae. Sus últimas palabras, casi un susurro, llegan a los oídos de Piccolo antes de que todo se quede en silencio.</i>"
+      "text": "<i>[NARRADOR] Raditz cae. Sus últimas palabras llegan a los oídos de Piccolo antes de que todo se quede en silencio.</i>"
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "...Dos saiyans. Mucho más fuertes que yo. Os han escuchado. En un año estarán aquí. Os destruirán a todos..."
+      "text": "...Dos saiyans. Mucho más fuertes que yo. Ya nos han escuchado. En un año estarán aquí. Este planeta... no tiene ninguna posibilidad..."
     },
     {
       "bg": "trainingislandbackground.png",
       "leftPort": "avatarpiccolosincapapreocupado.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "¿Saiyans? ¿Cuántos?"
+      "text": "Saiyans. Dos. En un año."
     },
     {
       "bg": "trainingislandbackground.png",
-      "text": "<i>[NARRADOR] Raditz no responde. Piccolo se queda mirando el horizonte un momento. Luego recoge su capa y echa a volar hacia el sur. Hacia Kame House.</i>"
+      "leftPort": "avatarpiccolosincapaserio.png",
+      "speaker": "left",
+      "name": "Piccolo",
+      "text": "... Esto cambia las cosas."
+    },
+    {
+      "bg": "trainingislandbackground.png",
+      "text": "<i>[NARRADOR] Piccolo se queda mirando el horizonte varios minutos. Luego toma una decisión que nunca hubiera imaginado tomar. Recoge su capa y echa a volar hacia el sur.</i>"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "text": "<i>[NARRADOR] Kame House. Goku acaba de presentar a Gohan cuando una sombra aterriza en la orilla. Piccolo. Todos se ponen en guardia instintivamente.</i>"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarkrilin23gipreocupado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¿Piccolo?! ¿Qué haces aquí?"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -320,7 +331,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Escuchadme bien todos. Lo que voy a contar no me alegra decirlo, pero es necesario que lo sepáis."
+      "text": "Guardad las técnicas de combate. No he venido a pelear. He venido a daros información que necesitáis escuchar."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -328,31 +339,31 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Piccolo... ¿qué ha pasado?"
+      "text": "... De acuerdo. Habla."
     },
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarpiccolosincapaserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
+      "rightPort": "avatarroshinaranjapreocupado.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Un guerrero extraterrestre acaba de llegar a la Tierra. Lo he eliminado. Pero antes de morir dijo que había dos más. Más fuertes que él. Llegarán en un año."
+      "text": "Esta mañana llegó un guerrero extraterrestre a la Tierra. Lo eliminé. Pero antes de morir dijo que en un año vendrán dos más. Mucho más fuertes que él."
     },
     {
       "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarroshinaranjapreocupado.png",
-      "rightPort": "avatarkrilin23gipreocupado.png",
-      "speaker": "left",
-      "name": "Maestro Roshi",
-      "text": "¿Extraterrestres? ¿Guerreros espaciales viniendo a la Tierra?"
+      "leftPort": "avatarkrilin23gipreocupado.png",
+      "rightPort": "avatargoku23weightlesssorpresa.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "¿Extraterrestres...? ¿Guerreros del espacio viniendo a la Tierra?"
     },
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarpiccolosincapaserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
+      "rightPort": "avatarroshinaranjapreocupado.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Tenéis un año. Usadlo bien.",
+      "text": "Se llaman Saiyans. El que llegó hoy buscaba a alguien de aquí. Os llamaba por un nombre que no reconocí. Tenéis un año para estar preparados. Usadlo bien.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "raditz_muerto",
@@ -364,7 +375,23 @@
   "RADITZ_FIN_SAGA_TEMPRANO": [
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] La noticia cae sobre todos como una losa. Un año. Solo un año para prepararse para algo que ninguno de ellos puede imaginar todavía. El entrenamiento empieza hoy.</i>"
+      "leftPort": "avatargohansombreropreocupado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Un año. Bien. Entonces empezamos hoy."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarroshinaranjapreocupado.png",
+      "rightPort": "avatarkrilin23gipreocupado.png",
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "Jo, jo... Después de cinco años de paz... supongo que era demasiado esperar que durase."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "text": "<i>[NARRADOR] La noticia cae sobre todos como una losa. Pero también hay algo más: determinación. Un año. Solo un año para prepararse para algo que ninguno de ellos puede imaginar todavía.</i>"
     }
   ],
 
@@ -375,7 +402,7 @@
       "rightPort": "avatarpiccolosincapapreocupado.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Interesante para ser un namekiano perdido en un planeta de tercera. Pero no suficiente."
+      "text": "Interesante para ser un namekiano perdido en un rincón del universo. Pero no suficiente."
     },
     {
       "bg": "trainingislandbackground.png",
@@ -383,7 +410,7 @@
       "rightPort": "avatarpiccolosincapapreocupado.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Kakarot no está aquí. Seguiré buscando.",
+      "text": "El escáner apunta al sur. Kakarot está por ahí. Tú no eres lo que busco.",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_LLEGA_KAMEHOUSE"
@@ -394,7 +421,7 @@
   "RADITZ_LLEGA_KAMEHOUSE": [
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Kame House. Una mañana tranquila hasta que el escáner de Raditz emite un pitido fuerte y sostenido. Poder de combate elevado. Muy elevado para los estándares de este planeta. Y hay un segundo... diferente. Más pequeño, pero con algo extraño dentro.</i>"
+      "text": "<i>[NARRADOR] Kame House. Una mañana tranquila. Goku acaba de llegar con Gohan para presentárselo a todos cuando el escáner de Raditz emite un pitido largo y sostenido. El número que aparece en la pantalla le hace detenerse en seco.</i>"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -402,7 +429,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Todos, os presento a mi hijo! Se llama Gohan. Tiene cuatro años y ya come más que yo."
+      "text": "¡Todos, este es Gohan! Mi hijo. Tiene cuatro años y ya come más que yo, lo cual es mucho decir."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -410,7 +437,7 @@
       "rightPort": "avatargohansombrerofeliz.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡Oye, qué monada! ¡Hola Gohan! Soy el amigo de tu padre que se lleva todos los golpes."
+      "text": "¡Anda! ¡Hola Gohan! Soy Krillin, el amigo de tu padre que recibe todos los golpes que él esquiva."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -418,7 +445,7 @@
       "rightPort": "avatargohansombrerofeliz.png",
       "speaker": "left",
       "name": "Maestro Roshi",
-      "text": "Jo, jo... Tiene los mismos ojos que su padre. Y el mismo pelo imposible."
+      "text": "Jo, jo... El mismo pelo imposible de su padre. Y esos ojos... este niño va a dar mucho que hablar algún día."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -426,14 +453,14 @@
       "rightPort": "avatargoku23weightlesssorpresa.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¿Ese Ki...? Alguien se acerca. Alguien muy fuerte."
+      "text": "Espera... ese Ki. Alguien se acerca. Alguien muy fuerte. Nunca había sentido algo así."
     },
     {
       "bg": "backgorundkamehouse.png",
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Kakarot. Por fin."
+      "text": "Kakarot. El escáner no mentía. Aquí estás."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -441,7 +468,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¿Quién eres? ¿Cómo sabes ese nombre?"
+      "text": "¿Quién eres? ¿Qué quieres aquí?"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -449,7 +476,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Soy tu hermano, Kakarot. Raditz. ¿No te dice nada ese nombre? ¿Ni siquiera recuerdas de dónde vienes?"
+      "text": "¿Quién soy? Soy Raditz. Tu hermano mayor, Kakarot."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -457,7 +484,7 @@
       "rightPort": "avatargoku23weightlessbocabierto.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¿Her... hermano?"
+      "text": "¿Her... hermano? Eso es imposible. Yo no tengo hermanos. Y... ¿qué es Kakarot? Yo me llamo Son Goku."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -465,7 +492,23 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Eres un Saiyan, Kakarot. Un guerrero de una de las razas más poderosas del universo. Te enviaron a este planeta de misión cuando eras un bebé. Debías conquistarlo."
+      "text": "Son Goku. Je. El nombre que te pusieron aquí. Tu nombre real es Kakarot. Eres un Saiyan, igual que yo. Una de las razas guerreras más poderosas del universo."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarraditzserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "Te enviaron a este planeta de bebé con una misión: conquistarlo. Eliminar a todos sus habitantes. Prepararlo para la venta. Eso es lo que hacemos los Saiyans."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarroshinaranjapreocupado.png",
+      "rightPort": "avatarkrilin23gipreocupado.png",
+      "speaker": "left",
+      "name": "Maestro Roshi",
+      "text": "¿Conquistar la Tierra? ¿Eliminar a todos sus habitantes? ¿De qué está hablando este individuo?"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -473,7 +516,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "No. Yo soy Son Goku. Me crió mi abuelo Gohan aquí. Esta es mi casa y estas personas son mi familia."
+      "text": "No sé qué es un Saiyan, ni me importa de dónde vengo. Soy Son Goku. Me crió mi abuelo Gohan en estas montañas. Esta es mi casa. Estas personas son mi familia. Y no voy a dejar que nadie les haga daño."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -481,15 +524,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Qué decepcionante. Un guerrero Saiyan desperdiciado en este agujero. Ven conmigo, Kakarot. Únete a nosotros. Juntos podemos limpiar planetas enteros."
-    },
-    {
-      "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarraditzserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "right",
-      "name": "Goku",
-      "text": "Jamás. No me importa de dónde vengo. No voy a hacerle daño a nadie."
+      "text": "Qué decepción. Un Saiyan de élite desperdiciado como guardián de un planeta de segunda. ¿Sabes el poder que has ignorado toda tu vida?"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -497,7 +532,23 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Lo imaginaba. Entonces esto se resolverá de otra manera.",
+      "text": "Ven conmigo. Únete a nosotros. Aún hay tiempo de recuperar lo que eres. Juntos podemos limpiar planetas enteros, trabajar bajo el mando del gran lord Freezer."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarraditzserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Jamás. No me importa lo que sea un Saiyan. Yo no voy a hacerle daño a nadie."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarraditzserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "Lo sabía. Los planetas blandos corrompen a los guerreros más prometedores. Entonces tendré que motivarte de otra manera.",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_COMBATE_1_KAMEHOUSE"
@@ -508,7 +559,19 @@
   "RADITZ_COMBATE_1_KAMEHOUSE": [
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Goku no duda. Si Raditz quiere pelea, la tendrá aquí mismo.</i>",
+      "leftPort": "avatarkrilin23gipreocupado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "Goku... ese tipo emana una presión de Ki que no he sentido nunca. Ten cuidado."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarraditzsmirk.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Si quieres pelea, la tienes aquí mismo. Pero esto acaba hoy.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -528,7 +591,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Im... posible. Has crecido más de lo que esperaba, Kakarot."
+      "text": "Im... posible. Has crecido más de lo que los registros indicaban, Kakarot."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -536,7 +599,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Raditz. Esto se ha acabado. Pero no tengo intención de matarte. Eres mi hermano."
+      "text": "Se acabó, Raditz. Pero no voy a matarte. Eres mi hermano, aunque no sé bien qué significa eso todavía."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -544,7 +607,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¿Me perdonas la vida? ¿Un Saiyan... perdonando?"
+      "text": "¿Me perdonas la vida? ¿Después de haberte atacado? Los Saiyans no hacemos eso."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -552,7 +615,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Quédate. Aquí hay Dragon Balls, siete esferas que pueden conceder cualquier deseo. Si eso es lo que buscas, podemos encontrarlas juntos. Pero sin hacerle daño a nadie."
+      "text": "Pues yo no soy solo un Saiyan. Escucha. Aquí hay Dragon Balls, siete esferas mágicas que pueden conceder cualquier deseo. Si tienes alguno, podemos buscarlas juntos. Pero sin hacerle daño a nadie."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -560,7 +623,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "... Las Dragon Balls. Eso podría ser... útil."
+      "text": "... Esferas que conceden deseos. No estaba en ningún informe sobre este planeta."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -568,7 +631,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Muy bien, Kakarot. Me quedo. Por ahora. Pero que quede claro que esto no cambia quién soy ni de dónde vengo."
+      "text": "De acuerdo. Me quedo. Por ahora. Pero que quede absolutamente claro que esto no cambia quién soy. Soy un guerrero Saiyan y así moriré."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -576,15 +639,15 @@
       "rightPort": "avatarroshinaranjapreocupado.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Goku... ¿estás seguro de esto?"
+      "text": "Goku... ¿estás seguro de esto? Ese tipo ha llegado diciendo que quería conquistar la Tierra."
     },
     {
       "bg": "backgorundkamehouse.png",
-      "leftPort": "avatargoku23weightlesshappy.png",
-      "rightPort": "avatarraditzserio.png",
+      "leftPort": "avatarraditzserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Goku",
-      "text": "Le he ganado una vez. Si hace falta, le ganaré otra. Confiad en mí.",
+      "text": "Le he ganado una vez. Si vuelve a intentar algo, le ganaré otra. Confiad en mí.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "raditz_aliado",
@@ -596,7 +659,7 @@
   "RADITZ_FIN_ALIADO": [
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Raditz se queda. Nadie confía en él. Él tampoco confía en nadie. Pero por ahora, comparten el mismo techo y el mismo objetivo. Las Dragon Balls. El tiempo dirá qué se construye desde ahí.</i>"
+      "text": "<i>[NARRADOR] Raditz se queda. Nadie en Kame House confía en él. Él tampoco confía en nadie. Pero por ahora, las Dragon Balls son un objetivo común. El tiempo dirá qué se construye, o qué se destruye, desde ahí.</i>"
     }
   ],
 
@@ -607,7 +670,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Decepcionante, Kakarot. Esperaba más de ti."
+      "text": "Decepcionante. Esperaba más después de tanto tiempo. El instinto Saiyan está completamente enterrado en ti."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -615,15 +678,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Gohan",
-      "text": "¡¡Papá!! ¡¡Papá, suéltame!!"
-    },
-    {
-      "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarraditzserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Raditz",
-      "text": "El niño tiene un poder latente interesante. Lo guardaré como incentivo. Tienes hasta mañana al amanecer para unirte a mí, Kakarot. Si no... el niño pagará las consecuencias."
+      "text": "¡¡Papá!! ¡¡Papá, ayuda!!"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -631,7 +686,127 @@
       "rightPort": "avatargoku23weightlessbocabierto.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Ah, y tráeme cien guerreros caídos como prueba de que has recuperado el instinto Saiyan. Solo entonces liberaré al pequeño.",
+      "text": "El niño tiene un poder latente enorme. Más de lo que esperaba encontrar en este planeta. Interesante."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarraditzserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "Lo guardaré como incentivo. Tienes hasta mañana al amanecer para unirte a mí, Kakarot. Tráeme cien guerreros caídos como prueba de que tu sangre Saiyan sigue ahí. Solo entonces liberaré al niño."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarkrilin23gipreocupado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡Goku! ¡No le dejes irse con Gohan!"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarroshinaranjapreocupado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "... No puedo. Si me muevo ahora le hará daño. Tenemos que pensar.",
+      "control": {
+        "tipo": "comprobacion",
+        "default": "RADITZ_PICCOLO_LLEGA_KAMEHOUSE"
+      }
+    }
+  ],
+
+  "RADITZ_PICCOLO_LLEGA_KAMEHOUSE": [
+    {
+      "bg": "backgorundkamehouse.png",
+      "text": "<i>[NARRADOR] Kame House. El silencio después de la partida de Raditz es el peor tipo de silencio: el que precede a una decisión imposible. Entonces una sombra aterriza en la orilla.</i>"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarkrilin23gipreocupado.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "¡¿Piccolo?!"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarpiccolosincapaserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Piccolo",
+      "text": "Quietos. Vengo a hablar, no a pelear. He sentido ese Ki desde lejos. Lo que acaba de llegar a este planeta no es una amenaza local."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarpiccolosincapaserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Piccolo... Has venido tú solo. Sin motivo aparente. ¿Qué sabes de ese guerrero?"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarpiccolosincapaserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Piccolo",
+      "text": "Sé que es un Saiyan. Sé que no ha venido solo por curiosidad. Y sé que tú solo no lo detendrás. Me enfrenté a él de camino aquí. Es más fuerte de lo que parece."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatarpiccolosincapaserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Piccolo",
+      "text": "Propongo una tregua. Temporal. Mientras dure esta amenaza. Después ya volveremos a ser enemigos si quieres.",
+      "control": {
+        "tipo": "comprobacion",
+        "default": "RADITZ_TENSHINHAN_LLEGA_CHECK"
+      }
+    }
+  ],
+
+  "RADITZ_TENSHINHAN_LLEGA_CHECK": [
+    {
+      "bg": "backgorundkamehouse.png",
+      "text": "<i>[NARRADOR] Antes de que Goku pueda responder, otro Ki familiar aparece en el horizonte.</i>",
+      "control": {
+        "tipo": "comprobacion",
+        "flags_a_comprobar": [
+          { "flag": "tienganatenkaichi", "valor": true, "salto_a": "RADITZ_TENSHINHAN_LLEGA_CAMPEON" }
+        ],
+        "default": "RADITZ_ELECCION_ALIADO"
+      }
+    }
+  ],
+
+  "RADITZ_TENSHINHAN_LLEGA_CAMPEON": [
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatartenshinhan23giserious.png",
+      "rightPort": "avatarchaozserio.png",
+      "speaker": "left",
+      "name": "Tenshinhan",
+      "text": "He sentido ese Ki desde las montañas del norte. Tardé en llegar. ¿Qué ha pasado aquí?"
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatartenshinhan23giserious.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "right",
+      "name": "Goku",
+      "text": "Un guerrero del espacio. Un Saiyan. Ha secuestrado a mi hijo Gohan. Piccolo y yo íbamos a ir a por él."
+    },
+    {
+      "bg": "backgorundkamehouse.png",
+      "leftPort": "avatartenshinhan23giserious.png",
+      "rightPort": "avatarchaozserio.png",
+      "speaker": "left",
+      "name": "Tenshinhan",
+      "text": "Un guerrero que supera a Goku y que ni Piccolo pudo detener. Esto no es algo que pueda ignorar. Chaoz y yo vamos con vosotros.",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_ELECCION_ALIADO"
@@ -642,11 +817,11 @@
   "RADITZ_ELECCION_ALIADO": [
     {
       "bg": "backgorundkamehouse.png",
-      "leftPort": "avatarpiccolosincapaserio.png",
+      "leftPort": "avatarroshinaranjapreocupado.png",
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
-      "name": "Piccolo",
-      "text": "Escucha, Goku. No me fío de ti y tú no te fías de mí. Pero ese saiyan es una amenaza para los dos. Propongo una tregua temporal."
+      "name": "Maestro Roshi",
+      "text": "Goku, mis huesos ya no dan para estas batallas. Pero desde aquí cuidaré de Bulma y de Chi-Chi. Id con cuidado."
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -654,15 +829,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "Goku, yo también voy. No pienso quedarme aquí mientras Gohan está en manos de ese tipo."
-    },
-    {
-      "bg": "backgorundkamehouse.png",
-      "leftPort": "avatartenshinhan23giserious.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Tenshinhan",
-      "text": "Y yo. Un guerrero saiyan que supera a Goku no es algo que deba enfrentarse a medias.",
+      "text": "Yo voy. No me quedo aquí mientras Gohan está en manos de ese tipo.",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -676,7 +843,7 @@
   "RADITZ_ELECCION_SIN_TIEN": [
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] Piccolo y Krillin están listos para ir. La decisión es tuya.</i>",
+      "text": "<i>[NARRADOR] Piccolo y Krillin están listos. La decisión es tuya.</i>",
       "control": {
         "tipo": "eleccion",
         "opciones": [
@@ -705,11 +872,15 @@
   "RADITZ_PREP_GOKU_PICCOLO": [
     {
       "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Goku y Piccolo vuelan en silencio hacia las coordenadas que el escáner de Raditz dejó marcadas. No son aliados. No se fían el uno del otro. Pero tienen el mismo objetivo y eso, por ahora, es suficiente.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
       "leftPort": "avatarpiccolosincapaserio.png",
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Piccolo, necesito que entiendas algo. No peleo para matar. Si hay otra salida, la tomo."
+      "text": "Piccolo. Solo quiero recuperar a mi hijo. Si hay alguna forma de acabar esto sin que nadie muera, la tomo."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -717,7 +888,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Y tú necesitas entender que si esa actitud nos cuesta la batalla, Gohan paga las consecuencias. Así que guárdate la filosofía para después."
+      "text": "Ese Saiyan no tiene intención de negociar. Ya lo habrás notado. Guarda la filosofía para cuando esto acabe."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -737,19 +908,23 @@
   "RADITZ_PREP_GOKU_KRILLIN": [
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarkrilin23giserio.png",
-      "rightPort": "avatargoku23weightlessserio.png",
-      "speaker": "left",
-      "name": "Krillin",
-      "text": "Goku, sé que mi poder no es el de Piccolo. Pero llevo años entrenando para momentos como este. No me dejes fuera."
+      "text": "<i>[NARRADOR] Goku y Krillin vuelan juntos. Llevan años entrenando y peleando el uno al lado del otro. No hacen falta muchas palabras.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarkrilin23giserio.png",
+      "rightPort": "avatargoku23weightlessserio.png",
+      "speaker": "left",
+      "name": "Krillin",
+      "text": "Sé que mi poder no llega al tuyo ni al de Piccolo. Pero llevo años entrenando para momentos como este. No me hubiera quedado en casa de ninguna manera."
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarkrilin23gismile.png",
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Nunca lo dudaría, Krillin. Vamos juntos.",
+      "text": "Nunca lo he dudado, Krillin. Vamos a traer a Gohan a casa.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "raditz_fue_con_krillin",
@@ -761,19 +936,23 @@
   "RADITZ_PREP_GOKU_KRILLIN_TIEN": [
     {
       "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] Tres guerreros volando en formación. Goku, Krillin, Tenshinhan. Ninguno de ellos dice lo que está pensando: que quizás no sea suficiente.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
       "leftPort": "avatartenshinhan23giserious.png",
       "rightPort": "avatarkrilin23giserio.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Tres contra uno. Mejores probabilidades."
+      "text": "Tres contra uno. Si coordinamos bien los ataques, podemos compensar la diferencia de poder bruto."
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarkrilin23gismile.png",
+      "leftPort": "avatarkrilin23giserio.png",
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Bien dicho. Vamos los tres.",
+      "text": "Recuperamos a Gohan y acabamos con esto. Los tres juntos.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "raditz_fue_con_krillin_tien",
@@ -786,7 +965,7 @@
     {
       "bg": "bumpforestbackground.png",
       "cg": "EsceneGokuYPiccoloLlegando.png",
-      "text": "<i>[NARRADOR] Encuentran a Raditz en campo abierto. La cápsula sigue ahí. Y dentro, visible a través del cristal, Gohan llora en silencio.</i>"
+      "text": "<i>[NARRADOR] Encuentran a Raditz en campo abierto. La cápsula sigue ahí. Y dentro, visible a través del cristal roto, Gohan llora con los puños apretados.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -794,7 +973,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Vaya. Has traído compañía. Interesante elección para un hombre que viene a rescatar a su hijo."
+      "text": "Vaya. Has traído compañía. Interesante elección para alguien que dice que no quiere que nadie muera."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -802,7 +981,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Suelta a Gohan. Esto es entre tú y yo."
+      "text": "Suelta a Gohan ahora mismo, Raditz."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -810,7 +989,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Nada me gustaría más. Pero primero tendréis que ganarme.",
+      "text": "Podéis intentarlo.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -830,7 +1009,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "Im... posible. ¿Cómo habéis...?"
+      "text": "No... no puede ser... habéis podido con..."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -838,7 +1017,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Se acabó, Raditz. Gohan, ya puedes salir.",
+      "text": "Se acabó. Gohan, ya puedes salir.",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "raditz_muerto",
@@ -851,14 +1030,14 @@
     {
       "bg": "bumpforestbackground.png",
       "cg": "EsceneRaditzAtravesado.png",
-      "text": "<i>[NARRADOR] Raditz cae. Nadie muere. Gohan corre hacia su padre. El cielo de la Tierra sigue siendo azul.</i>"
+      "text": "<i>[NARRADOR] Raditz cae. Gohan corre hacia su padre. Nadie muere hoy. El cielo de la Tierra sigue siendo azul.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "...Mis compañeros... os escucharon... en un año... vendrán..."
+      "text": "...Mis compañeros... lo han escuchado todo... en un año... vendrán... y son incomparablemente más fuertes que yo..."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -870,27 +1049,31 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Pero las palabras de Raditz se quedan flotando en el aire. En un año. Saiyans más fuertes. El entrenamiento empieza hoy.</i>"
+      "text": "<i>[NARRADOR] Las últimas palabras de Raditz flotan en el aire. Un año. Saiyans más fuertes. El combate de hoy ha sido solo un aviso. El entrenamiento empieza mañana.</i>"
     }
   ],
 
   "RADITZ_GOHAN_SALE_CAPSULA": [
     {
       "bg": "bumpforestbackground.png",
+      "text": "<i>[NARRADOR] El equipo cae al suelo, agotado. Raditz se mantiene en pie. Entonces, un crujido de metal. La cápsula se abre desde dentro.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
       "cg": "EsceneGohanSaliendoCapsula.png",
-      "text": "<i>[NARRADOR] Un crujido de metal. La cápsula se abre desde dentro. Gohan sale con los ojos llenos de lágrimas y los puños apretados.</i>"
+      "text": "<i>[NARRADOR] Gohan sale con los ojos llenos de lágrimas y los puños apretados. Ha visto toda la batalla desde dentro. Ha visto cómo su padre caía una y otra vez.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatargohansinsombrerofurioso.png",
       "speaker": "left",
       "name": "Gohan",
-      "text": "¡¡Suelta a mi papá!!"
+      "text": "¡¡No le hagas más daño a mi papá!!"
     },
     {
       "bg": "bumpforestbackground.png",
       "cg": "EscenePiccoloLanzaGohan.png",
-      "text": "<i>[NARRADOR] El Ki de Gohan explota en un instante. Un poder colosal, imposible para un niño de cuatro años, lanzado en un grito de rabia y miedo. Raditz recibe el impacto de lleno.</i>"
+      "text": "<i>[NARRADOR] El Ki de Gohan estalla. Un poder que no debería existir en un niño de cuatro años. La onda de energía impacta en Raditz de lleno, haciéndolo retroceder varios metros.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -898,7 +1081,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¡¿Qué...?! ¡¿Ese poder...?! ¡¿De un crío?!"
+      "text": "¡¿Qué...?! ¡¿Ese poder de un crío de cuatro años?! ¡Eso es imposible!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -906,11 +1089,11 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "¡Gohan, apártate! ¡Ahora!"
+      "text": "¡Gohan, aléjate ahora mismo! ¡Corre!"
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] El golpe de Gohan ha dañado a Raditz. No lo suficiente para acabar con él, pero sí para abrir una ventana. Una última oportunidad.</i>",
+      "text": "<i>[NARRADOR] El golpe de Gohan ha abierto una ventana. Raditz está dañado. No derrotado, pero suficientemente debilitado para que haya una oportunidad. La última oportunidad.</i>",
       "control": {
         "tipo": "comprobacion",
         "default": "RADITZ_COMBATE_FINAL_FASE2"
@@ -925,7 +1108,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Es ahora. Atacad todos a la vez mientras está debilitado.",
+      "text": "Ahora. Todos a la vez mientras está debilitado. Es nuestra única oportunidad.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -942,7 +1125,7 @@
     {
       "bg": "bumpforestbackground.png",
       "cg": "EsceneRaditzAtravesado.png",
-      "text": "<i>[NARRADOR] Raditz está al límite. Pero sigue en pie. Y tiene a Goku sujeto por los brazos.</i>",
+      "text": "<i>[NARRADOR] Raditz está al límite. Pero tiene a Goku sujeto por los brazos desde atrás, apretando con toda su fuerza restante.</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -962,15 +1145,15 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¡No te muevas, Kakarot! ¡Di un paso más y te parto por la mitad!"
+      "text": "¡No te muevas, Kakarot! ¡Muévete y te parto por la mitad ahora mismo!"
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarpiccolosincapaserio.png",
+      "leftPort": "avatarpiccolosincapapreocupado.png",
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Piccolo. Hay una técnica que estás preparando. Lo siento. Dispara."
+      "text": "Piccolo. Sé lo que estás cargando. Lo siento desde aquí. Dispara."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -978,7 +1161,7 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "Te matará a ti también."
+      "text": "Si disparo a esta distancia te alcanzará a ti también."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -986,7 +1169,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Ya lo sé. Dispara de todas formas. Cuida de Gohan, Piccolo."
+      "text": "Ya lo sé. Cuida de Gohan, Piccolo. Sé que lo harás bien."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -998,7 +1181,7 @@
     {
       "bg": "bumpforestbackground.png",
       "cg": "EsceneRaditzAtravesado.png",
-      "text": "<i>[NARRADOR] El rayo perfora a los dos. Raditz y Goku caen juntos. El silencio que sigue es el más pesado que Piccolo ha sentido en su vida.</i>",
+      "text": "<i>[NARRADOR] El rayo perfora a los dos. Raditz y Goku caen juntos. El silencio que sigue es el más pesado que Piccolo ha sentido en su vida, y eso que él no suele sentir nada.</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "goku_muerto",
@@ -1015,15 +1198,15 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¡Nadie se mueve o Kakarot muere aquí mismo!"
+      "text": "¡Nadie se mueve o Kakarot muere!"
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarkrilin23giserio.png",
+      "leftPort": "avatarkrilin23gipreocupado.png",
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Krillin. Escúchame. Necesito que me sujetes mientras cargo el Kamehameha. Los dos dentro del radio."
+      "text": "Krillin. Escúchame. Si me sujetas mientras cargo el Kamehameha, podemos terminar esto de una vez. Pero el radio... nos alcanzará a los dos."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1035,11 +1218,11 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarkrilin23giserio.png",
+      "leftPort": "avatarkrilin23gipreocupado.png",
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "right",
       "name": "Goku",
-      "text": "Solo si lo decides tú. Esta es tu elección, Krillin. No te la impongo.",
+      "text": "Solo si tú decides hacerlo. No te lo pido, Krillin. Es tu elección, no la mía.",
       "control": {
         "tipo": "eleccion",
         "opciones": [
@@ -1057,7 +1240,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "... Llevo toda mi vida entrenando para momentos como este. Si voy a caer, que sea por algo que valga la pena."
+      "text": "Llevo entrenando toda mi vida para momentos como este. Si voy a caer, que sea haciendo algo que valga la pena."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1065,12 +1248,12 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¡KAMEHAMEHAAAA!!"
+      "text": "¡¡KAME... HAME... HAAAA!!"
     },
     {
       "bg": "bumpforestbackground.png",
       "cg": "EsceneRaditzAtravesado.png",
-      "text": "<i>[NARRADOR] El destello lo cubre todo. Cuando el humo se disipa, Raditz ha caído. Y Krillin también. Goku se arrastra hasta su amigo y no dice nada. No hace falta.</i>",
+      "text": "<i>[NARRADOR] El destello lo cubre todo. Cuando el polvo se asienta, Raditz ha caído. Y Krillin también. Goku se arrastra hasta su amigo de toda la vida y no dice nada. No hace falta.</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "krillin_muerto",
@@ -1087,19 +1270,19 @@
       "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¡Nadie se mueve o Kakarot muere!"
+      "text": "¡Nadie se mueve!"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Goku",
-      "text": "Tenemos una oportunidad. Uno de vosotros tiene que cubrirme mientras cargo. El radio del Kamehameha nos alcanzará a todos. No os lo pido. Es vuestra decisión.",
+      "text": "Uno de vosotros tiene que cubrirme mientras cargo el Kamehameha. El radio nos alcanzará a los dos. No os lo pido. Es vuestra decisión.",
       "control": {
         "tipo": "eleccion",
         "opciones": [
-          { "texto": "Tenshinhan se sacrifica con Goku (Kikoho combinado)", "salto_a": "RADITZ_SACRIFICIO_TIEN_CONFIRMA" },
-          { "texto": "Krillin se sacrifica con Goku (Kamehameha)", "salto_a": "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA" },
+          { "texto": "Tenshinhan se sacrifica (Kikoho combinado)", "salto_a": "RADITZ_SACRIFICIO_TIEN_CONFIRMA" },
+          { "texto": "Krillin se sacrifica (Kamehameha)", "salto_a": "RADITZ_SACRIFICIO_KRILLIN_CONFIRMA" },
           { "texto": "Buscar otra salida", "salto_a": "RADITZ_EQUIPO_RESCATE_CHECK" }
         ]
       }
@@ -1113,7 +1296,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Yo. Chaoz necesita que alguien vuelva. Pero esto tiene que acabarse hoy."
+      "text": "Yo. Chaoz puede seguir adelante sin mí. Pero esto tiene que acabarse hoy."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1121,7 +1304,7 @@
       "rightPort": "avatargoku23weightlesshappy.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Goku, sincroniza conmigo. ¡¡KIKOHOOO!!"
+      "text": "Goku, sincroniza tu Ki con el mío. ¡¡KIKOHO!!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1142,26 +1325,25 @@
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "...No... un Saiyan... derrotado por... estas criaturas..."
+      "text": "...Increíble. Derrotado... en este planeta miserable..."
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatarraditzserio.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "...Mis compañeros... lo han escuchado todo... en un año... vendrán... y son... mucho más fuertes... que yo..."
+      "text": "...Mis compañeros lo han escuchado todo... en un año... vendrán... Vegeta y Nappa... son... incomparablemente más fuertes que yo... este planeta... no tiene ninguna posibilidad..."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Raditz muere. Y con él, la ilusión de que la Tierra estaba a salvo. En algún rincón del universo, dos guerreros han escuchado cada palabra de esta batalla. El contador ha empezado.</i>"
+      "text": "<i>[NARRADOR] Raditz muere. Y con sus últimas palabras, la ilusión de que la Tierra estaba a salvo muere también. En algún rincón del universo, dos guerreros han escuchado cada palabra de esta batalla. El contador ha empezado.</i>"
     },
     {
       "bg": "bumpforestbackground.png",
       "leftPort": "avatargohansinsombrerollorando.png",
-      "rightPort": "avatargoku23weightlessserio.png",
       "speaker": "left",
       "name": "Gohan",
-      "text": "¡¡Papá!! ¡¡No, papá!!"
+      "text": "¡¡Papá!! ¡¡No, papá, despierta!!"
     },
     {
       "bg": "backgorundkamehouse.png",
@@ -1172,7 +1354,7 @@
   "RADITZ_EQUIPO_RESCATE_CHECK": [
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] La situación se ha vuelto crítica. Pero no estaban solos. Desde lejos, otros Ki se acercan a toda velocidad.</i>",
+      "text": "<i>[NARRADOR] Todo parece perdido. Entonces, desde el horizonte, varios Ki familiares se acercan a toda velocidad.</i>",
       "control": {
         "tipo": "comprobacion",
         "flags_a_comprobar": [
@@ -1192,7 +1374,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Krillin",
-      "text": "¡¡Aquí!! ¡¡Estamos aquí!!"
+      "text": "¡¡Aquí!! ¡Estamos aquí! ¡Llegamos a tiempo!"
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1200,7 +1382,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Raditz. Acabaste con Goku y Piccolo. Ahora nos toca a nosotros.",
+      "text": "Raditz. Has derrotado a Goku y a Piccolo. Ahora nos toca a nosotros.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -1220,7 +1402,7 @@
       "rightPort": "avatarpiccolosincapaserio.png",
       "speaker": "left",
       "name": "Tenshinhan",
-      "text": "Piccolo. Tregua. Ahora mismo."
+      "text": "Piccolo. Tregua. Ahora."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1228,7 +1410,7 @@
       "rightPort": "avataryamcha23giserious.png",
       "speaker": "left",
       "name": "Piccolo",
-      "text": "De acuerdo. Acabemos con esto.",
+      "text": "... De acuerdo. Acabemos con esto.",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -1256,7 +1438,7 @@
       "rightPort": "avatarchaozserio.png",
       "speaker": "right",
       "name": "Chaoz",
-      "text": "¡Tengo energía suficiente para una barrera! ¡Cubridme!",
+      "text": "¡Tengo energía para una barrera telequinética! ¡Cubridme mientras la mantengo!",
       "recompensas": { "heal_all": true },
       "control": {
         "tipo": "combate",
@@ -1273,7 +1455,14 @@
     {
       "bg": "bumpforestbackground.png",
       "cg": "EsceneRaditzAtravesado.png",
-      "text": "<i>[NARRADOR] Raditz cae por última vez. Los que quedan en pie se miran en silencio. Han ganado. Pero el precio ha sido alto.</i>"
+      "text": "<i>[NARRADOR] Raditz cae por última vez. Los que quedan en pie se miran. Han ganado. Pero el precio ha sido alto y las últimas palabras del saiyan siguen flotando en el aire.</i>"
+    },
+    {
+      "bg": "bumpforestbackground.png",
+      "leftPort": "avatarraditzserio.png",
+      "speaker": "left",
+      "name": "Raditz",
+      "text": "...En un año... vendrán... Vegeta y Nappa... esto no ha terminado... no ha hecho más que empezar..."
     },
     {
       "bg": "bumpforestbackground.png",
@@ -1284,14 +1473,7 @@
     },
     {
       "bg": "bumpforestbackground.png",
-      "leftPort": "avatarraditzserio.png",
-      "speaker": "left",
-      "name": "Raditz",
-      "text": "...En un año... vendrán... dos saiyans... Vegeta... y Nappa... son... incomparablemente más fuertes..."
-    },
-    {
-      "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Un año. Eso es todo. El entrenamiento empieza hoy.",
+      "text": "<i>[NARRADOR] Un año. El entrenamiento empieza hoy.</i>",
       "control": {
         "tipo": "comprobacion",
         "activar_flag": "raditz_muerto",
@@ -1306,18 +1488,18 @@
       "leftPort": "avatarraditzsmirk.png",
       "speaker": "left",
       "name": "Raditz",
-      "text": "¿Esto es todo lo que tiene este planeta? Patético."
+      "text": "¿Esto es todo lo que tiene este planeta? Patético. Kakarot, has desperdiciado tu vida aquí."
     },
     {
       "bg": "bumpforestbackground.png",
-      "text": "<i>[NARRADOR] Raditz se marcha con Gohan. Los guerreros de la Tierra yacen derrotados. El planeta ha caído. GAME OVER.</i>"
+      "text": "<i>[NARRADOR] Raditz se marcha con Gohan. Los guerreros de la Tierra yacen derrotados. El planeta no tiene a nadie que lo defienda. GAME OVER.</i>"
     }
   ],
 
   "RADITZ_FIN_SAGA": [
     {
       "bg": "backgorundkamehouse.png",
-      "text": "<i>[NARRADOR] La saga de Raditz ha terminado. Pero sus últimas palabras siguen resonando. Vegeta. Nappa. En un año. El verdadero desafío está por venir.</i>"
+      "text": "<i>[NARRADOR] La saga de Raditz ha terminado. Pero sus últimas palabras resuenan. Vegeta. Nappa. En un año. El verdadero desafío está por venir.</i>"
     }
   ]
 }
